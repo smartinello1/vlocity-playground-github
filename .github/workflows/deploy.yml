@@ -80,7 +80,7 @@ jobs:
           echo "${{ steps.calculate_test_class.outputs.testClassesToRun }}"
 
       - name: Deploy sf metadata
-        if: ${{ success() }}
+        if: ${{ success() && steps.calculate_test_class.outputs.noDiff == false }}
         run: sf project deploy start -x ./devops/changed-sources/package/package.xml --test-level ${{ steps.calculate_test_class.outputs.testLevel }} ${{ steps.calculate_test_class.outputs.testClassesToRun }} --verbose
 
       - name: Deploy Vlocity Metadata
