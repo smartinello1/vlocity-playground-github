@@ -42,8 +42,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: npm install @actions/core
-      - run: npm install @actions/glob
+      - run: npm install @actions/core --legacy-peer-deps
+      - run: npm install @actions/glob --legacy-peer-deps
 
       # - name: Load .env file
       #   uses: xom9ikk/dotenv@v2
