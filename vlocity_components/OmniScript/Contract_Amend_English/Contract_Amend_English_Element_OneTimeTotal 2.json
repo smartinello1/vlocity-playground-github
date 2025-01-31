@@ -1,0 +1,41 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "OneTimeTotal",
+    "OmniProcessId": {
+        "Name": "Contract Amendment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Contract/Amend/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "SpecifyPrice",
+        "OmniProcessId": {
+            "Name": "Contract Amendment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Contract/Amend/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Contract/Amend/English/SpecifyPrice",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "SpecifyPrice",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "controlWidth": 2,
+        "currencySymbol": "$",
+        "dataType": "Currency",
+        "dateFormat": "MM-dd-yyyy",
+        "expression": "%OneTimeCharge|n% * %Quantity|n%",
+        "hide": false,
+        "hideGroupSep": false,
+        "label": "One Time Total",
+        "mask": "###,###.##",
+        "show": null
+    },
+    "Type": "Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Contract/Amend/English/OneTimeTotal"
+}

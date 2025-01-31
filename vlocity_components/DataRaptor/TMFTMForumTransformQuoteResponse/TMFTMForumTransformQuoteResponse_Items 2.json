@@ -1,0 +1,1616 @@
+[
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7675",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:agreement",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9481",
+        "InputFieldName": "agreementHref",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:agreement:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3094",
+        "InputFieldName": "quote:Contract:ContractNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:agreement:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2705",
+        "InputFieldName": "quote:Contract:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:agreement:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9306",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:billingAccount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1636",
+        "InputFieldName": "billingAccountHref",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:billingAccount:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7358",
+        "InputFieldName": "quote:%vlocity_namespace%__DefaultBillingAccountId__r:AccountNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:billingAccount:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9316",
+        "InputFieldName": "quote:%vlocity_namespace%__DefaultBillingAccountId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:billingAccount:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6619",
+        "InputFieldName": "quote:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:category",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6735",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:contactMedium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6177",
+        "InputFieldName": "contactMedium:mediumCharacteristics:contactType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:contactMedium:characteristic:contactType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9019",
+        "InputFieldName": "contactMedium:mediumCharacteristics:emailAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:contactMedium:characteristic:emailAddress",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3169",
+        "InputFieldName": "contactMedium:mediumCharacteristics:faxNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:contactMedium:characteristic:faxNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9504",
+        "InputFieldName": "contactMedium:mediumCharacteristics:phoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:contactMedium:characteristic:phoneNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1354",
+        "InputFieldName": "contactMedium:mediumType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:contactMedium:mediumType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom14",
+        "InputFieldName": "quote:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4686",
+        "InputFieldName": "effectiveQuoteCompletionDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:effectiveQuoteCompletionDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom722",
+        "InputFieldName": "href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6733",
+        "InputFieldName": "quote:QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5029",
+        "InputFieldName": "quote:CreatedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9335",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8723",
+        "InputFieldName": "quoteLineItems:action",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:action",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5469",
+        "InputFieldName": "quoteLineItems:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1288",
+        "InputFieldName": "quoteLineItems:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9233",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:product",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1673",
+        "InputFieldName": "quoteLineItems:product:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9060",
+        "InputFieldName": "quoteLineItems:product:isBundle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:isBundle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom244",
+        "InputFieldName": "quoteLineItems:product:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6748",
+        "InputFieldName": "quoteLineItems:product:orderDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:orderDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3754",
+        "InputFieldName": "quoteLineItems:product:productCharacteristics:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productCharacteristic:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5669",
+        "InputFieldName": "quoteLineItems:product:productCharacteristics:value",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productCharacteristic:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom603",
+        "InputFieldName": "quoteLineItems:product:productOffering:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productOffering:@type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3573",
+        "InputFieldName": "quoteLineItems:product:productOffering:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productOffering:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2563",
+        "InputFieldName": "quoteLineItems:product:productOffering:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productOffering:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2801",
+        "InputFieldName": "quoteLineItems:product:productOffering:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productOffering:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4327",
+        "InputFieldName": "quoteLineItems:product:productSerialNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productSerialNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2700",
+        "InputFieldName": "quoteLineItems:product:productSpecification:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productSpecification:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1139",
+        "InputFieldName": "quoteLineItems:product:productSpecification:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productSpecification:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1319",
+        "InputFieldName": "quoteLineItems:product:productSpecification:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:productSpecification:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom309",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6844",
+        "InputFieldName": "quoteLineItems:product:productRelatedParties:referredType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:@referredType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6005",
+        "InputFieldName": "quoteLineItems:product:productRelatedParties:relatedPartyHref",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3462",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8017",
+        "InputFieldName": "quoteLineItems:product:productRelatedParties:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4880",
+        "InputFieldName": "quoteLineItems:product:productRelatedParties:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7097",
+        "InputFieldName": "quoteLineItems:product:productRelatedParties:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:product:relatedParty:role",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom475",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:productOffering",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2804",
+        "InputFieldName": "quoteLineItems:productOfferings:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:productOffering:@type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3017",
+        "InputFieldName": "quoteLineItems:productOfferings:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:productOffering:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9498",
+        "InputFieldName": "quoteLineItems:productOfferings:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:productOffering:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8156",
+        "InputFieldName": "quoteLineItems:productOfferings:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:productOffering:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1875",
+        "InputFieldName": "quoteLineItems:quantity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quantity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6620",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8884",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:unit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:price:taxIncludedAmount:unit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9812",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:value",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:price:taxIncludedAmount:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8393",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceAlteration:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceAlteration:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom9255",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceAlteration:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceAlteration:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5824",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceAlteration:percentage",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceAlteration:price:percentage",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5556",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceAlteration:value",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceAlteration:price:taxIncludedAmount:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8607",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceAlteration:priceType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceAlteration:priceType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8297",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:priceType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:priceType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom619",
+        "InputFieldName": "quoteLineItems:quoteItemPrices:recurringChargePeriod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemPrice:recurringChargePeriod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom1167",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemRelationship",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2110",
+        "InputFieldName": "quoteLineItems:quoteItemRelationships:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemRelationship:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6852",
+        "InputFieldName": "quoteLineItems:quoteItemRelationships:relationshipType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:quoteItemRelationship:relationshipType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4703",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8409",
+        "InputFieldName": "quoteLineItems:quoteItemRelatedParties:referredType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty:@referredType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7693",
+        "InputFieldName": "quoteLineItems:quoteItemRelatedParties:relatedPartyHref",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5222",
+        "InputFieldName": "quoteLineItems:quoteItemRelatedParties:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5560",
+        "InputFieldName": "quoteLineItems:quoteItemRelatedParties:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2410",
+        "InputFieldName": "quoteLineItems:quoteItemRelatedParties:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:relatedParty:role",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6948",
+        "InputFieldName": "quoteLineItems:status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteItem:state",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8324",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:quoteTotalPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6514",
+        "InputFieldName": "quotePrices:unit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteTotalPrice:price:taxIncludedAmount:unit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom5878",
+        "InputFieldName": "quotePrices:value",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteTotalPrice:price:taxIncludedAmount:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2186",
+        "InputFieldName": "quotePrices:priceType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteTotalPrice:priceType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7535",
+        "InputFieldName": "quotePrices:recurringChargePeriod",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:quoteTotalPrice:recurringChargePeriod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4423",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:relatedParty",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom6769",
+        "InputFieldName": "relatedParties:referredType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:relatedParty:@referredType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom7394",
+        "InputFieldName": "relatedParties:relatedPartyHref",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:relatedParty:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom8660",
+        "InputFieldName": "relatedParties:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:relatedParty:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom431",
+        "InputFieldName": "relatedParties:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:relatedParty:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom4606",
+        "InputFieldName": "relatedParties:type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:relatedParty:role",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom2879",
+        "InputFieldName": "quote:Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:state",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformQuoteResponseCustom3189",
+        "InputFieldName": "version",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformQuoteResponse",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformQuoteResponse",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformQuoteResponse",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

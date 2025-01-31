@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "MultiService_ValidateAndPrice_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ValidateAndPrice",
+    "OmniProcessElement": [
+        "MultiService_ValidateAndPrice_Procedure_Element_Validate.json",
+        "MultiService_ValidateAndPrice_Procedure_Element_Price.json",
+        "MultiService_ValidateAndPrice_Procedure_Element_ValidationPricingResult.json"
+    ],
+    "OmniProcessKey": "MultiService_ValidateAndPrice",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiService_ValidateAndPrice_Procedure_PropertySetConfig.json",
+    "SubType": "ValidateAndPrice",
+    "Type": "MultiService",
+    "UniqueName": "MultiService_ValidateAndPrice_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/ValidateAndPrice/Procedure"
+}

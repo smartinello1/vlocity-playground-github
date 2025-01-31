@@ -1,0 +1,32 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "Multi-Language",
+    "Name": "ESM Move Plan",
+    "OmniProcessElement": [
+        "ESM_MovePlan_Multi-Language_Element_SelectMoveDates.json",
+        "ESM_MovePlan_Multi-Language_Element_CustomLWC4.json",
+        "ESM_MovePlan_Multi-Language_Element_ConfigData.json",
+        "ESM_MovePlan_Multi-Language_Element_Select-New-Location.json",
+        "ESM_MovePlan_Multi-Language_Element_CustomLWC2.json",
+        "ESM_MovePlan_Multi-Language_Element_Review-Summary.json",
+        "ESM_MovePlan_Multi-Language_Element_CustomLWC1.json",
+        "ESM_MovePlan_Multi-Language_Element_Single-Move-Plan.json",
+        "ESM_MovePlan_Multi-Language_Element_Single-Move-Plan-Pricing.json",
+        "ESM_MovePlan_Multi-Language_Element_Bulk-Move-Plan.json",
+        "ESM_MovePlan_Multi-Language_Element_NavigateActionQuote.json",
+        "ESM_MovePlan_Multi-Language_Element_NavigateActionOrder.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ESM_MovePlan_Multi-Language_PropertySetConfig.json",
+    "SubType": "MovePlan",
+    "Type": "ESM",
+    "UniqueName": "ESM_MovePlan_multiLanguage_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/MovePlan/Multi-Language"
+}

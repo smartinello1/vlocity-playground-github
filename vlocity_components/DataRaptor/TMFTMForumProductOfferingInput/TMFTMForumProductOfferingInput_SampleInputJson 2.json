@@ -1,0 +1,88 @@
+{
+    "prodSpecCharValueUse": [
+        {
+            "@baseType": "",
+            "@type": "ProductSpecificationCharacteristic",
+            "configurable": true,
+            "description": "The total Number of Ports for this product",
+            "isUnique": true,
+            "maxCardinality": 1,
+            "minCardinality": 1,
+            "name": "Number of Ports",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": true,
+                    "validFor": {
+                        "endDateTime": "2022-11-24T00:00:00Z",
+                        "startDateTime": "2020-09-23T00:00:00Z"
+                    },
+                    "value": 8,
+                    "valueType": "number"
+                },
+                {
+                    "isDefault": false,
+                    "validFor": {
+                        "endDateTime": "2022-11-24T00:00:00Z",
+                        "startDateTime": "2020-09-23T00:00:00Z"
+                    },
+                    "value": 16,
+                    "valueType": "number"
+                },
+                {
+                    "isDefault": false,
+                    "validFor": {
+                        "endDateTime": "2022-11-24T00:00:00Z",
+                        "startDateTime": "2020-09-23T00:00:00Z"
+                    },
+                    "value": 24,
+                    "valueType": "number"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2020-09-23T16:42:23.0Z"
+            },
+            "valueType": "number"
+        },
+        {
+            "@baseType": "",
+            "@type": "ProductSpecificationCharacteristic",
+            "configurable": true,
+            "description": "Color of the Firewall housing",
+            "extensible": true,
+            "isUnique": true,
+            "maxCardinality": 1,
+            "minCardinality": 1,
+            "name": "Color",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": true,
+                    "value": "Black",
+                    "valueType": "string"
+                },
+                {
+                    "isDefault": false,
+                    "value": "White",
+                    "valueType": "string"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2020-09-23T16:42:23.0Z"
+            },
+            "valueType": "string"
+        },
+        {
+            "configurable": false,
+            "description": "HasDiscount : Has Discount",
+            "displayName": "HasDiscount",
+            "name": "CLONED_01t5e000002XxBQAA0_B2CCmex_ATTR_HASDISCOUNT_CHAR",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": "true",
+                    "value": "false",
+                    "valueType": "Checkbox"
+                }
+            ],
+            "valueType": "Checkbox"
+        }
+    ]
+}

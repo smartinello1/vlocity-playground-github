@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "UpdateFrameAgreement_Oppty_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Update Frame Agreement",
+    "OmniProcessElement": [
+        "UpdateFrameAgreement_Oppty_Procedure_Element_SourceData.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_SetValues.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_UpdateOpptyDiscountDate.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_UpdateFrameAgreementAndDiscounts.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_RemoteActionInputMap.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_CopyOldContractDocuments.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_CalculateDiscountDates.json",
+        "UpdateFrameAgreement_Oppty_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "UpdateFrameAgreement_Oppty",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "UpdateFrameAgreement_Oppty_Procedure_PropertySetConfig.json",
+    "SubType": "Oppty",
+    "Type": "UpdateFrameAgreement",
+    "UniqueName": "UpdateFrameAgreement_Oppty_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Oppty/Procedure"
+}

@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "tmf_TMForumProduct_Procedure_JavaScript.js",
+    "Description": "v246.0 - This VIP contains the GET Implementation for TMF637 ProductInventory",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumProduct",
+    "OmniProcessElement": [
+        "tmf_TMForumProduct_Procedure_Element_ProductInputDRT.json",
+        "tmf_TMForumProduct_Procedure_Element_ProductRA.json",
+        "tmf_TMForumProduct_Procedure_Element_ProductResultDRT.json",
+        "tmf_TMForumProduct_Procedure_Element_ProductResponse.json",
+        "tmf_TMForumProduct_Procedure_Element_ProductWithPageInfo.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumProduct",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumProduct_Procedure_PropertySetConfig.json",
+    "SubType": "TMForumProduct",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumProduct_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumProduct/Procedure"
+}

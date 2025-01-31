@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_SelectAllEntityMembers_Procedure_JavaScript.js",
+    "Description": "The IP is used to get all Ids for members.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMSelectAllEntityMembers",
+    "OmniProcessElement": [
+        "ESM_SelectAllEntityMembers_Procedure_Element_selectAllIds.json",
+        "ESM_SelectAllEntityMembers_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_SelectAllEntityMembers",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelectAllEntityMembers_Procedure_PropertySetConfig.json",
+    "SubType": "SelectAllEntityMembers",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelectAllEntityMembers_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelectAllEntityMembers/Procedure"
+}

@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceGetLineItemIdsUsingAssetIds",
+    "OmniProcessElement": [
+        "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_Element_TransformIdsToObjects.json",
+        "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_Element_GetOrderLineItemIdsUsingAssetIds.json",
+        "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_Element_TransformToArrayForOrder.json"
+    ],
+    "OmniProcessKey": "ESM_SelfServiceGetLineItemIdsUsingAssetIds",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceGetLineItemIdsUsingAssetIds",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceGetLineItemIdsUsingAssetIds_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceGetLineItemIdsUsingAssetIds/Procedure"
+}

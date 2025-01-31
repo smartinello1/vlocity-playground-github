@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "tmf_TMForumCreateProductOrder_Procedure_JavaScript.js",
+    "Description": "v244.0 - IP used to invoke TMF api to create product order.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": true,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumCreateProductOrder",
+    "OmniProcessElement": [
+        "tmf_TMForumCreateProductOrder_Procedure_Element_TransformProductOrderRequestDR.json",
+        "tmf_TMForumCreateProductOrder_Procedure_Element_TMFCreateProductOrderAPIRA.json",
+        "tmf_TMForumCreateProductOrder_Procedure_Element_TransformProductOrderResponseDR.json",
+        "tmf_TMForumCreateProductOrder_Procedure_Element_TMForumCreateProductOrderSuccessResponseAction.json",
+        "tmf_TMForumCreateProductOrder_Procedure_Element_TMForumCreateProductOrderFailureResponseAction.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumCreateProductOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumCreateProductOrder_Procedure_PropertySetConfig.json",
+    "SubType": "TMForumCreateProductOrder",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumCreateProductOrder_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumCreateProductOrder/Procedure"
+}

@@ -1,0 +1,12 @@
+{
+    "apiVersion": "v57.0",
+    "asset": {
+        "Description": "new desc",
+        "Id": "02iDp000000UFmhIAG",
+        "attributes": {
+            "type": "Asset",
+            "url": "/services/data/v57.0/sobjects/Asset/02iDp000000UFmhIAG"
+        }
+    },
+    "requestUrl": "/services/apexrest/%vlocity_namespace%/tmforum/productopenapi/v1/"
+}

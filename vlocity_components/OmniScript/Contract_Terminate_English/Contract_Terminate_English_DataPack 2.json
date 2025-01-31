@@ -1,0 +1,33 @@
+{
+    "CustomHtmlTemplates": "Contract_Terminate_English_HTMLTemplates.html",
+    "CustomJavaScript": "Contract_Terminate_English_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Terminate Contract",
+    "OmniProcessElement": [
+        "Contract_Terminate_English_Element_Step-1.json",
+        "Contract_Terminate_English_Element_Terminate-Date.json",
+        "Contract_Terminate_English_Element_Terminate-Type.json",
+        "Contract_Terminate_English_Element_Terminate-Reason.json",
+        "Contract_Terminate_English_Element_Terminate-Option.json",
+        "Contract_Terminate_English_Element_Terminate-Contract.json",
+        "Contract_Terminate_English_Element_Extract-contract-line-items.json",
+        "Contract_Terminate_English_Element_Step-2.json",
+        "Contract_Terminate_English_Element_ContractItem.json",
+        "Contract_Terminate_English_Element_DataRaptor-Post-Action-2.json",
+        "Contract_Terminate_English_Element_Done-Action.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Contract_Terminate_English_PropertySetConfig.json",
+    "SubType": "Terminate",
+    "Type": "Contract",
+    "UniqueName": "Contract_Terminate_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Contract/Terminate/English"
+}

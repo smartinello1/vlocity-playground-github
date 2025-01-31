@@ -1,0 +1,61 @@
+{
+    "apiVersion": "v48.0",
+    "href": "/services/apexrest/%vlocity_namespace%/tmforum/productopenapi/v1/category/a0e5e000003bKFeAAM",
+    "parentCatalog": {
+        "%vlocity_namespace%__Description__c": "Postpaid add on catalog",
+        "%vlocity_namespace%__GlobalKey__c": "ad2afce3-2690-10f8-f765-16e0a0bb9bbd",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsCatalogRoot__c": false,
+        "Id": "a0e5e000003bKFeAAM",
+        "LastModifiedDate": "2022-04-04T05:47:50.000+0000",
+        "Name": "Postpaid Add On",
+        "attributes": {
+            "type": "%vlocity_namespace%__Catalog__c",
+            "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__Catalog__c/a0e5e000003bKFeAAM"
+        }
+    },
+    "productOffering": [
+        {
+            "%vlocity_namespace%__GlobalKey__c": "693bb8d1-1c23-8aa8-13f2-561466651a38",
+            "Id": "01t5e000003gFzKAAU",
+            "Name": "10 GB Data Postpaid Addon",
+            "RecordTypeId": "0125e00000095LwAAI",
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v55.0/sobjects/Product2/01t5e000003gFzKAAU"
+            }
+        },
+        {
+            "%vlocity_namespace%__GlobalKey__c": "cdced4ad-719e-6670-be85-8d55bf855f11",
+            "Id": "01t5e000003gG0bAAE",
+            "Name": "5GB, 500 Minutes & 500 Texts Postpaid Addon",
+            "RecordTypeId": "0125e00000095LwAAI",
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v55.0/sobjects/Product2/01t5e000003gG0bAAE"
+            }
+        },
+        {
+            "%vlocity_namespace%__GlobalKey__c": "edeafc77-336c-f915-bf13-78d65284de5c",
+            "Id": "01t5e000003gG0eAAE",
+            "Name": "50 GB Data Postpaid Addon",
+            "RecordTypeId": "0125e00000095LwAAI",
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v55.0/sobjects/Product2/01t5e000003gG0eAAE"
+            }
+        },
+        {
+            "%vlocity_namespace%__GlobalKey__c": "5cd51d35-3413-c28b-3869-4faf56a0eb22",
+            "Id": "01t5e000003gG3sAAE",
+            "Name": "10GB, 500 Minutes & 500 Texts Postpaid Addon",
+            "RecordTypeId": "0125e00000095LwAAI",
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v55.0/sobjects/Product2/01t5e000003gG3sAAE"
+            }
+        }
+    ],
+    "subCategory": [
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Description": "CreateProductOfferingPriceSuccessResponse takes care of success message. v244",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateProductOfferingPriceSuccessResponse",
+    "OmniProcessId": {
+        "Name": "TMFTMForumPatchProductOfferingPrice",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumPatchProductOfferingPrice/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "": ""
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "%ProductOfferingPriceRequest:epcResponse:overallResult% == 'success'",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "ProductOfferingPriceResultInTMF:outputResponse",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumPatchProductOfferingPrice/Procedure/CreateProductOfferingPriceSuccessResponse"
+}

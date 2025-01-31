@@ -1,0 +1,59 @@
+[
+    {
+        "GlobalKey": "ESMSelfServiceCustomiseGroupDetailsCustoma1h8Z000003fFRPQA2Item0",
+        "InputFieldName": "groups:groupName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ESMSelfServiceCustomiseGroupDetails",
+        "OmniDataTransformationId": {
+            "Name": "ESMSelfServiceCustomiseGroupDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ESMSelfServiceCustomiseGroupDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "groups:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ESMSelfServiceCustomiseGroupDetailsCustoma1h8Z000003fFRPQA2Item1",
+        "InputFieldName": "groups:groupInfo:groupCart:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ESMSelfServiceCustomiseGroupDetails",
+        "OmniDataTransformationId": {
+            "Name": "ESMSelfServiceCustomiseGroupDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ESMSelfServiceCustomiseGroupDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "groups:groupCartId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ESMSelfServiceCustomiseGroupDetailsCustoma1h8Z000003fFRPQA2Item2",
+        "InputFieldName": "groups:groupId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "ESMSelfServiceCustomiseGroupDetails",
+        "OmniDataTransformationId": {
+            "Name": "ESMSelfServiceCustomiseGroupDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/ESMSelfServiceCustomiseGroupDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "groups:groupId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "UsageLoopBlock2",
+    "OmniProcessId": {
+        "Name": "SFIBillingGetUsageDataForComparison",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/GetUsageDataForComparison/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "LoopBlock1",
+        "loopList": "BillingStubUsageData2:usageData",
+        "loopOutput": {
+            "BillingUsage2": "%BilllingUsageDataTransformAction2%"
+        },
+        "show": null
+    },
+    "Type": "Loop Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/GetUsageDataForComparison/Procedure/UsageLoopBlock2"
+}

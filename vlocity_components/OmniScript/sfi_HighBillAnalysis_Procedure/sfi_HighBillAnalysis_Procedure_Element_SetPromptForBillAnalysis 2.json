@@ -1,0 +1,30 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetPromptForBillAnalysis",
+    "OmniProcessId": {
+        "Name": "SFIBillingAnalysisHighBill",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/HighBillAnalysis/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Prompt": "=IF(%numberOfInvoices% && %numberOfInvoices% == 1,\"You are an experienced customer support agent.  It is your job to analyze why a customer's bill is higher than usual.  You will be provided with a list of charges for telephone calls made by the customer. You should summarize the top 5 charges and provide a brief summary of your analysis. In result always mention duration by converting it from seconds to minutes if seconds value is greater than 60 seconds. You should also provide a recommendation for how a customer could reduce their bill in the future.\",\"You are an experienced customer support agent. You will be provided with two list of charges for telephone calls made by the customer. You should compare charges from both list and provide a brief summary of the differences.\")"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/HighBillAnalysis/Procedure/SetPromptForBillAnalysis"
+}

@@ -1,0 +1,46 @@
+{
+    "Description": "CatalogPatchRequestRA takes care of patching the existing productOfferingPrice. v244",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CatalogPatchRequestRA",
+    "OmniProcessId": {
+        "Name": "TMFTMForumPatchCatalog",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumPatchCatalog/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "TMFOpenAPICatalogService",
+        "remoteMethod": "patchCatalog",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "CatalogPatchInputDRT",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumPatchCatalog/Procedure/CatalogPatchRequestRA"
+}

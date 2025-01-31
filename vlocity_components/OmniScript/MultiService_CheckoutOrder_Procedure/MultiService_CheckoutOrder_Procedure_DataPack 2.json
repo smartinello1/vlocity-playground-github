@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "MultiService_CheckoutOrder_Procedure_JavaScript.js",
+    "Description": "Submits the Sub-Orders",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CheckoutOrder",
+    "OmniProcessElement": [
+        "MultiService_CheckoutOrder_Procedure_Element_SubmitOrder.json",
+        "MultiService_CheckoutOrder_Procedure_Element_SetResponse.json"
+    ],
+    "OmniProcessKey": "MultiService_CheckoutOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiService_CheckoutOrder_Procedure_PropertySetConfig.json",
+    "SubType": "CheckoutOrder",
+    "Type": "MultiService",
+    "UniqueName": "MultiService_CheckoutOrder_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/CheckoutOrder/Procedure"
+}

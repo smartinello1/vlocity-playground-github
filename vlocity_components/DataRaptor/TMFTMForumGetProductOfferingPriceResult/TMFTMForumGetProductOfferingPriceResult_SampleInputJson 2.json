@@ -1,0 +1,76 @@
+[
+    {
+        "apiVersion": "v48.0",
+        "priceListEntry": {
+            "%vlocity_namespace%__DisplayText__c": "This pricing describes the recurring charge for a firewall service that can be deployed in business customer premise.",
+            "%vlocity_namespace%__EffectiveFromDate__c": "2020-09-22T00:00:00.000+0000",
+            "%vlocity_namespace%__EffectiveUntilDate__c": "2023-09-22T00:00:00.000+0000",
+            "%vlocity_namespace%__GlobalKey__c": "1b6214a7-175a-c04f-7b5f-eade562c7b16",
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__IsBasePrice__c": false,
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__IsVirtualPrice__c": false,
+            "%vlocity_namespace%__PriceListId__c": "a3H8V000001MscgUAC",
+            "%vlocity_namespace%__PriceListName__c": "B2C",
+            "%vlocity_namespace%__PricingElementAmount__c": 50,
+            "%vlocity_namespace%__PricingElementGlobalKey__c": "f5ddceab-cbc7-52e0-e1e3-7b8de8bba1e3",
+            "%vlocity_namespace%__PricingElementId__c": "a3J8V000001TtfrUAC",
+            "%vlocity_namespace%__PromotionId__c": "a3X8V000000r7UtUAI",
+            "CreatedById": "0058V00000BZU3XQAX",
+            "CreatedDate": "2023-01-19T18:06:48.000+0000",
+            "Id": "a3G8V000000eGG8UAM",
+            "IsDeleted": false,
+            "LastModifiedById": "0058V00000BZU3XQAX",
+            "LastModifiedDate": "2023-01-19T18:06:48.000+0000",
+            "Name": "demo pricing",
+            "SystemModstamp": "2023-01-19T18:06:48.000+0000",
+            "attributes": {
+                "type": "%vlocity_namespace%__PriceListEntry__c",
+                "url": "/services/data/v56.0/sobjects/%vlocity_namespace%__PriceListEntry__c/a3G8V000000eGG8UAM"
+            }
+        },
+        "pricingElement": {
+            "%vlocity_namespace%__Amount__c": 50,
+            "%vlocity_namespace%__CurrencyCode__c": "USD",
+            "%vlocity_namespace%__PricingVariableId__c": "a3N8V000003X8KXUA0",
+            "%vlocity_namespace%__PricingVariableId__r": {
+                "%vlocity_namespace%__ChargeType__c": "monthly",
+                "%vlocity_namespace%__RecurringFrequency__c": "Monthly",
+                "Id": "a3N8V000003X8KXUA0",
+                "attributes": {
+                    "type": "%vlocity_namespace%__PricingVariable__c",
+                    "url": "/services/data/v56.0/sobjects/%vlocity_namespace%__PricingVariable__c/a3N8V000003X8KXUA0"
+                }
+            },
+            "Id": "a3J8V000001TtfrUAC",
+            "attributes": {
+                "type": "%vlocity_namespace%__PricingElement__c",
+                "url": "/services/data/v56.0/sobjects/%vlocity_namespace%__PricingElement__c/a3J8V000001TtfrUAC"
+            }
+        },
+        "promotions": [
+            {
+                "%vlocity_namespace%__Description__c": "10 month contract",
+                "%vlocity_namespace%__DurationTimePlanId__c": "a3k8V000000P2T9QAK",
+                "%vlocity_namespace%__DurationTimePlanId__r": {
+                    "%vlocity_namespace%__TotalDurationUoM__c": "Month",
+                    "%vlocity_namespace%__TotalDuration__c": 12,
+                    "Id": "a3k8V000000P2T9QAK",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__TimePlan__c",
+                        "url": "/services/data/v56.0/sobjects/%vlocity_namespace%__TimePlan__c/a3k8V000000P2T9QAK"
+                    }
+                },
+                "%vlocity_namespace%__EffectiveEndDate__c": "2023-09-22T00:00:00.000+0000",
+                "%vlocity_namespace%__EffectiveStartDate__c": "2020-09-22T16:42:23.000+0000",
+                "Id": "a3X8V000000r7UtUAI",
+                "Name": "10 Month",
+                "attributes": {
+                    "type": "%vlocity_namespace%__Promotion__c",
+                    "url": "/services/data/v56.0/sobjects/%vlocity_namespace%__Promotion__c/a3X8V000000r7UtUAI"
+                }
+            }
+        ],
+        "requestUrl": "/services/apexrest/%vlocity_namespace%/tmforum/productopenapi/v1/"
+    }
+]

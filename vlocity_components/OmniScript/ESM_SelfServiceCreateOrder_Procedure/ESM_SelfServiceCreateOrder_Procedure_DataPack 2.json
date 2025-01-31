@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceCreateOrder_Procedure_JavaScript.js",
+    "Description": "This IP creates the primary cart ESM SelfService Post-sales journey.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMSelfServiceCreateOrder",
+    "OmniProcessElement": [
+        "ESM_SelfServiceCreateOrder_Procedure_Element_CreateOrderRequestData.json",
+        "ESM_SelfServiceCreateOrder_Procedure_Element_CreateOrder.json",
+        "ESM_SelfServiceCreateOrder_Procedure_Element_CreateOrderResponse.json"
+    ],
+    "OmniProcessKey": "ESM_SelfServiceCreateOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceCreateOrder_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceCreateOrder",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceCreateOrder_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceCreateOrder/Procedure"
+}

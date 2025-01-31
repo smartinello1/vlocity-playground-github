@@ -1,0 +1,337 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CallUsageData",
+    "OmniProcessId": {
+        "Name": "SFIBillingGetUsageData",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/GetUsageData/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "UsageDataForInquiry",
+        "OmniProcessId": {
+            "Name": "SFIBillingGetUsageData",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/GetUsageData/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/GetUsageData/Procedure/UsageDataForInquiry",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "UsageDataForInquiry",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "usageData": [
+                {
+                    "href": "https://api.csp.com/tmf-api/usageManagement/v4/Usage/5130d5131a23",
+                    "id": "5130d5131a23",
+                    "ratedProductUsage": [
+                        {
+                            "bucketValueConvertedInAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "isTaxExempt": false,
+                            "offerTariffType": "Normal",
+                            "ratingAmountType": "Total",
+                            "ratingDate": "2024-02-04T17:00:00.000Z",
+                            "taxExcludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "taxIncludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 12
+                            },
+                            "taxRate": 20,
+                            "usageRatingTag": "Usage"
+                        }
+                    ],
+                    "relatedParty": [
+                        {
+                            "@referredType": "Organization",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/organization/a396-5c90a41a23ea",
+                            "id": "a396-5c90a41a23ea",
+                            "role": "serviceProvider"
+                        },
+                        {
+                            "@referredType": "Individual",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/individual/8a41-d6451fe98963",
+                            "id": "8a41-d6451fe98963",
+                            "role": "customer"
+                        }
+                    ],
+                    "status": "rated",
+                    "usageCharacteristic": [
+                        {
+                            "name": "originatingCountryCode",
+                            "value": "43"
+                        },
+                        {
+                            "name": "originatingNumber",
+                            "value": "676123456789"
+                        },
+                        {
+                            "name": "destinationCountryCode",
+                            "value": "49"
+                        },
+                        {
+                            "name": "destinationNumber",
+                            "value": "170123456789"
+                        },
+                        {
+                            "name": "duration",
+                            "value": 20
+                        },
+                        {
+                            "name": "unit",
+                            "value": "SEC"
+                        }
+                    ],
+                    "usageSpecification": {
+                        "href": "https:/api.csp.com/tmf-api/usageManagement/v4/usageSpecification/af59-b504c742900e",
+                        "id": "af59-b504c742900e",
+                        "name": "VoiceCall"
+                    },
+                    "usageType": "Voice"
+                },
+                {
+                    "href": "https://api.csp.com/tmf-api/usageManagement/v4/Usage/5130d5131a24",
+                    "id": "5130d5131a24",
+                    "ratedProductUsage": [
+                        {
+                            "bucketValueConvertedInAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "isTaxExempt": false,
+                            "offerTariffType": "Normal",
+                            "ratingAmountType": "Total",
+                            "ratingDate": "2024-02-10T17:00:00.000Z",
+                            "taxExcludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "taxIncludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 12
+                            },
+                            "taxRate": 20,
+                            "usageRatingTag": "Usage"
+                        }
+                    ],
+                    "relatedParty": [
+                        {
+                            "@referredType": "Organization",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/organization/a396-5c90a41a23ea",
+                            "id": "a396-5c90a41a23ea",
+                            "role": "serviceProvider"
+                        },
+                        {
+                            "@referredType": "Individual",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/individual/8a41-d6451fe98963",
+                            "id": "8a41-d6451fe98963",
+                            "role": "customer"
+                        }
+                    ],
+                    "status": "rated",
+                    "usageCharacteristic": [
+                        {
+                            "name": "originatingCountryCode",
+                            "value": "43"
+                        },
+                        {
+                            "name": "originatingNumber",
+                            "value": "676123456789"
+                        },
+                        {
+                            "name": "destinationCountryCode",
+                            "value": "49"
+                        },
+                        {
+                            "name": "destinationNumber",
+                            "value": "170123456789"
+                        },
+                        {
+                            "name": "duration",
+                            "value": 30
+                        },
+                        {
+                            "name": "unit",
+                            "value": "SEC"
+                        }
+                    ],
+                    "usageSpecification": {
+                        "href": "https:/api.csp.com/tmf-api/usageManagement/v4/usageSpecification/af59-b504c742901f",
+                        "id": "af59-b504c742901f",
+                        "name": "VoiceCall"
+                    },
+                    "usageType": "Voice"
+                },
+                {
+                    "href": "https://api.csp.com/tmf-api/usageManagement/v4/Usage/5130d5131a24",
+                    "id": "5130d5131a24",
+                    "ratedProductUsage": [
+                        {
+                            "bucketValueConvertedInAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "isTaxExempt": false,
+                            "offerTariffType": "Normal",
+                            "ratingAmountType": "Total",
+                            "ratingDate": "2024-02-13T17:00:00.000Z",
+                            "taxExcludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 15
+                            },
+                            "taxIncludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 15
+                            },
+                            "taxRate": 20,
+                            "usageRatingTag": "Usage"
+                        }
+                    ],
+                    "relatedParty": [
+                        {
+                            "@referredType": "Organization",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/organization/a396-5c90a41a23ea",
+                            "id": "a396-5c90a41a23ea",
+                            "role": "serviceProvider"
+                        },
+                        {
+                            "@referredType": "Individual",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/individual/8a41-d6451fe98963",
+                            "id": "8a41-d6451fe98963",
+                            "role": "customer"
+                        }
+                    ],
+                    "status": "rated",
+                    "usageCharacteristic": [
+                        {
+                            "name": "originatingCountryCode",
+                            "value": "43"
+                        },
+                        {
+                            "name": "originatingNumber",
+                            "value": "676123456789"
+                        },
+                        {
+                            "name": "destinationCountryCode",
+                            "value": "52"
+                        },
+                        {
+                            "name": "destinationNumber",
+                            "value": "990123467789"
+                        },
+                        {
+                            "name": "duration",
+                            "value": 300
+                        },
+                        {
+                            "name": "unit",
+                            "value": "SEC"
+                        }
+                    ],
+                    "usageSpecification": {
+                        "href": "https:/api.csp.com/tmf-api/usageManagement/v4/usageSpecification/af59-b504c742901f",
+                        "id": "af59-b504c742901f",
+                        "name": "VoiceCall"
+                    },
+                    "usageType": "Voice"
+                },
+                {
+                    "href": "https://api.csp.com/tmf-api/usageManagement/v4/Usage/5130d5131a24",
+                    "id": "5130d5131b74",
+                    "ratedProductUsage": [
+                        {
+                            "bucketValueConvertedInAmount": {
+                                "unit": "EUR",
+                                "value": 10
+                            },
+                            "isTaxExempt": false,
+                            "offerTariffType": "Normal",
+                            "ratingAmountType": "Total",
+                            "ratingDate": "2024-02-09T17:00:00.000Z",
+                            "taxExcludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 100
+                            },
+                            "taxIncludedRatingAmount": {
+                                "unit": "EUR",
+                                "value": 200
+                            },
+                            "taxRate": 20,
+                            "usageRatingTag": "Usage"
+                        }
+                    ],
+                    "relatedParty": [
+                        {
+                            "@referredType": "Organization",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/organization/a396-5c90a41a23ea",
+                            "id": "a396-5c90a41a23ea",
+                            "role": "serviceProvider"
+                        },
+                        {
+                            "@referredType": "Individual",
+                            "href": "https://api.csp.com/tmf-api/partyManagement/v4/individual/8a41-d6451fe98963",
+                            "id": "8a41-d6451fe98963",
+                            "role": "customer"
+                        }
+                    ],
+                    "status": "rated",
+                    "usageCharacteristic": [
+                        {
+                            "name": "originatingCountryCode",
+                            "value": "43"
+                        },
+                        {
+                            "name": "originatingNumber",
+                            "value": "676123456789"
+                        },
+                        {
+                            "name": "destinationCountryCode",
+                            "value": "54"
+                        },
+                        {
+                            "name": "destinationNumber",
+                            "value": "1799999999"
+                        },
+                        {
+                            "name": "duration",
+                            "value": 3000
+                        },
+                        {
+                            "name": "unit",
+                            "value": "SEC"
+                        }
+                    ],
+                    "usageSpecification": {
+                        "href": "https:/api.csp.com/tmf-api/usageManagement/v4/usageSpecification/af59-b504c742901f",
+                        "id": "af59-b504c742901f",
+                        "name": "VoiceCall"
+                    },
+                    "usageType": "Voice"
+                }
+            ]
+        },
+        "executionConditionalFormula": "%inquiryType% == 'CallUsageInquiry'",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "usageData",
+        "responseJSONPath": "usageData",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/GetUsageData/Procedure/CallUsageData"
+}

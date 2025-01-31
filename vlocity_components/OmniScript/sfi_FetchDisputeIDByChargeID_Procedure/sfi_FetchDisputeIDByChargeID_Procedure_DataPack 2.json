@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "sfi_FetchDisputeIDByChargeID_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "SFIDisputeManagementFetchDisputeIDByChargeID",
+    "OmniProcessElement": [
+        "sfi_FetchDisputeIDByChargeID_Procedure_Element_SetValues.json",
+        "sfi_FetchDisputeIDByChargeID_Procedure_Element_LoopBlock.json",
+        "sfi_FetchDisputeIDByChargeID_Procedure_Element_ExtractDisputeIdByTransactionId.json",
+        "sfi_FetchDisputeIDByChargeID_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "sfi_FetchDisputeIDByChargeID",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "comms_billing_inquiry__sfi_FetchDisputeIDByChargeID_Procedure_1",
+    "PropertySetConfig": "sfi_FetchDisputeIDByChargeID_Procedure_PropertySetConfig.json",
+    "SubType": "FetchDisputeIDByChargeID",
+    "Type": "sfi",
+    "UniqueName": "sfi_FetchDisputeIDByChargeID_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sfi/FetchDisputeIDByChargeID/Procedure"
+}

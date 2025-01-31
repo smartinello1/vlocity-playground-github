@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "b2bExpress_UpdateQtyPrice_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "UpdateQtyPrice",
+    "OmniProcessElement": [
+        "b2bExpress_UpdateQtyPrice_Procedure_Element_getOrderItem.json",
+        "b2bExpress_UpdateQtyPrice_Procedure_Element_GetGroupSize.json",
+        "b2bExpress_UpdateQtyPrice_Procedure_Element_updateQuantity.json",
+        "b2bExpress_UpdateQtyPrice_Procedure_Element_Reprice.json",
+        "b2bExpress_UpdateQtyPrice_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "b2bExpress_UpdateQtyPrice",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "b2bExpress_UpdateQtyPrice_Procedure_PropertySetConfig.json",
+    "SubType": "UpdateQtyPrice",
+    "Type": "b2bExpress",
+    "UniqueName": "b2bExpress_UpdateQtyPrice_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/b2bExpress/UpdateQtyPrice/Procedure"
+}

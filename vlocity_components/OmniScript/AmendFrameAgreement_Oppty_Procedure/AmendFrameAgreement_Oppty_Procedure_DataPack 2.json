@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "AmendFrameAgreement_Oppty_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Amend Frame Agreement",
+    "OmniProcessElement": [
+        "AmendFrameAgreement_Oppty_Procedure_Element_ExtractFrameAgreement.json",
+        "AmendFrameAgreement_Oppty_Procedure_Element_CreateOppty.json",
+        "AmendFrameAgreement_Oppty_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "AmendFrameAgreement_Oppty",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "AmendFrameAgreement_Oppty_Procedure_PropertySetConfig.json",
+    "SubType": "Oppty",
+    "Type": "AmendFrameAgreement",
+    "UniqueName": "AmendFrameAgreement_Oppty_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/AmendFrameAgreement/Oppty/Procedure"
+}

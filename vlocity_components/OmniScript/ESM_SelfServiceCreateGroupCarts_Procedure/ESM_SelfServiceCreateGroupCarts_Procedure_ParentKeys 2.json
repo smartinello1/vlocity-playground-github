@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ESMSelfServiceConsolidateProductData",
+    "DataRaptor/ESMSelfServiceCustomiseGroupDetails",
+    "DataRaptor/ESMSelfServiceFilterExistingGroups",
+    "DataRaptor/ESMSelfServiceGetGroupsToCreateList",
+    "DataRaptor/ESMSelfServiceGetProductsFromAssets",
+    "DataRaptor/ESMSelfServicetransformAssetListString"
+]

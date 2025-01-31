@@ -1,0 +1,565 @@
+[
+    {
+        "FormulaExpression": "DATETIMETOUNIX(validFor:endDateTime)",
+        "FormulaResultPath": "validFor:endDateTime",
+        "FormulaSequence": 5,
+        "GlobalKey": "TMFTMForumTransformCatalogRequest09437167371331467",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DATETIMETOUNIX(validFor:startDateTime)",
+        "FormulaResultPath": "validFor:startDateTime",
+        "FormulaSequence": 4,
+        "GlobalKey": "TMFTMForumTransformCatalogRequest4972471629031041",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(lifecycleStatus==\"Active\",true,false)",
+        "FormulaResultPath": "IsActive",
+        "FormulaSequence": 1,
+        "GlobalKey": "TMFTMForumTransformCatalogRequest19994247112340613",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(relatedParty:id!=null,\"%vlocity_namespace%__vendorAccount__c\",'')",
+        "FormulaResultPath": "relatedParty:SObjectField",
+        "FormulaSequence": 2,
+        "GlobalKey": "TMFTMForumTransformCatalogRequest3958096028788991",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(relatedParty:id!=null,\"Account\",'')",
+        "FormulaResultPath": "relatedParty:SObject",
+        "FormulaSequence": 3,
+        "GlobalKey": "TMFTMForumTransformCatalogRequest61427924560466",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest28517021908910367",
+        "InputFieldName": "catalogCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__CatalogCode__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest06164781696925248",
+        "InputFieldName": "GetTMFDefaultPriceListIdDR:TMForumDefaultPriceListId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__DefaultPriceListId__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest49712946710326333",
+        "InputFieldName": "description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__Description__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest5691214656582084",
+        "InputFieldName": "validFor:endDateTime",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__EndDateTime__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest32382413562349344",
+        "InputFieldName": "patch_id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__GlobalKey__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest6897733750580519",
+        "InputFieldName": "IsActive",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__IsActive__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest03806840432747083",
+        "InputFieldName": "isRoot",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__IsCatalogRoot__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest2564804519111754",
+        "InputFieldName": "validFor:startDateTime",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__StartDateTime__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest33742012012115197",
+        "InputFieldName": "@type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "@type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest08838403290750008",
+        "InputFieldName": "id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest4597988377576896",
+        "InputFieldName": "name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest40293383793991167",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "category",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest988106480987532",
+        "InputFieldName": "category:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "category:%vlocity_namespace%__GlobalKey__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest9985217323073015",
+        "InputFieldName": "category:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "category:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest491358458359616",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "relatedParty",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest7622839517207431",
+        "InputFieldName": "relatedParty:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "relatedParty:AccountNumber",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest3472529528834154",
+        "InputFieldName": "relatedParty:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "relatedParty:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest455720655348709",
+        "InputFieldName": "relatedParty:role",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "relatedParty:RecordType.Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest2830080260694876",
+        "InputFieldName": "relatedParty:SObject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "relatedParty:SObject",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest13440944193572557",
+        "InputFieldName": "relatedParty:SObjectField",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "relatedParty:SObjectField",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest7572242821385702",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "subCategory",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest14876029158140391",
+        "InputFieldName": "GetTMFDefaultPriceListIdDR:TMForumDefaultPriceListId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "subCategory:%vlocity_namespace%__DefaultPriceListId__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest7302948670562552",
+        "InputFieldName": "subCategory:id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "subCategory:%vlocity_namespace%__GlobalKey__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumTransformCatalogRequest18538352268791436",
+        "InputFieldName": "subCategory:name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumTransformCatalogRequest",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumTransformCatalogRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumTransformCatalogRequest",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "subCategory:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

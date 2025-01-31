@@ -1,0 +1,5 @@
+[
+    "DataRaptor/GetIndependentQuoteLineItems",
+    "DataRaptor/GetMasterOrderDetails",
+    "DataRaptor/GetRecordTypesForOrders"
+]

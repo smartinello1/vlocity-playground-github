@@ -1,0 +1,53 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "MoveCartItem",
+    "OmniProcessId": {
+        "Name": "ESM_MoveCartItem",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ESM/MoveCartItem/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "ContextFieldMapping": "%additionalData:contextFieldMapping%",
+            "cartId": "%additionalData:cartId%",
+            "cartType": "%additionalData:cartType%",
+            "lineItemId": "%itemsToProcessSubsetList|1%",
+            "moveInDate": "%additionalData:moveInDate%",
+            "moveOutDate": "%additionalData:moveOutDate%",
+            "updateLinearRelationship": "%additionalData:updateLinearRelationship%",
+            "updatedMemberId": "%additionalData:updatedMemberId%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "B2BCmexAppHandler",
+        "remoteMethod": "moveCartItem",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ESM/MoveCartItem/Procedure/MoveCartItem"
+}

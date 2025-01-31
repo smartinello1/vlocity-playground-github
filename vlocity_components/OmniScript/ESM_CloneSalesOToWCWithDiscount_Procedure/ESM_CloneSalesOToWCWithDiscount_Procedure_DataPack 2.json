@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_CloneSalesOToWCWithDiscount_Procedure_JavaScript.js",
+    "Description": "B2B Express: Clone Sales Order OLIs to Working Cart OLIs with Discounts & Adjustments.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMCloneSalesOToWCWithDiscount",
+    "OmniProcessElement": [
+        "ESM_CloneSalesOToWCWithDiscount_Procedure_Element_cloneSalesOrderToWorkingCartWithDiscount.json",
+        "ESM_CloneSalesOToWCWithDiscount_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_CloneSalesOToWCWithDiscount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_CloneSalesOToWCWithDiscount_Procedure_PropertySetConfig.json",
+    "SubType": "CloneSalesOToWCWithDiscount",
+    "Type": "ESM",
+    "UniqueName": "ESM_CloneSalesOToWCWithDiscount_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/CloneSalesOToWCWithDiscount/Procedure"
+}

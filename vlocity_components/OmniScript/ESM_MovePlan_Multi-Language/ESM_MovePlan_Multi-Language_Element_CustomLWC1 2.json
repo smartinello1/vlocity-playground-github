@@ -1,0 +1,72 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CustomLWC1",
+    "OmniProcessId": {
+        "Name": "ESM Move Plan",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ESM/MovePlan/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Review Summary",
+        "OmniProcessId": {
+            "Name": "ESM Move Plan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ESM/MovePlan/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ESM/MovePlan/Multi-Language/Review Summary",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Review Summary",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "cart-id",
+                "source": "%cartId%"
+            },
+            {
+                "name": "cart-type",
+                "source": "%cartType%"
+            },
+            {
+                "name": "line-item-ids",
+                "source": "%selectedRootItemsList%"
+            },
+            {
+                "name": "move-in-date",
+                "source": "%moveInDate%"
+            },
+            {
+                "name": "move-out-date",
+                "source": "%moveOutDate%"
+            },
+            {
+                "name": "config-data",
+                "source": "%configResponse:responseData%"
+            },
+            {
+                "name": "updated-member-id",
+                "source": "%updatedMemberId%"
+            },
+            {
+                "name": "new-selected-location",
+                "source": "%newSelectedLocation%"
+            }
+        ],
+        "hide": false,
+        "label": "",
+        "lwcName": "%vlocity_namespace%__b2bMoveReviewSummary",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ESM/MovePlan/Multi-Language/CustomLWC1"
+}

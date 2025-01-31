@@ -1,0 +1,40 @@
+{
+    "catalogType": "ProductCatalog",
+    "description": "This catalog describes Product Offerings and technical specifications     intended to address the wholesale business segment.",
+    "lifecycleStatus": "Active",
+    "name": "Catalog Wholesale Business654",
+    "relatedParty": [
+        {
+            "@referredType": "Account",
+            "@type": "RelatedParty",
+            "id": "123",
+            "name": "demo user15",
+            "role": "Consumer"
+        }
+    ],
+    "subCategory": [
+        {
+            "@referredType": "Category",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/CategoryRef.schema.json",
+            "@type": "CategoryRef",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/category/6086",
+            "id": "6086",
+            "name": "Cloud Storage",
+            "version": "1.0"
+        },
+        {
+            "@referredType": "Category",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schemas/Product/CategoryRef.schema.json",
+            "@type": "CategoryRef",
+            "href": "https://mycsp.com:8080/tmf-api/productCatalogManagement/v4/category/6087",
+            "id": "6087",
+            "name": "Software as a Service",
+            "version": "2.0"
+        }
+    ],
+    "validFor": {
+        "endDateTime": "2024-03-25T00:00:00Z",
+        "startDateTime": "2020-08-29T00:00:00Z"
+    },
+    "version": "1.0"
+}
