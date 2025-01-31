@@ -9,6 +9,7 @@
     "Language": "Multi-Language",
     "Name": "IFSDocumentGeneration",
     "OmniProcessElement": [
+        "ifs_DocumentGeneration_Element_SetValues1.json",
         "ifs_DocumentGeneration_Element_GetDocumentTemplates.json",
         "ifs_DocumentGeneration_Element_SetValues.json",
         "ifs_DocumentGeneration_Element_Set-Generation-Options.json",
@@ -20,7 +21,7 @@
     "PropertySetConfig": "ifs_DocumentGeneration_PropertySetConfig.json",
     "SubType": "DocumentGeneration",
     "Type": "ifs",
-    "UniqueName": "ifs_DocumentGeneration_multiLanguage_3",
+    "UniqueName": "ifs_DocumentGeneration_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ifs/DocumentGeneration/Multi-Language"

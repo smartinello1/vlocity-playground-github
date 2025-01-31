@@ -1,5 +1,3 @@
 [
-    "DataRaptor/CPQUpdateOrderGroupAsyncOperation",
-    "DataRaptor/CPQUpdateQuoteGroupAsyncOperation",
-    "OmniScript/CPQ_BulkReplace_Multi-Language"
+    "IntegrationProcedure/CPQ_StartBulkReplace"
 ]

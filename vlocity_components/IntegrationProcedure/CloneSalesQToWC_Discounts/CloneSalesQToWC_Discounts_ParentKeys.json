@@ -1,10 +1,3 @@
 [
-    "DataRaptor/DivideQuantityForLineItem",
-    "DataRaptor/GetAllRootLineItemsByQuote",
-    "DataRaptor/GetQuoteGroupSizeFromCartItem",
-    "DataRaptor/GetQuoteLineItemIds",
-    "DataRaptor/GetRootItemIdsFromItem",
-    "DataRaptor/UpdateWorkingCartName",
-    "IntegrationProcedure/CloneSalesQLIs_ToGCartQLIs",
-    "OmniScript/CloneSalesQToWC_Discounts_Procedure"
+    "IntegrationProcedure/CloneSalesQLIs_ToGCartQLIs"
 ]

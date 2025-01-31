@@ -30,12 +30,12 @@
                     {
                         "condition": "=",
                         "data": "false",
-                        "field": "PreValidate:result:records|1:fields:isPONR"
+                        "field": "PreValidate:records|1:isPONR"
                     },
                     {
                         "condition": "<>",
                         "data": "ERROR",
-                        "field": "PreValidate:result:messages|1:severity"
+                        "field": "PreValidate:messages|1:severity"
                     }
                 ]
             }
@@ -45,7 +45,7 @@
         "targetId": "%ContextId%",
         "targetLWCLayout": "lightning",
         "targetType": "Web Page",
-        "targetUrl": "/lightning/app/c__Industries_CPQ/r/%CreateSupplementalOrder:result:records|1:fields:supplementalOrderId%/view",
+        "targetUrl": "/lightning/app/c__Industries_CPQ/r/%CreateSupplementalOrder:records|1:supplementalOrderId%/view",
         "validationRequired": "none",
         "variant": "brand",
         "wpm": false

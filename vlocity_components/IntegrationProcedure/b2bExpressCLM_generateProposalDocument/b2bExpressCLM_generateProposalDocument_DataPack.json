@@ -46,7 +46,7 @@
     "PropertySetConfig": "b2bExpressCLM_generateProposalDocument_PropertySetConfig.json",
     "SubType": "generateProposalDocument",
     "Type": "b2bExpressCLM",
-    "UniqueName": "b2bExpressCLM_generateProposalDocument_multiLanguage_2",
+    "UniqueName": "b2bExpressCLM_generateProposalDocument_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/b2bExpressCLM/generateProposalDocument/Multi-Language"

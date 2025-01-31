@@ -1,5 +1,4 @@
 [
-    "DataRaptor/ESMGetAssetRefIdbyQliId",
     "IntegrationProcedure/ESM_GetReplacedLineItemIds",
     "IntegrationProcedure/ESM_ValidateLineItems"
 ]

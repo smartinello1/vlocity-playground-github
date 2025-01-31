@@ -13,10 +13,10 @@ OverrideSettings:
         - vlocity_namespace__GlobalKey__c
 
 queries:
-    - VlocityDataPackType: DataRaptor
-      query: Select Id from %vlocity_namespace%__DRBundle__c
-    - VlocityDataPackType: OmniScript
-      query: Select Id from %vlocity_namespace%__OmniScript__c
+    # - VlocityDataPackType: DataRaptor
+    #   query: Select Id from %vlocity_namespace%__DRBundle__c
+    # - VlocityDataPackType: OmniScript
+    #   query: Select Id from %vlocity_namespace%__OmniScript__c
     - VlocityDataPackType: IntegrationProcedure
       query: Select Id from %vlocity_namespace%__OmniScript__c
     # - VlocityDataPackType: VlocityCard

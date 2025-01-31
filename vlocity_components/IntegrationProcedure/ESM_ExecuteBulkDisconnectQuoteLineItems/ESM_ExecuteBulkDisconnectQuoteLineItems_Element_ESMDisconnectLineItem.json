@@ -47,4 +47,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ESM/ExecuteBulkDisconnectQuoteLineItems/Procedure/ESMDisconnectLineItem"
+}SMDisconnectLineItem"
 }

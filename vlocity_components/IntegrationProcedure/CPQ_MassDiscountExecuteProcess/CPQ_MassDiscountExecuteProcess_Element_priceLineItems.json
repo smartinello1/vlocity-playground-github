@@ -13,7 +13,7 @@
         "additionalChainableResponse": {
         },
         "additionalInput": {
-            "pricingPlan": "DEFAULT_PRICING_PLAN"
+            "pricingPlan": "LINE_ITEM_PRICING_PLAN"
         },
         "additionalOutput": {
             "Failed": "=IF(ISBLANK(%priceLineItems:message%), false, true)",
@@ -23,7 +23,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": true,
+        "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },

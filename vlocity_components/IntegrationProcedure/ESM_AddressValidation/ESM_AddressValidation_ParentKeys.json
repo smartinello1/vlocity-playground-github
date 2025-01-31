@@ -1,6 +1,0 @@
-[
-    "DataRaptor/ESMGetOrderMemberAddresses",
-    "DataRaptor/ESMTransformAddressValidation",
-    "DataRaptor/ESMUpdateOrderMembersAddress",
-    "OmniScript/ESM_AddressValidation_Procedure"
-]

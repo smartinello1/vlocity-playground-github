@@ -12,9 +12,9 @@
         "actionMessage": "",
         "additionalInput": {
             "body": "Mass Discount for %additionalData:cartId% has completed successfully.",
-            "customNotificationTypeName": "MassDiscountNotifications",
+            "customNotificationTypeName": "MassDiscount",
             "targetID": "%additionalData:cartId%",
-            "title": "Mass Discount Successful",
+            "title": "Mass Discount",
             "userID": "%additionalData:userID%"
         },
         "additionalOutput": {
@@ -22,7 +22,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "disableChainable": false,
-        "executionConditionalFormula": "status <> \"Failed\"",
+        "executionConditionalFormula": "%cartRollup:Failed% == false",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {

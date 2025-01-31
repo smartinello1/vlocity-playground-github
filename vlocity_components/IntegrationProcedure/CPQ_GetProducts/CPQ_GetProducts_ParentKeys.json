@@ -1,5 +1,3 @@
 [
-    "DataRaptor/ProductQualifiedFilterTransformer",
-    "IntegrationProcedure/CPQ_GetProductsRemoteCall",
-    "OmniScript/CPQ_GetProducts_Procedure"
+    "IntegrationProcedure/CPQ_GetProductsRemoteCall"
 ]

@@ -1,4 +1,3 @@
 [
-    "DataRaptor/GetRecordTypeByObjectType",
-    "OmniScript/ESM_CreateEnterpriseOrder_Multi-Language"
+    "IntegrationProcedure/ESM_GetAccountDetails"
 ]

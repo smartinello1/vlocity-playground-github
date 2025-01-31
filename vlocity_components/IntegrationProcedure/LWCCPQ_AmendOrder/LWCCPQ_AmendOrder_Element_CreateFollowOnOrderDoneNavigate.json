@@ -40,7 +40,7 @@
         "targetId": "%ContextId%",
         "targetLWCLayout": "lightning",
         "targetType": "Web Page",
-        "targetUrl": "/lightning/app/c__Industries_CPQ/r/%CreateFollowOnOrder:result:records|1:fields:followOnOrderId%/view",
+        "targetUrl": "/lightning/app/c__Industries_CPQ/r/%CreateFollowOnOrder:records|1:followOnOrderId%/view",
         "validationRequired": "none",
         "variant": "brand",
         "wpm": false

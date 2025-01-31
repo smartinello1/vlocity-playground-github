@@ -1,9 +1,0 @@
-[
-    "DataRaptor/ESMCreateOrderGroup",
-    "DataRaptor/ESMGetAllRootLineItemsByOrder",
-    "DataRaptor/ESMGetOrderGroupDetailsWithRootItems",
-    "DataRaptor/ESMGetOrderGroupSize",
-    "DataRaptor/ESMUpdateOrderLineItemsQuantity",
-    "DataRaptor/ESMUpdateOrderMemberWithGroupId",
-    "OmniScript/ESM_CreateOrderGroupAssignMembers_Procedure"
-]

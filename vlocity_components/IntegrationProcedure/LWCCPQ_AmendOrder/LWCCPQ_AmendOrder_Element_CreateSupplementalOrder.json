@@ -59,12 +59,12 @@
                     {
                         "condition": "=",
                         "data": "false",
-                        "field": "PreValidate:result:records|1:fields:isPONR"
+                        "field": "PreValidate:records|1:isPONR"
                     },
                     {
                         "condition": "<>",
                         "data": "ERROR",
-                        "field": "PreValidate:result:messages|1:severity"
+                        "field": "PreValidate:messages|1:severity"
                     }
                 ]
             }
@@ -83,4 +83,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LWCCPQ/AmendOrder/Multi-Language/CreateSupplementalOrder"
+}eSupplementalOrder"
 }

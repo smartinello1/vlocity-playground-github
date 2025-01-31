@@ -18,7 +18,7 @@
     "PropertySetConfig": "CPQ_BulkQuoteToOrder_PropertySetConfig.json",
     "SubType": "BulkQuoteToOrder",
     "Type": "CPQ",
-    "UniqueName": "CPQ_BulkQuoteToOrder_multiLanguage_2",
+    "UniqueName": "CPQ_BulkQuoteToOrder_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/BulkQuoteToOrder/Multi-Language"

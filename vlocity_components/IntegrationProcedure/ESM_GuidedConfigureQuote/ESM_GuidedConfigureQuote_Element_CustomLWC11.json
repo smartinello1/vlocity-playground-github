@@ -38,10 +38,6 @@
             {
                 "name": "validate-location-step",
                 "source": "true"
-            },
-            {
-                "name": "config-data",
-                "source": "%configResponse:GuidedConfigurationResult%"
             }
         ],
         "disOnTplt": false,

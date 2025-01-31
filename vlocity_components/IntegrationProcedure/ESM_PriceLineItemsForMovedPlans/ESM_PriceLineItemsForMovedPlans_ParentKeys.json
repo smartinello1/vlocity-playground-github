@@ -1,6 +1,3 @@
 [
-    "DataRaptor/ESMGetAssetRefIdbyOliId",
-    "DataRaptor/ESMGetAssetRefIdbyQliId",
-    "IntegrationProcedure/ESM_GetMovedLineItemIds",
-    "OmniScript/ESM_PriceLineItemsForMovedPlans_Procedure"
+    "IntegrationProcedure/ESM_GetMovedLineItemIds"
 ]

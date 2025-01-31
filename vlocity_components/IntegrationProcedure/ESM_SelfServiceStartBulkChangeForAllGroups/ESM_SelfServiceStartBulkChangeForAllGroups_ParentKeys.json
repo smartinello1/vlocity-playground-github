@@ -1,4 +1,3 @@
 [
-    "IntegrationProcedure/ESM_SelfServiceStartBulkChange",
-    "OmniScript/ESM_SelfServiceStartBulkChangeForAllGroups_Procedure"
+    "IntegrationProcedure/ESM_SelfServiceStartBulkChange"
 ]

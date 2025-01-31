@@ -10,6 +10,7 @@
     "Name": "CPQ_MassDiscountExecuteProcess",
     "OmniProcessElement": [
         "CPQ_MassDiscountExecuteProcess_Element_priceLineItems.json",
+        "CPQ_MassDiscountExecuteProcess_Element_sendNotificationExecuteCompletedWithFailure.json",
         "CPQ_MassDiscountExecuteProcess_Element_ResponseAction.json"
     ],
     "OmniProcessKey": "CPQ_MassDiscountExecuteProcess",
@@ -17,7 +18,7 @@
     "PropertySetConfig": "CPQ_MassDiscountExecuteProcess_PropertySetConfig.json",
     "SubType": "MassDiscountExecuteProcess",
     "Type": "CPQ",
-    "UniqueName": "CPQ_MassDiscountExecuteProcess_Procedure_2",
+    "UniqueName": "CPQ_MassDiscountExecuteProcess_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/MassDiscountExecuteProcess/Procedure"

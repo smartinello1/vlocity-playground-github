@@ -1,10 +1,3 @@
 [
-    "DataRaptor/DivideQuantityForOrderItem",
-    "DataRaptor/GetAllRootLineItemsByOrder",
-    "DataRaptor/GetOrderGroupSizeFromCartItem",
-    "DataRaptor/GetOrderLineItemIds",
-    "DataRaptor/GetRootItemIdsFromOrderItem",
-    "DataRaptor/UpdateWorkingCartNameForOrder",
-    "IntegrationProcedure/CloneSalesOLIs_ToGCartOLIs",
-    "OmniScript/CloneSalesOToWC_Discounts_Procedure"
+    "IntegrationProcedure/CloneSalesOLIs_ToGCartOLIs"
 ]

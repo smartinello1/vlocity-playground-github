@@ -19,7 +19,7 @@
     "PropertySetConfig": "CPQ_ChangeToQuote_PropertySetConfig.json",
     "SubType": "ChangeToQuote",
     "Type": "CPQ",
-    "UniqueName": "CPQ_ChangeToQuote_multiLanguage_2",
+    "UniqueName": "CPQ_ChangeToQuote_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/ChangeToQuote/Multi-Language"

@@ -1,4 +1,3 @@
 [
-    "IntegrationProcedure/ESM_SendAppNotification",
-    "OmniScript/ESM_BulkDeleteMembers_Procedure"
+    "IntegrationProcedure/ESM_SendAppNotification"
 ]

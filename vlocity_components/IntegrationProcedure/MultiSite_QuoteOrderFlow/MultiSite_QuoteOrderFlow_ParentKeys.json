@@ -1,6 +1,4 @@
 [
-    "DataRaptor/MultiSiteExtractAccountId",
-    "DataRaptor/MultiSiteExtractPriceList",
-    "DataRaptor/MultiSiteTransformMasterQuoteOrderId",
-    "OmniScript/MultiSite_QuoteOrderFlow_Multi-Language"
+    "IntegrationProcedure/MultiSite_CreateMasterOrder",
+    "IntegrationProcedure/MultiSite_CreateMasterQuote"
 ]

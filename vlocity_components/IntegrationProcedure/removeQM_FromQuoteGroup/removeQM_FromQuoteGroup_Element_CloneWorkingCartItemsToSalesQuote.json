@@ -45,7 +45,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction3",
-        "remoteClass": "B2BCmexAppHandler",
+        "remoteClass": "%vlocity_namespace%.B2BCmexAppHandler",
         "remoteMethod": "cloneMembersFromWCToSC",
         "remoteOptions": {
         },

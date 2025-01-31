@@ -1,5 +1,3 @@
 [
-    "DataRaptor/cpqGetRecordType",
-    "IntegrationProcedure/CPQ_CreateQuote",
-    "OmniScript/CPQ_AssetViewerQuoteFlow_Multi-Language"
+    "IntegrationProcedure/CPQ_CreateQuote"
 ]

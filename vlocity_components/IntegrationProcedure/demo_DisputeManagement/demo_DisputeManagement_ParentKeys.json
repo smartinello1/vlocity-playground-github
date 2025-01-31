@@ -1,3 +1,6 @@
 [
-    "OmniScript/demo_DisputeManagement_Multi-Language"
+    "IntegrationProcedure/sfi_DisputeManagement",
+    "IntegrationProcedure/sfi_FetchDisputeIDByChargeID",
+    "IntegrationProcedure/sfi_GetCustomerDetails",
+    "IntegrationProcedure/sfi_GetInvoices"
 ]

@@ -1,25 +1,30 @@
 {
-    "CustomJavaScript": "ActivateFrameAgreement_Oppty_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": true,
+    "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
+    "IsOmniScriptEmbeddable": true,
     "IsTestProcedure": false,
     "IsWebCompEnabled": false,
-    "Language": "Procedure",
-    "Name": "Activate Frame Agreement",
+    "Language": "English",
+    "Name": "Activate Frame Agreement - Oppty",
     "OmniProcessElement": [
-        "ActivateFrameAgreement_Oppty_Element_UpdateModifiedDiscounts.json",
-        "ActivateFrameAgreement_Oppty_Element_TerminateDeactivatedDiscounts.json",
-        "ActivateFrameAgreement_Oppty_Element_ActivateSourceDiscounts.json"
+        "ActivateFrameAgreement_Oppty_Element_ExtractContractDetails.json",
+        "ActivateFrameAgreement_Oppty_Element_FrameAgreementInputs.json",
+        "ActivateFrameAgreement_Oppty_Element_ActivateFrameAgreementIP.json",
+        "ActivateFrameAgreement_Oppty_Element_HandleErrors.json",
+        "ActivateFrameAgreement_Oppty_Element_ErrorMessages.json",
+        "ActivateFrameAgreement_Oppty_Element_ValidationStep.json",
+        "ActivateFrameAgreement_Oppty_Element_noDiscountsFound.json",
+        "ActivateFrameAgreement_Oppty_Element_AdditionalMessage.json",
+        "ActivateFrameAgreement_Oppty_Element_ValidationMessage.json",
+        "ActivateFrameAgreement_Oppty_Element_DoneAction.json"
     ],
-    "OmniProcessKey": "ActivateFrameAgreement_Oppty",
-    "OmniProcessType": "Integration Procedure",
+    "OmniProcessType": "OmniScript",
     "PropertySetConfig": "ActivateFrameAgreement_Oppty_PropertySetConfig.json",
     "SubType": "Oppty",
     "Type": "ActivateFrameAgreement",
-    "UniqueName": "ActivateFrameAgreement_Oppty_Procedure_1",
+    "UniqueName": "ActivateFrameAgreement_Oppty_English_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Oppty/Procedure"
+    "VlocityRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Oppty/English"
 }

@@ -1,3 +1,5 @@
 [
-    "OmniScript/CPQ_cartConfigurator_Multi-Language"
+    "IntegrationProcedure/CPQ_CopyWorkingCartToOppt",
+    "IntegrationProcedure/CPQ_copyGroupCartToenterpriseOrder",
+    "IntegrationProcedure/CPQ_copyWorkingCartToEnterpriseQuote"
 ]

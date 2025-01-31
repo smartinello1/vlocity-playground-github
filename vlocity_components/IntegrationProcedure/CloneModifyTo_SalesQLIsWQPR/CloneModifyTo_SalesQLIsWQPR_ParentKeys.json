@@ -1,6 +1,4 @@
 [
-    "DataRaptor/GetQuoteLineItemIds",
     "IntegrationProcedure/AddQMQGToWC_CopyToEQ",
-    "IntegrationProcedure/AddQMQGToWC_CopyToEQBatch",
-    "OmniScript/CloneModifyTo_SalesQLIsWQPR_Procedure"
+    "IntegrationProcedure/AddQMQGToWC_CopyToEQBatch"
 ]

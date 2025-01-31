@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "WorkOrderEstimationGuidedFlow",
+        "Name": "Step1",
         "OmniProcessId": {
             "Name": "IFSWorkOrderEstimation",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/WorkOrderEstimation/Multi-Language/WorkOrderEstimationGuidedFlow",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/WorkOrderEstimation/Multi-Language/Step1",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "WorkOrderEstimationGuidedFlow",
+    "ParentElementName": "Step1",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",

@@ -1,6 +1,3 @@
 [
-    "DataRaptor/ESMInitDocumentTemplates",
-    "DataRaptor/GetQuoteDetailsDocGen",
-    "IntegrationProcedure/b2bExpress_TemplateConfigData",
-    "OmniScript/b2bExpressCLM_generateProposalDocument_Multi-Language"
+    "IntegrationProcedure/b2bExpress_TemplateConfigData"
 ]

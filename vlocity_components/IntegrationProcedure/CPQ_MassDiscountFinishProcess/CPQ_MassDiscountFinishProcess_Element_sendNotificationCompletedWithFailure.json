@@ -12,9 +12,9 @@
         "actionMessage": "",
         "additionalInput": {
             "body": "Mass Discount for %additionalData:cartId% has failed with error : %cartRollup:statusMessage%.",
-            "customNotificationTypeName": "MassDiscountNotifications",
+            "customNotificationTypeName": "MassDiscount",
             "targetID": "%additionalData:cartId%",
-            "title": "Mass Discount Failed",
+            "title": "Mass Discount",
             "userID": "%additionalData:userID%"
         },
         "additionalOutput": {
@@ -22,7 +22,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "disableChainable": false,
-        "executionConditionalFormula": "status == \"Failed\"",
+        "executionConditionalFormula": "%cartRollup:Failed% == true",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {

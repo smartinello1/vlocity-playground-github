@@ -1,7 +1,3 @@
 [
-    "DataRaptor/ExtractAllRootLineItemFromOppt",
-    "DataRaptor/GetWCOpptItemIds",
-    "DataRaptor/updateOpptLIsQuantity",
-    "IntegrationProcedure/CPQ_CreateWorkingCart",
-    "OmniScript/CPQ_CopyWorkingCartToOppt_Procedure"
+    "IntegrationProcedure/CPQ_CreateWorkingCart"
 ]

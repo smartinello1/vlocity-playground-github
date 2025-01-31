@@ -1,6 +1,0 @@
-[
-    "DataRaptor/ESMGetReplacedOrderLineItemIds",
-    "DataRaptor/ESMGetReplacedQuoteLineItemIds",
-    "DataRaptor/ESMSelfServiceTransformIdsToObjects",
-    "DataRaptor/ESMSelfServiceTransformToArray"
-]

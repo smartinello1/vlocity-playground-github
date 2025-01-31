@@ -35,7 +35,7 @@
     "PropertySetConfig": "CPQ_GetCatalogs_PropertySetConfig.json",
     "SubType": "GetCatalogs",
     "Type": "CPQ",
-    "UniqueName": "CPQ_GetCatalogs_Procedure_2",
+    "UniqueName": "CPQ_GetCatalogs_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/GetCatalogs/Procedure"

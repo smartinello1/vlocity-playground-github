@@ -62,7 +62,7 @@
     "PropertySetConfig": "CPQ_BulkChange_PropertySetConfig.json",
     "SubType": "BulkChange",
     "Type": "CPQ",
-    "UniqueName": "CPQ_BulkChange_multiLanguage_2",
+    "UniqueName": "CPQ_BulkChange_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/BulkChange/Multi-Language"

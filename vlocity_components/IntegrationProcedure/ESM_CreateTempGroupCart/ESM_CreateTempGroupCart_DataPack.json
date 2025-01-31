@@ -24,7 +24,7 @@
     "PropertySetConfig": "ESM_CreateTempGroupCart_PropertySetConfig.json",
     "SubType": "CreateTempGroupCart",
     "Type": "ESM",
-    "UniqueName": "ESM_CreateTempGroupCart_Procedure_2",
+    "UniqueName": "ESM_CreateTempGroupCart_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/CreateTempGroupCart/Procedure"

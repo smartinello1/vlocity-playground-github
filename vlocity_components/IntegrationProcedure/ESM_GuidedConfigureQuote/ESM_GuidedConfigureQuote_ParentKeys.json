@@ -1,4 +1,5 @@
 [
-    "DataRaptor/ESMGetCartDetails",
-    "OmniScript/ESM_GuidedConfigureQuote_Multi-Language"
+    "IntegrationProcedure/AddQMQGToWC_CopyToEQ",
+    "IntegrationProcedure/AddQMQGToWC_CopyToEQBatch",
+    "IntegrationProcedure/ESM_GuidedGetConfigData"
 ]

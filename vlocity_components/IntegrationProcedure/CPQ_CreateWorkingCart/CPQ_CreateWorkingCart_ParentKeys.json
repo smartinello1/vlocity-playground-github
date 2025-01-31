@@ -1,8 +1,0 @@
-[
-    "DataRaptor/GetOpportunityDetails",
-    "DataRaptor/GetOrderDetails",
-    "DataRaptor/GetOrderRecordTypeId",
-    "DataRaptor/GetQuoteDetails",
-    "DataRaptor/GetQuoteRecordTypeId",
-    "OmniScript/CPQ_CreateWorkingCart_Procedure"
-]

@@ -22,7 +22,7 @@
     "PropertySetConfig": "ESM_QuoteEnrichForInstallation_PropertySetConfig.json",
     "SubType": "QuoteEnrichForInstallation",
     "Type": "ESM",
-    "UniqueName": "ESM_QuoteEnrichForInstallation_English_2",
+    "UniqueName": "ESM_QuoteEnrichForInstallation_English_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/QuoteEnrichForInstallation/English"

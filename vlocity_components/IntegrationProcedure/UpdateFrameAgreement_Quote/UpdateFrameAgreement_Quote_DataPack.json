@@ -1,26 +1,30 @@
 {
+    "CustomJavaScript": "UpdateFrameAgreement_Quote_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": false,
+    "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": true,
+    "IsOmniScriptEmbeddable": false,
     "IsTestProcedure": false,
     "IsWebCompEnabled": false,
-    "Language": "English",
-    "Name": "Update Frame Agreement - Quote",
+    "Language": "Procedure",
+    "Name": "Update Frame Agreement",
     "OmniProcessElement": [
-        "UpdateFrameAgreement_Quote_Element_UpdateFrameAgreementIP.json",
-        "UpdateFrameAgreement_Quote_Element_HandleErrors.json",
-        "UpdateFrameAgreement_Quote_Element_ErrorCondition.json",
-        "UpdateFrameAgreement_Quote_Element_ErrorDetails.json",
-        "UpdateFrameAgreement_Quote_Element_DisplayException.json",
-        "UpdateFrameAgreement_Quote_Element_DoneAction.json"
+        "UpdateFrameAgreement_Quote_Element_SourceData.json",
+        "UpdateFrameAgreement_Quote_Element_SetValues.json",
+        "UpdateFrameAgreement_Quote_Element_UpdateQuoteDiscountDate.json",
+        "UpdateFrameAgreement_Quote_Element_UpdateFrameAgreementAndDiscounts.json",
+        "UpdateFrameAgreement_Quote_Element_RemoteActionInputMap.json",
+        "UpdateFrameAgreement_Quote_Element_CopyOldContractDocuments.json",
+        "UpdateFrameAgreement_Quote_Element_CalculateDiscountDates.json",
+        "UpdateFrameAgreement_Quote_Element_ResponseAction.json"
     ],
-    "OmniProcessType": "OmniScript",
+    "OmniProcessKey": "UpdateFrameAgreement_Quote",
+    "OmniProcessType": "Integration Procedure",
     "PropertySetConfig": "UpdateFrameAgreement_Quote_PropertySetConfig.json",
     "SubType": "Quote",
     "Type": "UpdateFrameAgreement",
-    "UniqueName": "UpdateFrameAgreement_Quote_English_1",
+    "UniqueName": "UpdateFrameAgreement_Quote_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Quote/English"
+    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Quote/Procedure"
 }

@@ -1,7 +1,3 @@
 [
-    "DataRaptor/ExtractAllRootLineItemFromOrder",
-    "DataRaptor/GetOrderWCProductIds",
-    "DataRaptor/updateOIsQuantity",
-    "IntegrationProcedure/CPQ_CreateWorkingCart",
-    "OmniScript/CPQ_copyGroupCartToenterpriseOrder_Procedure"
+    "IntegrationProcedure/CPQ_CreateWorkingCart"
 ]

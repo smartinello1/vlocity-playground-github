@@ -1,25 +1,26 @@
 {
-    "CustomJavaScript": "AmendFrameAgreement_Oppty_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": true,
+    "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
+    "IsOmniScriptEmbeddable": true,
     "IsTestProcedure": false,
     "IsWebCompEnabled": false,
-    "Language": "Procedure",
-    "Name": "Amend Frame Agreement",
+    "Language": "English",
+    "Name": "Amend Frame Agreement - Oppty",
     "OmniProcessElement": [
-        "AmendFrameAgreement_Oppty_Element_ExtractFrameAgreement.json",
-        "AmendFrameAgreement_Oppty_Element_CreateOppty.json",
-        "AmendFrameAgreement_Oppty_Element_ResponseAction.json"
+        "AmendFrameAgreement_Oppty_Element_AmendFrameAgreementIP.json",
+        "AmendFrameAgreement_Oppty_Element_HandleErrors.json",
+        "AmendFrameAgreement_Oppty_Element_ErrorCondition.json",
+        "AmendFrameAgreement_Oppty_Element_ErrorDetails.json",
+        "AmendFrameAgreement_Oppty_Element_DisplayException.json",
+        "AmendFrameAgreement_Oppty_Element_DoneAction.json"
     ],
-    "OmniProcessKey": "AmendFrameAgreement_Oppty",
-    "OmniProcessType": "Integration Procedure",
+    "OmniProcessType": "OmniScript",
     "PropertySetConfig": "AmendFrameAgreement_Oppty_PropertySetConfig.json",
     "SubType": "Oppty",
     "Type": "AmendFrameAgreement",
-    "UniqueName": "AmendFrameAgreement_Oppty_Procedure_1",
+    "UniqueName": "AmendFrameAgreement_Oppty_English_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/AmendFrameAgreement/Oppty/Procedure"
+    "VlocityRecordSourceKey": "OmniProcess/AmendFrameAgreement/Oppty/English"
 }

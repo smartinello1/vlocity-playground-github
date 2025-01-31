@@ -1,5 +1,3 @@
 [
-    "DataRaptor/cpqGetRecordType",
-    "IntegrationProcedure/CPQ_CreateOrder",
-    "OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language"
+    "IntegrationProcedure/CPQ_CreateOrder"
 ]

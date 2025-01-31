@@ -13,9 +13,13 @@
         "controlWidth": 12,
         "elementValueMap": {
             "attachFileFormat": "Microsoft Word",
+            "docGenerationMechanism": "ClientSide",
             "documentGenerationFontSource": "Rich Text Editor Font",
             "documentTitle": "QuoteProposal",
+            "documentViewer": "PDF",
             "downloadFileFormat": "PDF",
+            "insertSpaceforRepeatingContentTokens": "Yes",
+            "pdfGenerationSource": "ClientSide",
             "useTemplateDRExtract": "Yes"
         },
         "label": "",

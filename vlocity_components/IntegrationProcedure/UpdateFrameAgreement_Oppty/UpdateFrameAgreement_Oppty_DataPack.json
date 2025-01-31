@@ -1,26 +1,30 @@
 {
+    "CustomJavaScript": "UpdateFrameAgreement_Oppty_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": false,
+    "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": true,
+    "IsOmniScriptEmbeddable": false,
     "IsTestProcedure": false,
     "IsWebCompEnabled": false,
-    "Language": "English",
-    "Name": "Update Frame Agreement - Oppty",
+    "Language": "Procedure",
+    "Name": "Update Frame Agreement",
     "OmniProcessElement": [
-        "UpdateFrameAgreement_Oppty_Element_UpdateFrameAgreementIP.json",
-        "UpdateFrameAgreement_Oppty_Element_HandleErrors.json",
-        "UpdateFrameAgreement_Oppty_Element_ErrorCondition.json",
-        "UpdateFrameAgreement_Oppty_Element_ErrorDetails.json",
-        "UpdateFrameAgreement_Oppty_Element_DisplayException.json",
-        "UpdateFrameAgreement_Oppty_Element_DoneAction.json"
+        "UpdateFrameAgreement_Oppty_Element_SourceData.json",
+        "UpdateFrameAgreement_Oppty_Element_SetValues.json",
+        "UpdateFrameAgreement_Oppty_Element_UpdateOpptyDiscountDate.json",
+        "UpdateFrameAgreement_Oppty_Element_UpdateFrameAgreementAndDiscounts.json",
+        "UpdateFrameAgreement_Oppty_Element_RemoteActionInputMap.json",
+        "UpdateFrameAgreement_Oppty_Element_CopyOldContractDocuments.json",
+        "UpdateFrameAgreement_Oppty_Element_CalculateDiscountDates.json",
+        "UpdateFrameAgreement_Oppty_Element_ResponseAction.json"
     ],
-    "OmniProcessType": "OmniScript",
+    "OmniProcessKey": "UpdateFrameAgreement_Oppty",
+    "OmniProcessType": "Integration Procedure",
     "PropertySetConfig": "UpdateFrameAgreement_Oppty_PropertySetConfig.json",
     "SubType": "Oppty",
     "Type": "UpdateFrameAgreement",
-    "UniqueName": "UpdateFrameAgreement_Oppty_English_1",
+    "UniqueName": "UpdateFrameAgreement_Oppty_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Oppty/English"
+    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Oppty/Procedure"
 }

@@ -1,6 +1,0 @@
-[
-    "DataRaptor/GetQuoteMemberAddresses",
-    "DataRaptor/PayloadForAddressValidation",
-    "DataRaptor/QuoteMembersAddressUpdate",
-    "OmniScript/ESM_checkAddressValidation_Procedure"
-]

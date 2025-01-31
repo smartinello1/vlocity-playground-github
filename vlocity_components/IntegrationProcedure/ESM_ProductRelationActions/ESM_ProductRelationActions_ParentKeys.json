@@ -1,6 +1,5 @@
 [
     "IntegrationProcedure/ESM_CreateQuoteMembersFromAssets",
     "IntegrationProcedure/ESM_DisconnectLineItems",
-    "IntegrationProcedure/ESM_LinkProducts",
-    "OmniScript/ESM_ProductRelationActions_Procedure"
+    "IntegrationProcedure/ESM_LinkProducts"
 ]

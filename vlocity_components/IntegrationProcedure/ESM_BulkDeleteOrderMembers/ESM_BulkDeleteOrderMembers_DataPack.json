@@ -31,7 +31,7 @@
     "PropertySetConfig": "ESM_BulkDeleteOrderMembers_PropertySetConfig.json",
     "SubType": "BulkDeleteOrderMembers",
     "Type": "ESM",
-    "UniqueName": "ESM_BulkDeleteOrderMembers_Procedure_2",
+    "UniqueName": "ESM_BulkDeleteOrderMembers_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/BulkDeleteOrderMembers/Procedure"

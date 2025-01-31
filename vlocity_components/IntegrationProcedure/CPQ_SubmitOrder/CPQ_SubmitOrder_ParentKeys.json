@@ -1,4 +1,3 @@
 [
-    "DataRaptor/CPQExtractAccountIDFromCart",
-    "OmniScript/CPQ_SubmitOrder_Multi-Language"
+    "IntegrationProcedure/CPQ_LockGroupsAndMembers"
 ]

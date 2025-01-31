@@ -1,6 +1,4 @@
 [
     "IntegrationProcedure/sfi_FetchDisputeIDByChargeID",
-    "IntegrationProcedure/sfi_GetCustomerDetails",
-    "OmniScript/sfi_DisputeManagement_Multi-Language",
-    "OmniScript/sfi_DisputeManagement_Procedure"
+    "IntegrationProcedure/sfi_GetCustomerDetails"
 ]

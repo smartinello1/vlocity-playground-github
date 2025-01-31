@@ -19,7 +19,7 @@
     "PropertySetConfig": "CPQ_SplitAndSubmitOrder_PropertySetConfig.json",
     "SubType": "SplitAndSubmitOrder",
     "Type": "CPQ",
-    "UniqueName": "CPQ_SplitAndSubmitOrder_English_2",
+    "UniqueName": "CPQ_SplitAndSubmitOrder_English_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/SplitAndSubmitOrder/English"

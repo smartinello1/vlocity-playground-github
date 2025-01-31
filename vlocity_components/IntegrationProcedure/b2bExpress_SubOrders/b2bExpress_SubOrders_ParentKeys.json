@@ -1,4 +1,3 @@
 [
-    "IntegrationProcedure/b2bExpress_UpdateQtyPrice",
-    "OmniScript/b2bExpress_SubOrders_Procedure"
+    "IntegrationProcedure/b2bExpress_UpdateQtyPrice"
 ]

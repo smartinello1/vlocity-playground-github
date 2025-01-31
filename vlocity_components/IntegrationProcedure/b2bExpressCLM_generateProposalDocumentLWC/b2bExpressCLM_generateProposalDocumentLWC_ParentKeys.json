@@ -1,4 +1,3 @@
 [
-    "DataRaptor/GetQuoteDetailsDocGen",
-    "OmniScript/b2bExpressCLM_generateProposalDocumentLWC_Multi-Language"
+    "IntegrationProcedure/b2bExpress_TemplateConfigData"
 ]

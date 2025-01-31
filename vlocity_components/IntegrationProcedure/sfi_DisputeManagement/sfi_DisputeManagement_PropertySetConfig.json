@@ -1,109 +1,31 @@
 {
-    "allowCancel": true,
-    "allowSaveForLater": false,
-    "autoFocus": false,
-    "autoSaveOnStepNext": false,
-    "bLK": false,
-    "cancelRedirectPageName": "OmniScriptCancelled",
-    "cancelRedirectTemplateUrl": "vlcCancelled.html",
-    "cancelSource": "%ContextId%",
-    "cancelType": "SObject",
-    "consoleTabIcon": "custom:custom18",
-    "consoleTabLabel": "$standardLabel.DisputeManagement.New",
-    "consoleTabTitle": null,
-    "currencyCode": "",
-    "currentLanguage": "en_US",
-    "disableUnloadWarn": true,
-    "elementTypeToHTMLTemplateMapping": {
+    "additionalChainableResponse": {
     },
-    "enableKnowledge": false,
-    "errorMessage": {
-        "custom": [
-        ]
-    },
-    "hideStepChart": false,
-    "knowledgeArticleTypeQueryFieldsMap": {
-    },
-    "lkObjName": null,
-    "mergeSavedData": false,
-    "message": {
-        "selectedCharges": "%selectedCharges%"
-    },
-    "persistentComponent": [
-        {
-            "id": "vlcCart",
-            "itemsKey": "cartItems",
-            "label": "",
-            "modalConfigurationSetting": {
-                "modalController": "ModalProductCtrl",
-                "modalHTMLTemplateId": "vlcProductConfig.html",
-                "modalSize": "lg"
-            },
-            "postTransformBundle": "",
-            "preTransformBundle": "",
-            "remoteClass": "",
-            "remoteMethod": "",
-            "remoteOptions": {
-                "postTransformBundle": "",
-                "preTransformBundle": ""
-            },
-            "remoteTimeout": 30000,
-            "render": false,
-            "responseJSONNode": "",
-            "responseJSONPath": "",
-            "sendJSONNode": "",
-            "sendJSONPath": ""
-        },
-        {
-            "dispOutsideOmni": false,
-            "id": "vlcKnowledge",
-            "itemsKey": "knowledgeItems",
-            "label": "",
-            "modalConfigurationSetting": {
-                "modalController": "",
-                "modalHTMLTemplateId": "",
-                "modalSize": "lg"
-            },
-            "postTransformBundle": "",
-            "preTransformBundle": "",
-            "remoteClass": "",
-            "remoteMethod": "",
-            "remoteOptions": {
-                "postTransformBundle": "",
-                "preTransformBundle": ""
-            },
-            "remoteTimeout": 30000,
-            "render": false
-        }
+    "chainableActualTimeLimit": null,
+    "chainableCpuLimit": 2000,
+    "chainableDMLRowsLimit": null,
+    "chainableDMLStatementsLimit": null,
+    "chainableHeapSizeLimit": null,
+    "chainableQueriesLimit": 50,
+    "chainableQueryRowsLimit": null,
+    "chainableSoslQueriesLimit": null,
+    "columnsPropertyMap": [
     ],
-    "persistentComponent|0:label": null,
-    "persistentComponent|1:label": null,
-    "pubsub": false,
-    "rtpSeed": false,
-    "saveContentEncoded": false,
-    "saveExpireInDays": null,
-    "saveForLaterRedirectPageName": "sflRedirect",
-    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
-    "saveNameTemplate": null,
-    "saveObjectId": "%ContextId%",
-    "saveURLPatterns": {
+    "description": "",
+    "includeAllActionsInResponse": false,
+    "labelPlural": "",
+    "labelSingular": "",
+    "linkToExternalObject": "",
+    "mockResponseMap": {
     },
-    "scrollBehavior": "smooth",
-    "seedDataJSON": {
-    },
-    "showInputWidth": false,
-    "ssm": false,
-    "stepChartPlacement": "left",
-    "stylesheet": {
-        "lightning": "",
-        "lightningRtl": "",
-        "newport": "",
-        "newportRtl": ""
-    },
-    "timeTracking": false,
+    "nameColumn": "",
+    "queueableChainableCpuLimit": 40000,
+    "queueableChainableHeapSizeLimit": 6,
+    "queueableChainableQueriesLimit": 120,
+    "relationshipFieldsMap": [
+    ],
+    "rollbackOnError": false,
     "trackingCustomData": {
     },
-    "visualforcePagesAvailableInPreview": {
-    },
-    "wpm": false
+    "ttlMinutes": 5
 }

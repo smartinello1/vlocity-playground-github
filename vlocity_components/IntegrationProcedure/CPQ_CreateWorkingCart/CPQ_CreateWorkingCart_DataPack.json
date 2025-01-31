@@ -31,7 +31,7 @@
     "PropertySetConfig": "CPQ_CreateWorkingCart_PropertySetConfig.json",
     "SubType": "CreateWorkingCart",
     "Type": "CPQ",
-    "UniqueName": "CPQ_CreateWorkingCart_Procedure_6",
+    "UniqueName": "CPQ_CreateWorkingCart_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/CreateWorkingCart/Procedure"
