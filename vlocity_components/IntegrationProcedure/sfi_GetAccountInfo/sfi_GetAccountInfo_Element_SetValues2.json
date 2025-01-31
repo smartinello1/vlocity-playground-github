@@ -13,6 +13,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
+            "acc": "acc"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
