@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "tmf_TMForumCreateTroubleTicket_SampleInput.json",
+    "Description": "v244.0 This VIP contains the POST Implementation for TMF621 TroubleTicket",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumCreateTroubleTicket",
+    "OmniProcessElement": [
+        "tmf_TMForumCreateTroubleTicket_Element_TroubleTicketRequestDRT.json",
+        "tmf_TMForumCreateTroubleTicket_Element_PostTroubleTicket.json",
+        "tmf_TMForumCreateTroubleTicket_Element_TroubleTicketResponseDRT.json",
+        "tmf_TMForumCreateTroubleTicket_Element_TroubleTicketResponse.json",
+        "tmf_TMForumCreateTroubleTicket_Element_TroubleTicketFailureResponse.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumCreateTroubleTicket",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumCreateTroubleTicket_PropertySetConfig.json",
+    "SubType": "TMForumCreateTroubleTicket",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumCreateTroubleTicket_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumCreateTroubleTicket/Procedure"
+}

@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "tmf_TMForumDeleteCategory_SampleInput.json",
+    "Description": "v246.0 - IP contains the Delete Implementation for TMF620 Category",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumDeleteCategory",
+    "OmniProcessElement": [
+        "tmf_TMForumDeleteCategory_Element_DeleteCategoryRequestRA.json",
+        "tmf_TMForumDeleteCategory_Element_DeleteCategorySuccessResponse.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumDeleteCategory",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumDeleteCategory_PropertySetConfig.json",
+    "SubType": "TMForumDeleteCategory",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumDeleteCategory_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumDeleteCategory/Procedure"
+}

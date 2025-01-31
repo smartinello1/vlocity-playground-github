@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceCreateLineItemsFinishProcess_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceCreateLineItemsFinishProcess",
+    "OmniProcessElement": [
+        "ESM_SelfServiceCreateLineItemsFinishProcess_Procedure_Element_SetExecuteNextStep.json",
+        "ESM_SelfServiceCreateLineItemsFinishProcess_Procedure_Element_responseAction.json"
+    ],
+    "OmniProcessKey": "ESM_SelfServiceCreateLineItemsFinishProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceCreateLineItemsFinishProcess_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceCreateLineItemsFinishProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceCreateLineItemsFinishProcess_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceCreateLineItemsFinishProcess/Procedure"
+}

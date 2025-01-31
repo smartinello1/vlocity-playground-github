@@ -1,0 +1,5 @@
+[
+    "DataRaptor/ESMExtractPriceBookIdFromProductID",
+    "DataRaptor/GetRecordTypeId",
+    "IntegrationProcedure/ESM_CreateTempGroupCart"
+]

@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ESMInitDocumentTemplates",
+    "DataRaptor/GetQuoteDetailsDocGen",
+    "IntegrationProcedure/b2bExpressCLM_generateProposalDocument",
+    "IntegrationProcedure/b2bExpress_TemplateConfigData"
+]

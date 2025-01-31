@@ -1,0 +1,6 @@
+[
+    "DataRaptor/GetContractAndLineItem",
+    "DataRaptor/UpdateContract",
+    "DataRaptor/UpdateContractAndLine",
+    "IntegrationProcedure/Contract_Renew"
+]

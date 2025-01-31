@@ -1,0 +1,7 @@
+[
+    "DataRaptor/CPQGetRootOpportunityItems",
+    "DataRaptor/CPQGetRootOrderItems",
+    "DataRaptor/CPQGetRootQuoteLineItems",
+    "IntegrationProcedure/CPQ_MassDiscountStartProcess",
+    "IntegrationProcedure/CPQ_SendAppNotification"
+]

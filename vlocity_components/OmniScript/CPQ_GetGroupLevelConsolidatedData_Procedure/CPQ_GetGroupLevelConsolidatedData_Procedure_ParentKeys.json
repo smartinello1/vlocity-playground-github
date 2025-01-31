@@ -1,0 +1,5 @@
+[
+    "DataRaptor/ConsolidateRawProductData",
+    "IntegrationProcedure/CPQ_GetAssetsFromGroupCart",
+    "IntegrationProcedure/CPQ_GetGroupLevelConsolidatedData"
+]

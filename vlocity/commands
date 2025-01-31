@@ -1,0 +1,5 @@
+// EXPORT
+vlocity packExport -sfdx.username simone.martinello@subbyx.com.uat -job export.yaml
+
+// DEPLOY
+vlocity packDeploy -sfdx.username simone.martinello@subbyx.com.uat -job export.yaml

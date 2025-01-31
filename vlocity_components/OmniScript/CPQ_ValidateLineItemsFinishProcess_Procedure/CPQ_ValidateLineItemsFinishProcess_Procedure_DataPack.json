@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "CPQ_ValidateLineItemsFinishProcess_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Validate Line Items Finish Process",
+    "OmniProcessElement": [
+        "CPQ_ValidateLineItemsFinishProcess_Procedure_Element_SendAppNotification.json",
+        "CPQ_ValidateLineItemsFinishProcess_Procedure_Element_SendAppNotificationWithMessage.json"
+    ],
+    "OmniProcessKey": "CPQ_ValidateLineItemsFinishProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_ValidateLineItemsFinishProcess_Procedure_PropertySetConfig.json",
+    "SubType": "ValidateLineItemsFinishProcess",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_ValidateLineItemsFinishProcess_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/ValidateLineItemsFinishProcess/Procedure"
+}

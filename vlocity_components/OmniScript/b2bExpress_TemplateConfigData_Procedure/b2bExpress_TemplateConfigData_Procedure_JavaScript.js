@@ -1,0 +1,1 @@
+{"AggregationLevel":"Member","TemplateCategory":"Proposal","TemplateSubtype":"Summary","TemplateType":"Microsoft Word .DOCX Template"}

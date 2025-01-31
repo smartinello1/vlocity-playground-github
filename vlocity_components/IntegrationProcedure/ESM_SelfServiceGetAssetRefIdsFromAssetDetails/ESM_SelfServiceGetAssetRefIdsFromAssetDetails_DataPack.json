@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceGetAssetRefIdsFromAssetDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceGetAssetRefIdsFromAssetDetails",
+    "OmniProcessElement": [
+        "ESM_SelfServiceGetAssetRefIdsFromAssetDetails_Element_GetAssetRefIdsFromAssetDetails.json",
+        "ESM_SelfServiceGetAssetRefIdsFromAssetDetails_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_SelfServiceGetAssetRefIdsFromAssetDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceGetAssetRefIdsFromAssetDetails_PropertySetConfig.json",
+    "SubType": "SelfServiceGetAssetRefIdsFromAssetDetails",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceGetAssetRefIdsFromAssetDetails_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceGetAssetRefIdsFromAssetDetails/Procedure"
+}

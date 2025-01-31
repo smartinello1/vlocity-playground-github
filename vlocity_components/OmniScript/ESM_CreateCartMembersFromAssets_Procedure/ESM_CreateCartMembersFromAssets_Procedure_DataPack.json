@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_CreateCartMembersFromAssets_Procedure_JavaScript.js",
+    "Description": "This IP is used to create order members for given Ids.  It internally fetches related service accounts and create order members from accounts.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CreateCartMembersFromAssets",
+    "OmniProcessElement": [
+        "ESM_CreateCartMembersFromAssets_Procedure_Element_createCartMembers.json",
+        "ESM_CreateCartMembersFromAssets_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_CreateCartMembersFromAssets",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_CreateCartMembersFromAssets_Procedure_PropertySetConfig.json",
+    "SubType": "CreateCartMembersFromAssets",
+    "Type": "ESM",
+    "UniqueName": "ESM_CreateCartMembersFromAssets_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/CreateCartMembersFromAssets/Procedure"
+}

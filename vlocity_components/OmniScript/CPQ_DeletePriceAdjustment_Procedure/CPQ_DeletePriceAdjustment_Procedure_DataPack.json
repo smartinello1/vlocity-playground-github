@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "CPQ_DeletePriceAdjustment_Procedure_JavaScript.js",
+    "Description": "This Integration Procedure deletes specified price adjustment for an item in a cart and returns remaining price adjustments.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CPQDeletePriceAdjustmentIP",
+    "OmniProcessElement": "CPQ_DeletePriceAdjustment_Procedure_Element_DeleteAdjustmentRA.json",
+    "OmniProcessKey": "CPQ_DeletePriceAdjustment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_DeletePriceAdjustment_Procedure_PropertySetConfig.json",
+    "SubType": "DeletePriceAdjustment",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_DeletePriceAdjustment_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/DeletePriceAdjustment/Procedure"
+}

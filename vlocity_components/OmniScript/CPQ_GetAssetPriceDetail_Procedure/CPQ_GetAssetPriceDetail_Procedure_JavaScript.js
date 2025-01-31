@@ -1,0 +1,1 @@
+{"accountId":"001xx000003GYiCAAW","effectiveAssetsDateFilter":"2024-06-09T15:32:09.971Z","id":"02ixx0000004HOAAA2","priceDetail":true,"priceDetailsFields":"%vlocity_namespace%__OneTimeCharge__c"}

@@ -1,0 +1,5 @@
+[
+    "DataRaptor/cpqGetRecordType",
+    "IntegrationProcedure/ESM_AssetViewerQuoteFlow",
+    "IntegrationProcedure/ESM_CreateQuote"
+]

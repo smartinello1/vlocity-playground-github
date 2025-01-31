@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "clm_DeleteAllContracts_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CLM - Delete All Contracts",
+    "OmniProcessElement": [
+        "clm_DeleteAllContracts_Procedure_Element_SubContractsToDelete.json",
+        "clm_DeleteAllContracts_Procedure_Element_DeleteContracts.json"
+    ],
+    "OmniProcessKey": "clm_DeleteAllContracts",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "clm_DeleteAllContracts_Procedure_PropertySetConfig.json",
+    "SubType": "DeleteAllContracts",
+    "Type": "clm",
+    "UniqueName": "clm_DeleteAllContracts_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/clm/DeleteAllContracts/Procedure"
+}

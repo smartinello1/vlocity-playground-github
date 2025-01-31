@@ -1,0 +1,14 @@
+.cloudicon{
+    --sds-c-icon-color-foreground-default:rgba(1, 118, 211, 1);
+}
+
+.quickTasks{
+
+text-align: left;
+color: rgba(11, 92, 171, 1);
+
+}
+
+.slds-box{
+    border: none;
+}

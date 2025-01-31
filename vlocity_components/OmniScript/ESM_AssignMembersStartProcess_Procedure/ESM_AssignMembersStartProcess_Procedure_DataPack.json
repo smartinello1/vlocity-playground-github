@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_AssignMembersStartProcess_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_AssignMembersStartProcess",
+    "OmniProcessElement": [
+        "ESM_AssignMembersStartProcess_Procedure_Element_SetValues1.json",
+        "ESM_AssignMembersStartProcess_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_AssignMembersStartProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_AssignMembersStartProcess_Procedure_PropertySetConfig.json",
+    "SubType": "AssignMembersStartProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_AssignMembersStartProcess_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/AssignMembersStartProcess/Procedure"
+}

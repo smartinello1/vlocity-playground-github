@@ -1,0 +1,48 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateNewSiteResponseAction",
+    "OmniProcessId": {
+        "Name": "CPQCreateNewSite",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CPQ/CreateNewSite/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "AccountId": "0016100001BKL4uAAH",
+        "Contacts": [
+            {
+                "Name": {
+                    "First": "John",
+                    "Last": "Doe"
+                }
+            },
+            {
+                "Name": {
+                    "First": "June",
+                    "Last": "Doe"
+                }
+            }
+        ],
+        "additionalOutput": {
+            "response": "%CreateNewSiteRemoteAction%"
+        },
+        "executionConditionalFormula": "",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CPQ/CreateNewSite/Procedure/CreateNewSiteResponseAction"
+}

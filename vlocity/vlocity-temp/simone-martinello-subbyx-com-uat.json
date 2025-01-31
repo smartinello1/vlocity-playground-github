@@ -1,0 +1,11 @@
+{
+    "username": "simone.martinello@subbyx.com.uat",
+    "id": "00DMB0000009dF32AI",
+    "connectedStatus": "Connected",
+    "accessToken": "00DMB0000009dF3!AQEAQCWEQ1aXDFxJ0ToQmW6ITBw9Ehb2SZ4cf5zE4LE8s0cUB8Ip_mKtedlQdSS6QjXF8ncdCmZreQbTgtZQzucX1fMePsAi",
+    "instanceUrl": "https://ruby-agility-992--uat.sandbox.my.salesforce.com",
+    "clientId": "PlatformCLI",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861Ap6dVYwaMsyP9csVyt8NBsAXR7BHRHVu9K0q8j6UdmLKl7JqOAJ9YUzIHGrgVFjyNjAwuEM9ok0THcza@ruby-agility-992--uat.sandbox.my.salesforce.com",
+    "alias": "UATDEV",
+    "vbtSfdxUsername": "simone.martinello@subbyx.com.uat"
+}

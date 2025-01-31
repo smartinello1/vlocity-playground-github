@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "{\n    \"additionalData\" {\n        \"rootIds\": [\n            \"dd23b32f-bfb7-463d-5122-374478de998b\",\n            \"744670b6-c276-61ed-c9fe-009018fef54e\"\n        ]\n    }\n}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "resetItemsToProcessListForBulkUpdateAttributes",
+    "OmniProcessElement": "ESM_resetItemsToProcessListForBulkUpdateAttributes_Element_ResponseAction1.json",
+    "OmniProcessKey": "ESM_resetItemsToProcessListForBulkUpdateAttributes",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_resetItemsToProcessListForBulkUpdateAttributes_PropertySetConfig.json",
+    "SubType": "resetItemsToProcessListForBulkUpdateAttributes",
+    "Type": "ESM",
+    "UniqueName": "ESM_resetItemsToProcessListForBulkUpdateAttributes_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/resetItemsToProcessListForBulkUpdateAttributes/Procedure"
+}

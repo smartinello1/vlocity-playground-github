@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ESM_StartBulkReplace_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_StartBulkReplace",
+    "OmniProcessElement": [
+        "ESM_StartBulkReplace_Procedure_Element_SetUserId.json",
+        "ESM_StartBulkReplace_Procedure_Element_StartAsyncJob.json",
+        "ESM_StartBulkReplace_Procedure_Element_sendNotificationStarted.json",
+        "ESM_StartBulkReplace_Procedure_Element_sendNotificationFailedToStart.json",
+        "ESM_StartBulkReplace_Procedure_Element_Response.json"
+    ],
+    "OmniProcessKey": "ESM_StartBulkReplace",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_StartBulkReplace_Procedure_PropertySetConfig.json",
+    "SubType": "StartBulkReplace",
+    "Type": "ESM",
+    "UniqueName": "ESM_StartBulkReplace_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/StartBulkReplace/Procedure"
+}

@@ -1,0 +1,5 @@
+[
+    "DataRaptor/GetQuoteMemberAddresses",
+    "DataRaptor/PreparePayloadForServiceQualificationItem",
+    "IntegrationProcedure/ESM_checkServiceQualification"
+]

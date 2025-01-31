@@ -1,0 +1,30 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "QuoteEnrichForPayment",
+    "OmniProcessElement": [
+        "ESM_QuoteEnrichForPayment_Element_CANCEL.json",
+        "ESM_QuoteEnrichForPayment_Element_AccountRecordType.json",
+        "ESM_QuoteEnrichForPayment_Element_GetRecordTypeForBillingAccount.json",
+        "ESM_QuoteEnrichForPayment_Element_UserInput.json",
+        "ESM_QuoteEnrichForPayment_Element_BillingAccount.json",
+        "ESM_QuoteEnrichForPayment_Element_UpdateCartItems.json",
+        "ESM_QuoteEnrichForPayment_Element_UpdateCartItemsBatch.json",
+        "ESM_QuoteEnrichForPayment_Element_Success.json",
+        "ESM_QuoteEnrichForPayment_Element_NavigateToESM.json",
+        "ESM_QuoteEnrichForPayment_Element_Batch-Success-Message.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ESM_QuoteEnrichForPayment_PropertySetConfig.json",
+    "SubType": "QuoteEnrichForPayment",
+    "Type": "ESM",
+    "UniqueName": "ESM_QuoteEnrichForPayment_English_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/QuoteEnrichForPayment/English"
+}

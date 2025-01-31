@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "GPTErrorResponse",
+    "OmniProcessId": {
+        "Name": "SFIPaymentAndBalanceAnalysis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/PaymentAndBalanceAnalysis/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "ErrorMessage": "%SendRequestToEinsteinGPT:ErrorMessage%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "%SendRequestToEinsteinGPT:ErrorMessage% && %SendRequestToEinsteinGPT:ErrorMessage% != ''",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/PaymentAndBalanceAnalysis/Procedure/GPTErrorResponse"
+}

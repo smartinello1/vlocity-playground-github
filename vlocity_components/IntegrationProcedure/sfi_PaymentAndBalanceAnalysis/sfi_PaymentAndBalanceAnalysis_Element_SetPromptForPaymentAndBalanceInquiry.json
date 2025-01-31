@@ -1,0 +1,30 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetPromptForPaymentAndBalanceInquiry",
+    "OmniProcessId": {
+        "Name": "SFIPaymentAndBalanceAnalysis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/PaymentAndBalanceAnalysis/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Prompt": "You are an experienced customer support agent. You will be provided with data of bills. It is your job to analyze bill balance. If a payment may have been missed or made partial, you will explain and correlate payments and charges. Maintain a global running balance for all transactions. Running balance is calculated as the difference between Amount Due and the Applied Payment plus the running balance of the previous bill. Give response in a html table format. Each row will correspond to a single payment. Table columns will be 'Invoice Number', 'Total Amount Due', 'Payment due date', 'Payment Amount', 'Payment Status' and 'Running Balance'."
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/PaymentAndBalanceAnalysis/Procedure/SetPromptForPaymentAndBalanceInquiry"
+}

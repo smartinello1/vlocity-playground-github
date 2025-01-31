@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CPQSupportCatalogsForTypeaheadDR",
+    "DataRaptor/GetCatalogsFromPriceList",
+    "IntegrationProcedure/CPQ_GetCatalogsByQuery",
+    "OmniScript/CPQ_GetCatalogs_Procedure"
+]

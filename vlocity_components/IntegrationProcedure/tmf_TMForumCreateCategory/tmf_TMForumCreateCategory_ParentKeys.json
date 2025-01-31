@@ -1,0 +1,5 @@
+[
+    "DataRaptor/TMFTMForumCategoryRequestTransform",
+    "DataRaptor/TMFTMForumCategoryResponseTransform",
+    "IntegrationProcedure/tmf_TMForumCreateCatalog"
+]

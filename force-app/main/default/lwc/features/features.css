@@ -1,0 +1,39 @@
+/* .app-card-container{
+    width: 1100px;
+height: auto;
+flex-shrink: 0;
+border-radius: 24px;
+background: #FAF8FF;
+display: inline-flex;
+} */
+
+/* .app-card-div{
+    display: -webkit-inline-box;
+width: auto;
+height: 61px;
+padding: 6px 18px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #FFF;
+margin: 18px 5px 5px 18px
+} */
+
+/* .app-card-div:hover {
+    background: #e1e1e1;
+    border: 1px solid #d0d0d0;
+ }
+
+.app-div{
+    color: #000;
+    font-family: "Arial, Helvetica, sans-serif;";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.534%; /* 50.83px */
+    /* letter-spacing: -0.616px;
+border: none;
+padding: inherit;
+} */

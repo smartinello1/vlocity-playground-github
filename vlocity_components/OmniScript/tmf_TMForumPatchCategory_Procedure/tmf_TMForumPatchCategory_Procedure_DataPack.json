@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "tmf_TMForumPatchCategory_Procedure_JavaScript.js",
+    "Description": "v244.0 - IP contains the Patch Implementation  for TMF620 Category",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumPatchCategory",
+    "OmniProcessElement": [
+        "tmf_TMForumPatchCategory_Procedure_Element_PatchCategoryInputDRT.json",
+        "tmf_TMForumPatchCategory_Procedure_Element_PatchCategoryRequestRA.json",
+        "tmf_TMForumPatchCategory_Procedure_Element_PatchCategoryResultDRT.json",
+        "tmf_TMForumPatchCategory_Procedure_Element_PatchCategorySuccessResponse.json",
+        "tmf_TMForumPatchCategory_Procedure_Element_PatchCategoryFailureResponse.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumPatchCategory",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumPatchCategory_Procedure_PropertySetConfig.json",
+    "SubType": "TMForumPatchCategory",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumPatchCategory_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumPatchCategory/Procedure"
+}

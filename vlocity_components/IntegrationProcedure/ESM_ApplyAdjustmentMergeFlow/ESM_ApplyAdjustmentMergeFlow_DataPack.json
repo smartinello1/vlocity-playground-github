@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_ApplyAdjustmentMergeFlow_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_ApplyAdjustmentMergeFlow",
+    "OmniProcessElement": [
+        "ESM_ApplyAdjustmentMergeFlow_Element_getParentItemFromMergeItemsForMergOfPlan.json",
+        "ESM_ApplyAdjustmentMergeFlow_Element_ApplyAdjustment.json"
+    ],
+    "OmniProcessKey": "ESM_ApplyAdjustmentMergeFlow",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ApplyAdjustmentMergeFlow_PropertySetConfig.json",
+    "SubType": "ApplyAdjustmentMergeFlow",
+    "Type": "ESM",
+    "UniqueName": "ESM_ApplyAdjustmentMergeFlow_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ApplyAdjustmentMergeFlow/Procedure"
+}

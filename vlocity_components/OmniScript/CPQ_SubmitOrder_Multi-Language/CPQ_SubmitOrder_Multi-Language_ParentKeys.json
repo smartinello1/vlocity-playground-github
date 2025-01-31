@@ -1,0 +1,5 @@
+[
+    "DataRaptor/CPQExtractAccountIDFromCart",
+    "IntegrationProcedure/CPQ_LockGroupsAndMembers",
+    "IntegrationProcedure/CPQ_SubmitOrder"
+]

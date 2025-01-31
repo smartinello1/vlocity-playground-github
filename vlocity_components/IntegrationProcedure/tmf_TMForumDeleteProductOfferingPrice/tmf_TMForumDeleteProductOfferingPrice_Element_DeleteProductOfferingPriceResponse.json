@@ -1,0 +1,36 @@
+{
+    "Description": "DeleteProductOfferingPriceSuccessResponse takes care of success message. v246",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DeleteProductOfferingPriceResponse",
+    "OmniProcessId": {
+        "Name": "TMFTMForumDeleteProductOfferingPrice",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumDeleteProductOfferingPrice/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "ProductOfferingPriceRequest:errorResponse",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumDeleteProductOfferingPrice/Procedure/DeleteProductOfferingPriceResponse"
+}

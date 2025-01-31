@@ -1,0 +1,13 @@
+<template>
+    <template if:true={dataLoaded}>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name={releaseData.IconName} class="topicicon slds-p-right_small" size={releaseData.IconSize}></lightning-icon>
+            {releaseData.Heading}
+        </h3>
+        <p class="slds-p-left_x-large">
+            <lightning-formatted-rich-text  value={releaseData.Desc}></lightning-formatted-rich-text>
+        </p>
+    </lightning-card>
+    </template>
+</template>

@@ -1,0 +1,7 @@
+[
+    "DataRaptor/GetRecordTypesForOrders",
+    "IntegrationProcedure/ESM_CreateSalesOrder",
+    "IntegrationProcedure/ESM_UpdateObjectStatus",
+    "IntegrationProcedure/ESM_getIndependentLineItems",
+    "IntegrationProcedure/ESM_getMasterOrder"
+]

@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_SelectAllItems_Procedure_JavaScript.js",
+    "Description": "The IP is used to get all the item ids from the summary page.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "SelectAllItems",
+    "OmniProcessElement": [
+        "ESM_SelectAllItems_Procedure_Element_selectAllIds.json",
+        "ESM_SelectAllItems_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_SelectAllItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelectAllItems_Procedure_PropertySetConfig.json",
+    "SubType": "SelectAllItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelectAllItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelectAllItems/Procedure"
+}

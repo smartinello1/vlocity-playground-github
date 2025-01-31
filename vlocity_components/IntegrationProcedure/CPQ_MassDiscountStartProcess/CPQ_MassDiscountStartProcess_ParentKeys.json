@@ -1,0 +1,7 @@
+[
+    "DataRaptor/CPQGetRootOpportunityItems",
+    "DataRaptor/CPQGetRootOrderItems",
+    "DataRaptor/CPQGetRootQuoteLineItems",
+    "IntegrationProcedure/CPQ_SendAppNotification",
+    "OmniScript/CPQ_MassDiscountStartProcess_Procedure"
+]

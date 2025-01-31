@@ -1,0 +1,70 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "'TMForumPriceList'",
+        "GlobalKey": "TMFTMForumGetDefaultPriceListCustoma005e00000KMHhEAAXItem0",
+        "InputFieldName": "DeveloperName",
+        "InputObjectName": "%vlocity_namespace%__VlocityIntegrationSetting__mdt",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetDefaultPriceList",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetDefaultPriceList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetDefaultPriceList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "TMForumPriceList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "TMForumPriceList:%vlocity_namespace%__DefaultValue__c",
+        "GlobalKey": "TMFTMForumGetDefaultPriceListCustoma005e00000KMHhEAAXItem1",
+        "InputFieldName": "Name",
+        "InputObjectName": "%vlocity_namespace%__PriceList__c",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetDefaultPriceList",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetDefaultPriceList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetDefaultPriceList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PriceList",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumGetDefaultPriceListCustoma005e00000KMHhEAAXItem2",
+        "InputFieldName": "PriceList:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetDefaultPriceList",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetDefaultPriceList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetDefaultPriceList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "TMForumDefaultPriceListId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

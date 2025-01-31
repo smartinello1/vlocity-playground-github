@@ -1,0 +1,266 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "commonData",
+    "OmniProcessId": {
+        "Name": "Dispute",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/demo/DisputeManagement/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AccountDetails": {
+                "AccountId": "%ContextId%"
+            },
+            "DataTableColumnsForChargesValidation": [
+                {
+                    "fieldName": "Product",
+                    "hideDefaultActions": true,
+                    "label": "Product",
+                    "sortable": false,
+                    "type": "text"
+                },
+                {
+                    "fieldName": "Description",
+                    "hideDefaultActions": true,
+                    "label": "Description",
+                    "sortable": false,
+                    "type": "text"
+                },
+                {
+                    "fieldName": "Rate",
+                    "hideDefaultActions": true,
+                    "label": "Rate",
+                    "sortable": false,
+                    "type": "text"
+                },
+                {
+                    "fieldName": "Type",
+                    "hideDefaultActions": true,
+                    "label": "Type",
+                    "sortable": false,
+                    "type": "text"
+                },
+                {
+                    "fieldName": "Date",
+                    "hideDefaultActions": true,
+                    "initialWidth": 110,
+                    "label": "Date",
+                    "sortable": false,
+                    "type": "date"
+                },
+                {
+                    "fieldName": "DisputedAmount",
+                    "hideDefaultActions": true,
+                    "label": "Amount",
+                    "sortable": false,
+                    "type": "currency",
+                    "typeAttributes": {
+                        "step": "0.01"
+                    }
+                },
+                {
+                    "cellAttributes": {
+                        "alignment": "center",
+                        "class": {
+                            "fieldName": "getValidityClass"
+                        }
+                    },
+                    "fieldName": "Validity",
+                    "hideDefaultActions": true,
+                    "label": "Validation Status",
+                    "sortable": false,
+                    "type": "text"
+                },
+                {
+                    "fieldName": "Message",
+                    "hideDefaultActions": true,
+                    "label": "Validation Outcome",
+                    "sortable": false,
+                    "type": "text",
+                    "wrapText": true
+                },
+                {
+                    "cellAttributes": {
+                        "alignment": "center",
+                        "iconName": {
+                            "fieldName": "resolvedIcon"
+                        }
+                    },
+                    "editable": true,
+                    "fieldName": "Resolved",
+                    "initialWidth": 75,
+                    "label": "Resolved",
+                    "type": "boolean",
+                    "typeAttributes": {
+                        "label": "check",
+                        "name": "resolve",
+                        "variant": "base"
+                    }
+                }
+            ],
+            "DataTableColumnsForReviewCharges": [
+                {
+                    "editable": false,
+                    "fieldName": "Product",
+                    "hideDefaultActions": true,
+                    "label": "Product",
+                    "sortable": true,
+                    "type": "text"
+                },
+                {
+                    "editable": false,
+                    "fieldName": "Description",
+                    "hideDefaultActions": true,
+                    "label": "Description",
+                    "sortable": true,
+                    "type": "text"
+                },
+                {
+                    "editable": false,
+                    "fieldName": "Rate",
+                    "hideDefaultActions": true,
+                    "label": "Rate",
+                    "sortable": true,
+                    "type": "text"
+                },
+                {
+                    "editable": false,
+                    "fieldName": "Type",
+                    "hideDefaultActions": true,
+                    "label": "Type",
+                    "sortable": true,
+                    "type": "text"
+                },
+                {
+                    "editable": false,
+                    "fieldName": "Date",
+                    "hideDefaultActions": true,
+                    "label": "Date",
+                    "sortable": true,
+                    "type": "date"
+                },
+                {
+                    "cellAttributes": {
+                        "alignment": "left"
+                    },
+                    "editable": true,
+                    "fieldName": "DisputedAmount",
+                    "hideDefaultActions": true,
+                    "label": "Disputed Amount",
+                    "sortable": false,
+                    "type": "currency",
+                    "typeAttributes": {
+                        "currencyCode": "USD",
+                        "step": "0.01"
+                    }
+                },
+                {
+                    "cellAttributes": {
+                        "alignment": "left"
+                    },
+                    "editable": false,
+                    "fieldName": "Amount",
+                    "hideDefaultActions": true,
+                    "label": "Amount",
+                    "sortable": true,
+                    "type": "currency",
+                    "typeAttributes": {
+                        "currencyCode": "USD",
+                        "step": "0.01"
+                    }
+                }
+            ],
+            "HasValidTransactions": false,
+            "isBillSelectedByBillingInquiry": false,
+            "selectChargesStepMetaData": {
+                "DataTableColumnsForCharges": [
+                    {
+                        "editable": false,
+                        "fieldName": "Product",
+                        "hideDefaultActions": true,
+                        "label": "Product",
+                        "sortable": true,
+                        "type": "text"
+                    },
+                    {
+                        "editable": false,
+                        "fieldName": "Description",
+                        "hideDefaultActions": true,
+                        "label": "Description",
+                        "sortable": true,
+                        "type": "text"
+                    },
+                    {
+                        "editable": false,
+                        "fieldName": "Rate",
+                        "hideDefaultActions": true,
+                        "label": "Rate",
+                        "sortable": true,
+                        "type": "text"
+                    },
+                    {
+                        "editable": false,
+                        "fieldName": "Type",
+                        "hideDefaultActions": true,
+                        "label": "Type",
+                        "sortable": true,
+                        "type": "text"
+                    },
+                    {
+                        "editable": false,
+                        "fieldName": "Date",
+                        "hideDefaultActions": true,
+                        "label": "Date",
+                        "sortable": true,
+                        "type": "date"
+                    },
+                    {
+                        "cellAttributes": {
+                            "alignment": "left"
+                        },
+                        "editable": false,
+                        "fieldName": "Amount",
+                        "hideDefaultActions": true,
+                        "label": "Amount",
+                        "sortable": true,
+                        "type": "currency",
+                        "typeAttributes": {
+                            "currencyCode": "USD",
+                            "step": "0.01"
+                        }
+                    }
+                ]
+            },
+            "selectedBillDetails": {
+            },
+            "selectedCharges": {
+                "charges": [
+                ],
+                "chargesCount": 0,
+                "isReviewChargesPageValid": true
+            },
+            "validTransactionsForReview": [
+            ],
+            "validTransactionsForReviewCount": 0
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/demo/DisputeManagement/Multi-Language/commonData"
+}

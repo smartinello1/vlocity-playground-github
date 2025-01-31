@@ -1,0 +1,38 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CategoryResponseWithPageInfo",
+    "OmniProcessId": {
+        "Name": "TMFTMForumCategory",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumCategory/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "PageInfo": "=CONCAT('Page ',CategoryRequestRA:pageNumber,' of ',CategoryRequestRA:totalPages)",
+            "PageSize": "=CategoryRequestRA:pageSize",
+            "Result": "=CategoryResultDRT:outputResponse"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "CategoryRequestRA:enablePageInfo == true",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumCategory/Procedure/CategoryResponseWithPageInfo"
+}

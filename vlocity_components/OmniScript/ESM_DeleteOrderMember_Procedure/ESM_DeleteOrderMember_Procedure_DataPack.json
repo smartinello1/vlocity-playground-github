@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ESM_DeleteOrderMember_Procedure_JavaScript.js",
+    "Description": "IP used to delete order member",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMDeleteOrderMember",
+    "OmniProcessElement": [
+        "ESM_DeleteOrderMember_Procedure_Element_RemoveMemberFromGroup.json",
+        "ESM_DeleteOrderMember_Procedure_Element_DeleteMembers.json",
+        "ESM_DeleteOrderMember_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_DeleteOrderMember",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_DeleteOrderMember_Procedure_PropertySetConfig.json",
+    "SubType": "DeleteOrderMember",
+    "Type": "ESM",
+    "UniqueName": "ESM_DeleteOrderMember_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/DeleteOrderMember/Procedure"
+}

@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "ESM_SelfServicePriceLineItemsFinishProcess_Procedure_JavaScript.js",
+    "Description": "This VIP executes after running all price line items as part of finish process.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServicePriceLineItemsFinishProcess",
+    "OmniProcessElement": "ESM_SelfServicePriceLineItemsFinishProcess_Procedure_Element_CPQRollupCart.json",
+    "OmniProcessKey": "ESM_SelfServicePriceLineItemsFinishProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServicePriceLineItemsFinishProcess_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServicePriceLineItemsFinishProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServicePriceLineItemsFinishProcess_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServicePriceLineItemsFinishProcess/Procedure"
+}

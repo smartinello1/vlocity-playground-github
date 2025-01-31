@@ -1,0 +1,7 @@
+[
+    "DataRaptor/ExtractAllRootLineItemFromOrder",
+    "DataRaptor/GetOrderWCProductIds",
+    "DataRaptor/updateOIsQuantity",
+    "IntegrationProcedure/CPQ_CreateWorkingCart",
+    "IntegrationProcedure/CPQ_copyGroupCartToenterpriseOrder"
+]

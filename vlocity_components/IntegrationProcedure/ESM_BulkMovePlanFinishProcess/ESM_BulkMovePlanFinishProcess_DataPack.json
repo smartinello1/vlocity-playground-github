@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This IP sends the notification when the Bulk Move Plan async job is completed.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "BulkMovePlanFinishProcess",
+    "OmniProcessElement": [
+        "ESM_BulkMovePlanFinishProcess_Element_sendNotificationSuccess.json",
+        "ESM_BulkMovePlanFinishProcess_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_BulkMovePlanFinishProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_BulkMovePlanFinishProcess_PropertySetConfig.json",
+    "SubType": "BulkMovePlanFinishProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_BulkMovePlanFinishProcess_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/BulkMovePlanFinishProcess/Procedure"
+}

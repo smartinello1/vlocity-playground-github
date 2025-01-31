@@ -1,0 +1,278 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "7f47cf4b-9351-45ed-8b4e-619eded3359c",
+        "InputFieldName": "Id",
+        "InputObjectName": "Quote",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Quote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "3d834af2-fdb5-4032-8ced-3e31a187cbd8",
+        "InputFieldName": "QuoteId",
+        "InputObjectName": "QuoteLineItem",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "QuoteLineItem",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "3e716e15-56d2-462a-9107-a6f15c831400",
+        "InputFieldName": "Quote:CreatedBy.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteCreatedBy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "0f46c9f2-f760-48c3-ae65-250da6499ef8",
+        "InputFieldName": "Quote:CreatedBy.Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteCreatedByEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "e6b040cd-291a-46ab-9337-f4b8f8161f16",
+        "InputFieldName": "Quote:CreatedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteCreatedDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "d33f0560-a4f7-4778-98c7-c27a9c8cb826",
+        "InputFieldName": "QuoteLineItem:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteLineItem:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "dbd24660-67a8-4eb2-9132-0a89929974ac",
+        "InputFieldName": "QuoteLineItem:UnitPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteLineItem:UnitPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ad6d9502-a3bd-49a8-98ca-bcd7cb60a7af",
+        "InputFieldName": "QuoteLineItem:Product2.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteLineItem:productName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "beab052f-2b36-4e49-a531-6c6282114c9f",
+        "InputFieldName": "QuoteLineItem:Quantity",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteLineItem:quantity",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "05d54d7c-53c3-400e-9787-6e115abb47ce",
+        "InputFieldName": "QuoteLineItem:TotalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteLineItem:totalPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "94d7d05e-72c4-4da6-b222-53f9e6a480c4",
+        "InputFieldName": "Quote:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "6db32dc7-67fd-42bc-990e-5a1cb9b8a994",
+        "InputFieldName": "Quote:QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "5bd6ed68-e427-4eae-ab52-b5ceeee353b7",
+        "InputFieldName": "Quote:TotalPrice",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteTotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f6b4916e-f22a-45d4-b221-9808cc45d1e6",
+        "InputFieldName": "Quote:Account.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocumentDataExtractorCopy1728398162739",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "accountName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "v242.0 - IP contains the GET Implementation  for TMF620 Category",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumCategory",
+    "OmniProcessElement": [
+        "tmf_TMForumCategory_Element_CategoryInputDRT.json",
+        "tmf_TMForumCategory_Element_CategoryRequestRA.json",
+        "tmf_TMForumCategory_Element_CategoryResultDRT.json",
+        "tmf_TMForumCategory_Element_CategoryResponse.json",
+        "tmf_TMForumCategory_Element_CategoryResponseWithPageInfo.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumCategory",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumCategory_PropertySetConfig.json",
+    "SubType": "TMForumCategory",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumCategory_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumCategory/Procedure"
+}

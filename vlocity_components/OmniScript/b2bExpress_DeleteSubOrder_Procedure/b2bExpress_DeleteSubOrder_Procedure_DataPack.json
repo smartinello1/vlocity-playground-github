@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "b2bExpress_DeleteSubOrder_Procedure_JavaScript.js",
+    "Description": "The IP is used to Delete a single sub-order of a Master/Parent order.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "b2bExpress_DeleteSubOrder",
+    "OmniProcessElement": [
+        "b2bExpress_DeleteSubOrder_Procedure_Element_deleteSubOrder.json",
+        "b2bExpress_DeleteSubOrder_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "b2bExpress_DeleteSubOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "b2bExpress_DeleteSubOrder_Procedure_PropertySetConfig.json",
+    "SubType": "DeleteSubOrder",
+    "Type": "b2bExpress",
+    "UniqueName": "b2bExpress_DeleteSubOrder_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/b2bExpress/DeleteSubOrder/Procedure"
+}

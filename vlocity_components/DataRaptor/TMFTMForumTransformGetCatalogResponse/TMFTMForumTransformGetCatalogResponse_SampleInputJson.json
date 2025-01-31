@@ -1,0 +1,85 @@
+{
+    "%vlocity_namespace%__CatalogCode__c": "CloudServicesretest",
+    "%vlocity_namespace%__Description__c": "A category to hold all available cloud service offers",
+    "%vlocity_namespace%__EndDateTime__c": "2024-03-25T00:00:00.000+0000",
+    "%vlocity_namespace%__GlobalKey__c": "86cf7ccf-34d1-a19d-d6fd-eb67d6b5a1ad",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsCatalogRoot__c": false,
+    "%vlocity_namespace%__StartDateTime__c": "2020-08-24T00:00:00.000+0000",
+    "%vlocity_namespace%__VendorAccount__c": "0015e00000qxgtpAAA",
+    "Id": "a0e5e000003bjYdAAI",
+    "LastModifiedDate": "2022-06-27T14:58:03.000+0000",
+    "Name": "Cloud Services retest",
+    "attributes": {
+        "type": "%vlocity_namespace%__Catalog__c",
+        "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__Catalog__c/a0e5e000003bjYdAAI"
+    },
+    "catalogId": "a0e5e000003bjYdAAI",
+    "category": [
+        {
+            "%vlocity_namespace%__ChildCatalogId__c": "a0e5e000003bgPNAAY",
+            "%vlocity_namespace%__ChildCatalogId__r": {
+                "%vlocity_namespace%__GlobalKey__c": "15701fbd-a017-9fed-eebb-44890bc4e86c",
+                "Id": "a0e5e000003bgPNAAY",
+                "Name": "Software as a Service",
+                "attributes": {
+                    "type": "%vlocity_namespace%__Catalog__c",
+                    "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__Catalog__c/a0e5e000003bgPNAAY"
+                }
+            },
+            "Id": "a2R5e000000JxXpEAK",
+            "attributes": {
+                "type": "%vlocity_namespace%__CatalogRelationship__c",
+                "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__CatalogRelationship__c/a2R5e000000JxXpEAK"
+            }
+        },
+        {
+            "%vlocity_namespace%__ChildCatalogId__c": "a0e5e000003bfqlAAA",
+            "%vlocity_namespace%__ChildCatalogId__r": {
+                "%vlocity_namespace%__GlobalKey__c": "03ed94db-2d33-af8e-f785-deddd0d6657d",
+                "Id": "a0e5e000003bfqlAAA",
+                "Name": "Cloud Storage",
+                "attributes": {
+                    "type": "%vlocity_namespace%__Catalog__c",
+                    "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__Catalog__c/a0e5e000003bfqlAAA"
+                }
+            },
+            "Id": "a2R5e000000JxXqEAK",
+            "attributes": {
+                "type": "%vlocity_namespace%__CatalogRelationship__c",
+                "url": "/services/data/v55.0/sobjects/%vlocity_namespace%__CatalogRelationship__c/a2R5e000000JxXqEAK"
+            }
+        }
+    ],
+    "epcResponse": {
+        "errorCode": "201",
+        "failureReason": "Created",
+        "overallResult": "success"
+    },
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "relatedParty": [
+        {
+            "AccountNumber": "123",
+            "Id": "0015e00000qxgtpAAA",
+            "Name": "demo user15",
+            "RecordType": {
+                "Id": "0125e00000097EFAAY",
+                "Name": "Consumer",
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v55.0/sobjects/RecordType/0125e00000097EFAAY"
+                }
+            },
+            "RecordTypeId": "0125e00000097EFAAY",
+            "attributes": {
+                "type": "Account",
+                "url": "/services/data/v55.0/sobjects/Account/0015e00000qxgtpAAA"
+            }
+        }
+    ],
+    "result": {
+        "id": "a0e5e000003bjYdAAI"
+    },
+    "success": true
+}

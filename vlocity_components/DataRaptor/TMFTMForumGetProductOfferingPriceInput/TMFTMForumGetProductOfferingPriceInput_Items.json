@@ -1,0 +1,97 @@
+[
+    {
+        "GlobalKey": "TMFTMForumGetProductOfferingPriceInput8829215958465249",
+        "InputFieldName": "description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetProductOfferingPriceInput",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetProductOfferingPriceInput",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetProductOfferingPriceInput",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__DisplayText__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumGetProductOfferingPriceInput5991815147570811",
+        "InputFieldName": "id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetProductOfferingPriceInput",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetProductOfferingPriceInput",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetProductOfferingPriceInput",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "%vlocity_namespace%__GlobalKey__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumGetProductOfferingPriceInput0590823238106466",
+        "InputFieldName": "name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetProductOfferingPriceInput",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetProductOfferingPriceInput",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetProductOfferingPriceInput",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumGetProductOfferingPriceInput9862920540583151",
+        "InputFieldName": "priceType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetProductOfferingPriceInput",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetProductOfferingPriceInput",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetProductOfferingPriceInput",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PricingElementId__r.PricingVariableId__r.ChargeType__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumGetProductOfferingPriceInput6898719387948884",
+        "InputFieldName": "recurringChargePeriodType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumGetProductOfferingPriceInput",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumGetProductOfferingPriceInput",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumGetProductOfferingPriceInput",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PricingElementId__r.PricingVariableId__r.RecurringFrequency__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

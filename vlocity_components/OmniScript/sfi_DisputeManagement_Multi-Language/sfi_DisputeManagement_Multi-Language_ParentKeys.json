@@ -1,0 +1,5 @@
+[
+    "IntegrationProcedure/sfi_DisputeManagement",
+    "IntegrationProcedure/sfi_FetchDisputeIDByChargeID",
+    "IntegrationProcedure/sfi_GetCustomerDetails"
+]

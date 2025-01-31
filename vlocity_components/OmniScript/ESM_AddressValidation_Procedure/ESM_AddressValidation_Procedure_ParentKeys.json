@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ESMGetOrderMemberAddresses",
+    "DataRaptor/ESMTransformAddressValidation",
+    "DataRaptor/ESMUpdateOrderMembersAddress",
+    "IntegrationProcedure/ESM_AddressValidation"
+]

@@ -1,0 +1,9 @@
+[
+    "DataRaptor/ESMCreateQuoteGroup",
+    "DataRaptor/ESMGetGroupDetailsWithRootItems",
+    "DataRaptor/GetAllRootLineItemsByQuote",
+    "DataRaptor/GetGroupSize",
+    "DataRaptor/UpdateLineItemsQuantity",
+    "DataRaptor/UpdateMemberWithQG",
+    "OmniScript/create_NewGroupAssignMembers_Procedure"
+]

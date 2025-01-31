@@ -1,0 +1,14 @@
+{
+    "brand": "Cisco",
+    "description": "Powerful product that integrates with a firewall, including intrusion prevention, advanced malware protection, cloud-based sandboxing, URL filtering, endpoint protection, web gateway, email security, network traffic analysis, network access control and CASB.",
+    "id": "9881",
+    "isBundle": true,
+    "lifecycleStatus": "Active",
+    "name": "Cisco Firepower NGFW",
+    "productNumber": "CSC-340-NGFW",
+    "validFor": {
+        "endDateTime": "2022-11-24T16:42:23.0Z",
+        "startDateTime": "2020-09-23T00:00:00.0Z"
+    },
+    "version": "2.0"
+}

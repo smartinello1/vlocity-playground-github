@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "CPQ_getAvailableSites_SampleInput.json",
+    "Description": "This Integration Procedure will fetch cart item lookup field values.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CPQGetAvailableSites",
+    "OmniProcessElement": [
+        "CPQ_getAvailableSites_Element_SetCartItemLookupFields.json",
+        "CPQ_getAvailableSites_Element_GetCartItemLookupRemoteAction.json",
+        "CPQ_getAvailableSites_Element_GetCartItemLookupResponseAction.json"
+    ],
+    "OmniProcessKey": "CPQ_getAvailableSites",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_getAvailableSites_PropertySetConfig.json",
+    "SubType": "getAvailableSites",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_getAvailableSites_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/getAvailableSites/Procedure"
+}

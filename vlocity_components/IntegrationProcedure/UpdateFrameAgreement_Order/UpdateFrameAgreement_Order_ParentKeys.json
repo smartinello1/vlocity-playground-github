@@ -1,0 +1,6 @@
+[
+    "DataRaptor/OrderDiscountExtractUpdate",
+    "DataRaptor/UpdateContractDiscountsOrder",
+    "DataRaptor/UpdateOrderDiscountDate",
+    "OmniScript/UpdateFrameAgreement_Order_English"
+]

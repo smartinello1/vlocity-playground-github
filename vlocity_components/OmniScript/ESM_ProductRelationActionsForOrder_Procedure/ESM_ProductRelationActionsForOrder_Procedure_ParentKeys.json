@@ -1,0 +1,6 @@
+[
+    "IntegrationProcedure/ESM_CreateCartMembersFromAssets",
+    "IntegrationProcedure/ESM_DisconnectOrderLineItems",
+    "IntegrationProcedure/ESM_LinkProductsForOrder",
+    "IntegrationProcedure/ESM_ProductRelationActionsForOrder"
+]

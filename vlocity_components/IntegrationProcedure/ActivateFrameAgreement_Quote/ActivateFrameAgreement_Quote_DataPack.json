@@ -1,0 +1,30 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Activate Frame Agreement - Quote",
+    "OmniProcessElement": [
+        "ActivateFrameAgreement_Quote_Element_ExtractContractDetails.json",
+        "ActivateFrameAgreement_Quote_Element_FrameAgreementInputs.json",
+        "ActivateFrameAgreement_Quote_Element_ActivateFrameAgreementIP.json",
+        "ActivateFrameAgreement_Quote_Element_HandleErrors.json",
+        "ActivateFrameAgreement_Quote_Element_ErrorMessages.json",
+        "ActivateFrameAgreement_Quote_Element_ValidationStep.json",
+        "ActivateFrameAgreement_Quote_Element_noDiscountsFound.json",
+        "ActivateFrameAgreement_Quote_Element_AdditionalMessage.json",
+        "ActivateFrameAgreement_Quote_Element_ValidationMessage.json",
+        "ActivateFrameAgreement_Quote_Element_DoneAction.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ActivateFrameAgreement_Quote_PropertySetConfig.json",
+    "SubType": "Quote",
+    "Type": "ActivateFrameAgreement",
+    "UniqueName": "ActivateFrameAgreement_Quote_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Quote/English"
+}

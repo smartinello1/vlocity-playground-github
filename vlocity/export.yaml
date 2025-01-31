@@ -1,0 +1,22 @@
+projectPath: ../vlocity_components
+expansionPath: .
+buildFile: VlocityExtractions.json
+defaultMaxParallel: 10
+exportPacksMaxSize: 5000
+removeInvalidMatchingKeyFields: true
+maxDepth: 0
+OverrideSettings:
+  SObjects:
+    vlocity_namespace__PricingElement__c:
+      FolderName:
+        - vlocity_namespace__GlobalKey__c
+
+queries:
+    - VlocityDataPackType: DataRaptor
+      query: Select Id from %vlocity_namespace%__DRBundle__c
+    - VlocityDataPackType: OmniScript
+      query: Select Id from %vlocity_namespace%__OmniScript__c
+    - VlocityDataPackType: IntegrationProcedure
+      query: Select Id from %vlocity_namespace%__OmniScript__c
+    # - VlocityDataPackType: VlocityCard
+    #   query: Select Id from %vlocity_namespace%__VlocityCard__c

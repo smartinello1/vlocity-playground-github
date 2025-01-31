@@ -1,0 +1,5 @@
+[
+    "DataRaptor/cpqGetRecordType",
+    "IntegrationProcedure/CPQ_AssetViewerOrderFlow",
+    "IntegrationProcedure/CPQ_CreateOrder"
+]

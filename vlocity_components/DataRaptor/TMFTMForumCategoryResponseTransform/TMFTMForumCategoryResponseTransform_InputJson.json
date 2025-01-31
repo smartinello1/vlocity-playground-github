@@ -1,0 +1,27 @@
+{
+    "description": "A category to hold all available cloud service offers",
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "id": "85340848-ef02-1050-1e32-f64ef77ef2b9",
+    "isRoot": true,
+    "name": "Cloud Services tmf",
+    "statusCode": "200",
+    "subCategory": [
+        {
+            "id": "03ed94db-2d33-af8e-f785-deddd0d6657d",
+            "name": "Cloud Storage"
+        },
+        {
+            "id": "15701fbd-a017-9fed-eebb-44890bc4e86c",
+            "name": "Software as a Service"
+        },
+        {
+            "id": "b489e30a-2a21-a972-a619-615205ebcfbb",
+            "name": "Cloud Storage"
+        }
+    ],
+    "validFor": {
+        "endDateTime": "2024-03-25T00:00:00.000Z",
+        "startDateTime": "2020-08-24T00:00:00.000Z"
+    }
+}

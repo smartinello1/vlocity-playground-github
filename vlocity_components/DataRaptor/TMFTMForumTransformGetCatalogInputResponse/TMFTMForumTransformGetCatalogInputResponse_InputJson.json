@@ -1,0 +1,16 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CatalogInputTransform": null,
+        "CatalogRequest": null,
+        "CatalogResponse": null,
+        "CatalogResult": null
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_CreateQuoteVersion_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CreateQuoteVersion",
+    "OmniProcessElement": [
+        "ESM_CreateQuoteVersion_Procedure_Element_quoteVersion.json",
+        "ESM_CreateQuoteVersion_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_CreateQuoteVersion",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_CreateQuoteVersion_Procedure_PropertySetConfig.json",
+    "SubType": "CreateQuoteVersion",
+    "Type": "ESM",
+    "UniqueName": "ESM_CreateQuoteVersion_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/CreateQuoteVersion/Procedure"
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "MultiSite_CreateNewGroup_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "MultiSiteCreateNewGroup",
+    "OmniProcessElement": [
+        "MultiSite_CreateNewGroup_Procedure_Element_CreateNewGroupInput.json",
+        "MultiSite_CreateNewGroup_Procedure_Element_EmptyConditionalCheckBlock.json",
+        "MultiSite_CreateNewGroup_Procedure_Element_EmptyInputResponse.json",
+        "MultiSite_CreateNewGroup_Procedure_Element_ApexRemoteCall.json",
+        "MultiSite_CreateNewGroup_Procedure_Element_RemoteCallResponse.json"
+    ],
+    "OmniProcessKey": "MultiSite_CreateNewGroup",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiSite_CreateNewGroup_Procedure_PropertySetConfig.json",
+    "SubType": "CreateNewGroup",
+    "Type": "MultiSite",
+    "UniqueName": "MultiSite_CreateNewGroup_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiSite/CreateNewGroup/Procedure"
+}

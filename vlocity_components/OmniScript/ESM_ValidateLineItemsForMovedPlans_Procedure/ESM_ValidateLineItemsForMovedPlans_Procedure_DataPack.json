@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "ESM_ValidateLineItemsForMovedPlans_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_ValidateLineItemsForMovedPlans",
+    "OmniProcessElement": [
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_GetMovedLineItemIds.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_QuoteLineItemBlock.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_GetAssetRefIdforQli.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_ValidateQuoteLineItems.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_ResponseAction.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_OrderLineItemBlock.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_GetAssetRefIdforOli.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_ValidateOrderLineItems.json",
+        "ESM_ValidateLineItemsForMovedPlans_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_ValidateLineItemsForMovedPlans",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ValidateLineItemsForMovedPlans_Procedure_PropertySetConfig.json",
+    "SubType": "ValidateLineItemsForMovedPlans",
+    "Type": "ESM",
+    "UniqueName": "ESM_ValidateLineItemsForMovedPlans_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ValidateLineItemsForMovedPlans/Procedure"
+}

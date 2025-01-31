@@ -1,0 +1,29 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "QuoteEnrichForNumberAssignment",
+    "OmniProcessElement": [
+        "ESM_QuoteEnrichForNumberAssignment_Element_CANCEL.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_SetValues1.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_UserInput.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_ServiceIdentifier.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_UpdateCartItems.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_UpdateCartItemsBatch.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_Success.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_NavigateToESM.json",
+        "ESM_QuoteEnrichForNumberAssignment_Element_Batch-Success-Message.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ESM_QuoteEnrichForNumberAssignment_PropertySetConfig.json",
+    "SubType": "QuoteEnrichForNumberAssignment",
+    "Type": "ESM",
+    "UniqueName": "ESM_QuoteEnrichForNumberAssignment_English_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/QuoteEnrichForNumberAssignment/English"
+}

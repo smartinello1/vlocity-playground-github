@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "AddOMOGToWC_CopyToEOBatch_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "AddToMemberBatchCall",
+    "OmniProcessElement": [
+        "AddOMOGToWC_CopyToEOBatch_Procedure_Element_ContextMapping.json",
+        "AddOMOGToWC_CopyToEOBatch_Procedure_Element_InvokeAddToMemberBatchApex.json",
+        "AddOMOGToWC_CopyToEOBatch_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "AddOMOGToWC_CopyToEOBatch",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "AddOMOGToWC_CopyToEOBatch_Procedure_PropertySetConfig.json",
+    "SubType": "CopyToEOBatch",
+    "Type": "AddOMOGToWC",
+    "UniqueName": "AddOMOGToWC_CopyToEOBatch_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/AddOMOGToWC/CopyToEOBatch/Procedure"
+}

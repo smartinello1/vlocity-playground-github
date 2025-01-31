@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "ESM_ApplyConfigurations_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_ApplyConfigurations",
+    "OmniProcessElement": "ESM_ApplyConfigurations_Element_ApplyConfigurations.json",
+    "OmniProcessKey": "ESM_ApplyConfigurations",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ApplyConfigurations_PropertySetConfig.json",
+    "SubType": "ApplyConfigurations",
+    "Type": "ESM",
+    "UniqueName": "ESM_ApplyConfigurations_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ApplyConfigurations/Procedure"
+}

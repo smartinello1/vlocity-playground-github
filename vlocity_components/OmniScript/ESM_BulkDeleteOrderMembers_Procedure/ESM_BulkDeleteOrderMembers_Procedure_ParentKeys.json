@@ -1,0 +1,4 @@
+[
+    "IntegrationProcedure/ESM_BulkDeleteOrderMembers",
+    "IntegrationProcedure/ESM_SendAppNotification"
+]

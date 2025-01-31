@@ -1,0 +1,10 @@
+[
+    "DataRaptor/CPQFilterExistingGroups",
+    "DataRaptor/CPQGetGroupsToCreateList",
+    "DataRaptor/CPQGetProductsFromAssets",
+    "DataRaptor/ConsolidateProductData",
+    "DataRaptor/CustomizeGroupDetails",
+    "DataRaptor/GetExistingAssetsFromOrderItem",
+    "DataRaptor/GetExistingAssetsFromQuoteLineItem",
+    "OmniScript/CPQ_BulkChange_Multi-Language"
+]

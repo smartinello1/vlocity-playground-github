@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ESM_FixEntityMemberLocation_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMFixEntityMemberLocation",
+    "OmniProcessElement": [
+        "ESM_FixEntityMemberLocation_Procedure_Element_GetOrderMemberAddress.json",
+        "ESM_FixEntityMemberLocation_Procedure_Element_PayloadForAddressFix.json",
+        "ESM_FixEntityMemberLocation_Procedure_Element_TMFAPICall.json",
+        "ESM_FixEntityMemberLocation_Procedure_Element_TransformAddressValidationResponse.json",
+        "ESM_FixEntityMemberLocation_Procedure_Element_APIResponse.json"
+    ],
+    "OmniProcessKey": "ESM_FixEntityMemberLocation",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_FixEntityMemberLocation_Procedure_PropertySetConfig.json",
+    "SubType": "FixEntityMemberLocation",
+    "Type": "ESM",
+    "UniqueName": "ESM_FixEntityMemberLocation_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/FixEntityMemberLocation/Procedure"
+}

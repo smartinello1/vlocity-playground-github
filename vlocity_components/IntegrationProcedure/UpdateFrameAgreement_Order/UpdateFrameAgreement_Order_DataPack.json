@@ -1,0 +1,26 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Update Frame Agreement - Order",
+    "OmniProcessElement": [
+        "UpdateFrameAgreement_Order_Element_UpdateFrameAgreementIP.json",
+        "UpdateFrameAgreement_Order_Element_HandleErrors.json",
+        "UpdateFrameAgreement_Order_Element_ErrorCondition.json",
+        "UpdateFrameAgreement_Order_Element_ErrorDetails.json",
+        "UpdateFrameAgreement_Order_Element_DisplayException.json",
+        "UpdateFrameAgreement_Order_Element_DoneAction.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "UpdateFrameAgreement_Order_PropertySetConfig.json",
+    "SubType": "Order",
+    "Type": "UpdateFrameAgreement",
+    "UniqueName": "UpdateFrameAgreement_Order_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/UpdateFrameAgreement/Order/English"
+}

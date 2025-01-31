@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_bulkValidateLineItems_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "BulkValidateLineItems",
+    "OmniProcessElement": [
+        "ESM_bulkValidateLineItems_Procedure_Element_BulkValidateRemoteAction.json",
+        "ESM_bulkValidateLineItems_Procedure_Element_BulkValidateResponse.json"
+    ],
+    "OmniProcessKey": "ESM_bulkValidateLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_bulkValidateLineItems_Procedure_PropertySetConfig.json",
+    "SubType": "bulkValidateLineItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_bulkValidateLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/bulkValidateLineItems/Procedure"
+}

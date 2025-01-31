@@ -1,0 +1,4 @@
+[
+    "IntegrationProcedure/ESM_MoveCartItem",
+    "IntegrationProcedure/ESM_ValidateLineItemsForMovedPlans"
+]

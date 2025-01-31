@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ESM_PriceLineItems_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_PriceLineItems",
+    "OmniProcessElement": [
+        "ESM_PriceLineItems_Element_GetReplacedLineItemIds.json",
+        "ESM_PriceLineItems_Element_getAssetRefIdforQli.json",
+        "ESM_PriceLineItems_Element_priceLineItems.json",
+        "ESM_PriceLineItems_Element_ApplyAdjustment.json"
+    ],
+    "OmniProcessKey": "ESM_PriceLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_PriceLineItems_PropertySetConfig.json",
+    "SubType": "PriceLineItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_PriceLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/PriceLineItems/Procedure"
+}

@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_JavaScript.js",
+    "Description": "This VIP is used to fetch Asset Ids from Group Cart.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceGetAssetsFromGroupCart",
+    "OmniProcessElement": [
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_ExtractAssetIdsFromOrderMember.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_CreateSelectedAssetIdsList.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_AllSelectedAssetIds.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_UniqueAssetIdList.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_SetOrderId.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_ExtractAccountIdFromCart.json",
+        "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_Element_AssetsFromGroupCartResponse.json"
+    ],
+    "OmniProcessKey": "ESM_SelfServiceGetAssetsFromGroupCart",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceGetAssetsFromGroupCart",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceGetAssetsFromGroupCart_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceGetAssetsFromGroupCart/Procedure"
+}

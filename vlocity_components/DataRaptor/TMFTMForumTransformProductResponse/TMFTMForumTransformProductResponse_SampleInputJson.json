@@ -1,0 +1,44 @@
+{
+    "apiVersion": "v57.0",
+    "asset": {
+        "%vlocity_namespace%__ActivationDate__c": "2024-05-05",
+        "%vlocity_namespace%__AssetReferenceId__c": "1b55a381-1782-56d6-a90a-2030798d6e4b",
+        "%vlocity_namespace%__OrderProductId__c": "802Dp000000DtXdIAK",
+        "%vlocity_namespace%__OrderProductId__r": {
+            "Id": "802Dp000000DtXdIAK",
+            "Order": {
+                "EffectiveDate": "2019-05-03",
+                "Id": "801Dp000000c8MYIAY",
+                "attributes": {
+                    "type": "Order",
+                    "url": "/services/data/v57.0/sobjects/Order/801Dp000000c8MYIAY"
+                }
+            },
+            "OrderId": "801Dp000000c8MYIAY",
+            "attributes": {
+                "type": "OrderItem",
+                "url": "/services/data/v57.0/sobjects/OrderItem/802Dp000000DtXdIAK"
+            }
+        },
+        "Description": "new desc",
+        "Id": "02iDp000000UFmhIAG",
+        "Name": "TMForum",
+        "Product2": {
+            "%vlocity_namespace%__IsOrderable__c": true,
+            "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+            "Id": "01tDp000000hsXDIAY",
+            "Name": "xyz",
+            "attributes": {
+                "type": "Product2",
+                "url": "/services/data/v57.0/sobjects/Product2/01tDp000000hsXDIAY"
+            }
+        },
+        "Product2Id": "01tDp000000hsXDIAY",
+        "SerialNumber": "xyz",
+        "attributes": {
+            "type": "Asset",
+            "url": "/services/data/v57.0/sobjects/Asset/02iDp000000UFmhIAG"
+        }
+    },
+    "requestUrl": "/services/apexrest/%vlocity_namespace%/tmforum/productopenapi/v1/"
+}

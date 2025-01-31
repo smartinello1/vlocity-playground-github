@@ -1,0 +1,68 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CustomLWC1",
+    "OmniProcessId": {
+        "Name": "IFSWorkOrderEstimationLearning",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ifs/WorkOrderEstimationLearning/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "IFSWorkOrderEstimationLearning",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ifs/WorkOrderEstimationLearning/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/WorkOrderEstimationLearning/Multi-Language/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "asset-id-input",
+                "source": "%assetId%"
+            },
+            {
+                "name": "work-id-input",
+                "source": "%workId%"
+            },
+            {
+                "name": "quote-id-input",
+                "source": "%quoteId%"
+            },
+            {
+                "name": "account-id-input",
+                "source": "%accountId%"
+            },
+            {
+                "name": "manual-discounts-input",
+                "source": "[0,10,20,30]"
+            },
+            {
+                "name": "use-default-pricing",
+                "source": "%useDefaultPricing%"
+            },
+            {
+                "name": "use-default-quoting",
+                "source": "%useDefaultQuoting%"
+            }
+        ],
+        "hide": false,
+        "label": "",
+        "lwcName": "runtime_industries_fieldservice__ifsQuote",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/WorkOrderEstimationLearning/Multi-Language/CustomLWC1"
+}

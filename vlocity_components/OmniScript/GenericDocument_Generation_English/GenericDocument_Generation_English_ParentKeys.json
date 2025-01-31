@@ -1,0 +1,5 @@
+[
+    "DataRaptor/GetDocumentTemplatesForType",
+    "DataRaptor/GetMultiDocumentTemplatesForType",
+    "IntegrationProcedure/GenericDocument_Generation"
+]

@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceDeleteCartItem_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceDeleteCartItem",
+    "OmniProcessElement": "ESM_SelfServiceDeleteCartItem_Procedure_Element_DeleteItemFromCartRemoteAction.json",
+    "OmniProcessKey": "ESM_SelfServiceDeleteCartItem",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceDeleteCartItem_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceDeleteCartItem",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceDeleteCartItem_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceDeleteCartItem/Procedure"
+}

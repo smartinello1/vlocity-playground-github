@@ -1,0 +1,27 @@
+.settingsicon{
+    --sds-c-icon-color-foreground-default:rgba(1, 118, 211, 1);
+}
+
+.title-italic{
+    /* font-family: Segoe UI;*/
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    
+    
+}
+/* 
+.desc{
+
+font-family: Segoe UI;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+
+} */
+
+.app-details-btn-layout{
+    --slds-c-button-brand-color-background: rgba(0, 112, 210, 1);
+}

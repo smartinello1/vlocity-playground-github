@@ -1,0 +1,38 @@
+{
+    "Description": "CreateProductOfferingPriceFailureResponse takes care of , failure response from salesforce. v244",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateProductOfferingPriceFailureResponse",
+    "OmniProcessId": {
+        "Name": "TMFTMForumPatchProductOfferingPrice",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumPatchProductOfferingPrice/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "failureReason": "%ProductOfferingPriceRequest:epcResponse:failureReason%",
+            "overallResult": "%ProductOfferingPriceRequest:epcResponse:overallResult%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "%ProductOfferingPriceRequest:epcResponse:overallResult% == 'failure'",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumPatchProductOfferingPrice/Procedure/CreateProductOfferingPriceFailureResponse"
+}

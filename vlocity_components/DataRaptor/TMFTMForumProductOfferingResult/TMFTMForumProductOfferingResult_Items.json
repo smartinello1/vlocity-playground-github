@@ -1,0 +1,1758 @@
+[
+    {
+        "FormulaExpression": "CONCAT('/services/data/',apiVersion, '/sobjects/User/',product:CreatedBy:Id)",
+        "FormulaResultPath": "product:CreatedBy:href",
+        "FormulaSequence": 4,
+        "GlobalKey": "TMFTMForumProductOfferingResult6968680407203662",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(IF(attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeDisplayName__c == null,null,CONCAT(attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeDisplayName__c,' : ')),attributeAssignments:attributeAssignment:%vlocity_namespace%__ValueDescription__c)",
+        "FormulaResultPath": "attributeAssignments:attributeAssignment:Description",
+        "FormulaSequence": 8,
+        "GlobalKey": "TMFTMForumProductOfferingResult5345668233247414",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(IF(priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__Amount__c != null, priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__Amount__c, priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__AdjustmentValue__c), IF(priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PricingVariableId__r:%vlocity_namespace%__AdjustmentMethod__c == 'Percent','%',null ))",
+        "FormulaResultPath": "priceListEntries:price:amount",
+        "FormulaSequence": 12,
+        "GlobalKey": "TMFTMForumProductOfferingResult907936582696284",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(IF(priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__Amount__c != null, priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__Amount__c, priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__AdjustmentValue__c), IF(priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PricingVariableId__r:%vlocity_namespace%__AdjustmentMethod__c == 'Percent','%',null ))",
+        "FormulaResultPath": "priceListEntries:price:amount",
+        "FormulaSequence": 14,
+        "GlobalKey": "TMFTMForumProductOfferingResult1738871551861778",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PricingVariableId__r:%vlocity_namespace%__ChargeType__c == 'Usage', priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PerUsageMeasurementId__r:Name, priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__CurrencyCode__c)",
+        "FormulaResultPath": "priceListEntries:price:unit",
+        "FormulaSequence": 13,
+        "GlobalKey": "TMFTMForumProductOfferingResult9167688454088083",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(priceListEntries:%vlocity_namespace%__ProductId__r:%vlocity_namespace%__SpecificationSubType__c != null,IF(priceListEntries:%vlocity_namespace%__ProductId__r:%vlocity_namespace%__SpecificationSubType__c == 'Bundle' && priceListEntries:%vlocity_namespace%__IsBasePrice__c , true, false), null)",
+        "FormulaResultPath": "priceListEntries:isBundle",
+        "FormulaSequence": 11,
+        "GlobalKey": "TMFTMForumProductOfferingResult47798897743863344",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(priceListEntries:Id != null, CONCAT('/services/data/',apiVersion, '/sobjects/%vlocity_namespace%__PriceListEntry__c/',priceListEntries:Id), null)",
+        "FormulaResultPath": "priceListEntries:href",
+        "FormulaSequence": 10,
+        "GlobalKey": "TMFTMForumProductOfferingResult5271211053707725",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(product:%vlocity_namespace%__ProductSpecId__c != null, CONCAT(requestUrl,'productSpecification/',product:%vlocity_namespace%__ProductSpecId__c), null)",
+        "FormulaResultPath": "product:productSpecification:href",
+        "FormulaSequence": 9,
+        "GlobalKey": "TMFTMForumProductOfferingResult9263753551529399",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(product:%vlocity_namespace%__SpecificationSubType__c != null,IF(product:%vlocity_namespace%__SpecificationSubType__c == 'Bundle', true, false), null)",
+        "FormulaResultPath": "product:isBundle",
+        "FormulaSequence": 3,
+        "GlobalKey": "TMFTMForumProductOfferingResult36113909475686023",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(product:Id != null, CONCAT(requestUrl,'productOffering/',product:Id), null)",
+        "FormulaResultPath": "product:href",
+        "FormulaSequence": 2,
+        "GlobalKey": "TMFTMForumProductOfferingResult23566627241688054",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(product:IsActive != null,IF(product:IsActive, 'Active', 'Inactive'), null)",
+        "FormulaResultPath": "product:lifecycleStatus",
+        "FormulaSequence": 1,
+        "GlobalKey": "TMFTMForumProductOfferingResult8294292282229123",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(productChildItems:Id != null, CONCAT(requestUrl,'productOffering/',productChildItems:%vlocity_namespace%__ParentProductId__r:Id), null)",
+        "FormulaResultPath": "productChildItems:href",
+        "FormulaSequence": 6,
+        "GlobalKey": "TMFTMForumProductOfferingResult8667800510264576",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(productChildItems:Id != null, IF(productChildItems:%vlocity_namespace%__ChildProductId__r:IsActive, 'Active', 'Inactive'), null)",
+        "FormulaResultPath": "productChildItems:lifecycleStatus",
+        "FormulaSequence": 7,
+        "GlobalKey": "TMFTMForumProductOfferingResult8238295845191466",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(vlocityAttachments:Id != null,CONCAT('/services/data/',apiVersion, '/sobjects/%vlocity_namespace%__VlocityAttachment__c/',vlocityAttachments:Id), null)",
+        "FormulaResultPath": "vlocityAttachments:href",
+        "FormulaSequence": 5,
+        "GlobalKey": "TMFTMForumProductOfferingResult49409801532453357",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5108909491504889",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6630794733372694",
+        "InputFieldName": "schemaLocation",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:@schemaLocation",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult2734178819383646",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:attachment",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7806152308316228",
+        "InputFieldName": "vlocityAttachments:%vlocity_namespace%__ContentType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:attachmentType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8601005515213065",
+        "InputFieldName": "vlocityAttachments:%vlocity_namespace%__Description__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult2859377054461554",
+        "InputFieldName": "vlocityAttachments:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult26196644736918384",
+        "InputFieldName": "vlocityAttachments:%vlocity_namespace%__GlobalKey__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult9824042252109841",
+        "InputFieldName": "vlocityAttachments:%vlocity_namespace%__Channel__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:mimeType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult3769635972241754",
+        "InputFieldName": "vlocityAttachments:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult24664767312510327",
+        "InputFieldName": "vlocityAttachments:%vlocity_namespace%__UrlLong__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:attachment:url",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult1435229159417859",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:brand",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult3177122225974707",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:bundledProductOffering",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7220048668041918",
+        "InputFieldName": "productChildItems:%vlocity_namespace%__Quantity__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:bundledProdOfferOption:numberRelOfferDefault",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult1718679380121868",
+        "InputFieldName": "productChildItems:%vlocity_namespace%__MinQuantity__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:bundledProdOfferOption:numberRelOfferLowerLimit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult32068941052827427",
+        "InputFieldName": "productChildItems:%vlocity_namespace%__MaxQuantity__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:bundledProdOfferOption:numberRelOfferUpperLimit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult1950788833632262",
+        "InputFieldName": "productChildItems:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult38770031959648255",
+        "InputFieldName": "productChildItems:%vlocity_namespace%__ParentProductId__r:%vlocity_namespace%__GlobalKey__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5548956230003228",
+        "InputFieldName": "productChildItems:lifecycleStatus",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:lifecycleStatus",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6433822261045894",
+        "InputFieldName": "productChildItems:%vlocity_namespace%__ParentProductId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:bundledProductOffering:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResultCustom1827",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:category",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult17173528732357357",
+        "InputFieldName": "catalogProductRelationships:%vlocity_namespace%__CatalogId__r:%vlocity_namespace%__GlobalKey__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:category:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult23205324455553233",
+        "InputFieldName": "catalogProductRelationships:%vlocity_namespace%__CatalogId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:category:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult3991365985654607",
+        "InputFieldName": "product:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult2006903207699926",
+        "InputFieldName": "product:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult37936666064279434",
+        "InputFieldName": "product:%vlocity_namespace%__GlobalKey__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6555774163818915",
+        "InputFieldName": "product:isBundle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:isBundle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7535640029895401",
+        "InputFieldName": "product:%vlocity_namespace%__IsOrderable__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:isSellable",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult4974557274891287",
+        "InputFieldName": "product:LastModifiedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:lastUpdate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult37459419683347206",
+        "InputFieldName": "product:lifecycleStatus",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:lifecycleStatus",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5664991967971875",
+        "InputFieldName": "product:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult9444104727153155",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult29450788146297",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__IsConfigurable__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:configurable",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8474930982723639",
+        "InputFieldName": "attributeAssignments:attributeAssignment:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult20170779535469419",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeDisplayNameOverride__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:displayName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6616729806214794",
+        "InputFieldName": "attributeAssignments:attributeAssignment:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult22296901225544574",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult9286143173503307",
+        "InputFieldName": "attributeAssignments:listOfValues:IsDefault",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue:isDefault",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7553986412466569",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeId__r:%vlocity_namespace%__EffectiveUntilDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue:validFor:endDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult4961072596935321",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeId__r:%vlocity_namespace%__EffectiveFromDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue:validFor:startDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7786201803007011",
+        "InputFieldName": "attributeAssignments:listOfValues:Value",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue:value",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult9894367778190567",
+        "InputFieldName": "attributeAssignments:listOfValues:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecCharacteristicValue:valueType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6119472564615904",
+        "InputFieldName": "product:productSpecification:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecification:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5155448774342433",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecification:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult11410904042056558",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecification:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult10703021551834735",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__r:%vlocity_namespace%__VersionLabel__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:productSpecification:version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult22199359467143398",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeId__r:%vlocity_namespace%__EffectiveUntilDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:validFor:endDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5616958944476378",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__AttributeId__r:%vlocity_namespace%__EffectiveFromDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:validFor:startDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8046160316531858",
+        "InputFieldName": "attributeAssignments:attributeAssignment:%vlocity_namespace%__ValueDataType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:prodSpecCharValueUse:valueType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult031158002926105377",
+        "InputFieldName": "product:ProductCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult029350765510744337",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:productOfferingPrice",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult4705023069189984",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__DisplayText__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult006592332504467224",
+        "InputFieldName": "priceListEntries:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5433020530457864",
+        "InputFieldName": "priceListEntries::%vlocity_namespace%__GlobalKey__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult519533522262893",
+        "InputFieldName": "priceListEntries:isBundle",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:isBundle",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5072526409325759",
+        "InputFieldName": "priceListEntries:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult17702605274643513",
+        "InputFieldName": "priceListEntries:price:amount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:price:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult3275486227661657",
+        "InputFieldName": "priceListEntries:price:unit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:price:unit",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult9973927148943458",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PricingVariableId__r:%vlocity_namespace%__ChargeType__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:priceType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8213737601377209",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PricingElementId__r:%vlocity_namespace%__PricingVariableId__r:%vlocity_namespace%__RecurringFrequency__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:recurringChargePeriod",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8626887732126578",
+        "InputFieldName": "priceListEntries:price:unit",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:unitOfMeasure",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult014771348485158375",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__EffectiveUntilDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:validFor:endDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult2733598476836736",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__EffectiveFromDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:validFor:startDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7116907760566402",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__ProductId__r:%vlocity_namespace%__VersionLabel__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingPrice:version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult3346650183217883",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "outputResponse:productOfferingTerm",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7842630349782747",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:%vlocity_namespace%__Description__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult11677151944080744",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:%vlocity_namespace%__TotalDuration__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:duration:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult23183595317863204",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:%vlocity_namespace%__TotalDurationUoM__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:duration:units",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult538688741323702",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8619843041910906",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:%vlocity_namespace%__EffectiveEndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:validFor:endDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult33387327203686157",
+        "InputFieldName": "priceListEntries:%vlocity_namespace%__PromotionId__r:%vlocity_namespace%__DurationTimePlanId__r:%vlocity_namespace%__EffectiveStartDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productOfferingTerm:validFor:startDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult11585147142532315",
+        "InputFieldName": "product:productSpecification:href",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productSpecification:href",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult016123569076184507",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productSpecification:id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5623639330729329",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__r:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productSpecification:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult5292589723439418",
+        "InputFieldName": "product:%vlocity_namespace%__ProductSpecId__r:%vlocity_namespace%__VersionLabel__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:productSpecification:version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult8445862311570589",
+        "InputFieldName": "product:%vlocity_namespace%__EndOfLifeDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:validFor:endDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult6593984325976674",
+        "InputFieldName": "product:%vlocity_namespace%__SellingStartDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:validFor:startDateTime",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "TMFTMForumProductOfferingResult7276310672726221",
+        "InputFieldName": "product:%vlocity_namespace%__VersionLabel__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "TMFTMForumProductOfferingResult",
+        "OmniDataTransformationId": {
+            "Name": "TMFTMForumProductOfferingResult",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/TMFTMForumProductOfferingResult",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "outputResponse:version",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

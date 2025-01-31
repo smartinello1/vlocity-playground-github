@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "ESM_validateRecords_Procedure_JavaScript.js",
+    "Description": "The IP is created to validate line items.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "validateRecords",
+    "OmniProcessElement": [
+        "ESM_validateRecords_Procedure_Element_ValidateRecords.json",
+        "ESM_validateRecords_Procedure_Element_ValidateRecordsByBatch.json",
+        "ESM_validateRecords_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_validateRecords",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_validateRecords_Procedure_PropertySetConfig.json",
+    "SubType": "validateRecords",
+    "Type": "ESM",
+    "UniqueName": "ESM_validateRecords_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/validateRecords/Procedure"
+}

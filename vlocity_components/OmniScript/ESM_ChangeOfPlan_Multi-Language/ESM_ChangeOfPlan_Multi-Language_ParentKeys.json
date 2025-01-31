@@ -1,0 +1,13 @@
+[
+    "IntegrationProcedure/ESM_ApplyAdjustmentMergeFlow",
+    "IntegrationProcedure/ESM_BulkApplyAdjustment",
+    "IntegrationProcedure/ESM_ChangeOfPlan",
+    "IntegrationProcedure/ESM_DeleteCart",
+    "IntegrationProcedure/ESM_DeleteGroupCart",
+    "IntegrationProcedure/ESM_GuidedGetConfigData",
+    "IntegrationProcedure/ESM_MultiplyReplaceOffers",
+    "IntegrationProcedure/ESM_PriceLineItems",
+    "IntegrationProcedure/ESM_PriceLineItemsMergeFlow",
+    "IntegrationProcedure/ESM_SingleReplaceOffer",
+    "IntegrationProcedure/ESM_StartBulkReplace"
+]

@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ESMGetGroupDetailsWithRootItems",
+    "DataRaptor/GetAllRootLineItemsByQuote",
+    "DataRaptor/GetGroupSize",
+    "DataRaptor/UpdateLineItemsQuantity",
+    "DataRaptor/UpdateMemberWithQG",
+    "IntegrationProcedure/AddMem_ToQG"
+]

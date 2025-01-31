@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ESMGetAssetRefIdbyQliId",
+    "IntegrationProcedure/ESM_ApplyConfigurations",
+    "IntegrationProcedure/ESM_AssignMembersToReplacedItems",
+    "IntegrationProcedure/ESM_DisconnectCartProductRelationship",
+    "IntegrationProcedure/ESM_UpdateCartProductRelationshipsForReplacedLineItems",
+    "IntegrationProcedure/ESM_ValidateLineItems"
+]

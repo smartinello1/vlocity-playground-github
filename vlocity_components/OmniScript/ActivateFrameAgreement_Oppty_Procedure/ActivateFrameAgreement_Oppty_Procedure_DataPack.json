@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ActivateFrameAgreement_Oppty_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Activate Frame Agreement",
+    "OmniProcessElement": [
+        "ActivateFrameAgreement_Oppty_Procedure_Element_UpdateModifiedDiscounts.json",
+        "ActivateFrameAgreement_Oppty_Procedure_Element_TerminateDeactivatedDiscounts.json",
+        "ActivateFrameAgreement_Oppty_Procedure_Element_ActivateSourceDiscounts.json"
+    ],
+    "OmniProcessKey": "ActivateFrameAgreement_Oppty",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ActivateFrameAgreement_Oppty_Procedure_PropertySetConfig.json",
+    "SubType": "Oppty",
+    "Type": "ActivateFrameAgreement",
+    "UniqueName": "ActivateFrameAgreement_Oppty_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Oppty/Procedure"
+}

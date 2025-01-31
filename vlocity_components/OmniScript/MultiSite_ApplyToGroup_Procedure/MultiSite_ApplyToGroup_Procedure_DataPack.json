@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "MultiSite_ApplyToGroup_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "MultiSite Apply to Group",
+    "OmniProcessElement": "MultiSite_ApplyToGroup_Procedure_Element_ApexRemoteCall.json",
+    "OmniProcessKey": "MultiSite_ApplyToGroup",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiSite_ApplyToGroup_Procedure_PropertySetConfig.json",
+    "SubType": "ApplyToGroup",
+    "Type": "MultiSite",
+    "UniqueName": "MultiSite_ApplyToGroup_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiSite/ApplyToGroup/Procedure"
+}

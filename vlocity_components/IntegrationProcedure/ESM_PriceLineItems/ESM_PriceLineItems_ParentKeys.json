@@ -1,0 +1,5 @@
+[
+    "DataRaptor/ESMGetAssetRefIdbyQliId",
+    "IntegrationProcedure/ESM_BulkApplyAdjustment",
+    "IntegrationProcedure/ESM_GetReplacedLineItemIds"
+]

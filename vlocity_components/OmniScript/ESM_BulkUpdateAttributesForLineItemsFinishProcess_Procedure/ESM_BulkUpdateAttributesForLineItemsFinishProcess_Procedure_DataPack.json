@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_JavaScript.js",
+    "Description": "This IP sends the notification when the bulk update attribute for line items is completed",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "BulkUpdateAttributesForLineItemsFinishProcess",
+    "OmniProcessElement": [
+        "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_Element_sendNotificationCompleted.json",
+        "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_Element_sendNotificationFailure.json"
+    ],
+    "OmniProcessKey": "ESM_BulkUpdateAttributesForLineItemsFinishProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_PropertySetConfig.json",
+    "SubType": "BulkUpdateAttributesForLineItemsFinishProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/BulkUpdateAttributesForLineItemsFinishProcess/Procedure"
+}

@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "ESM_MultiplyReplaceOffers_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_MultiplyReplaceOffers",
+    "OmniProcessElement": [
+        "ESM_MultiplyReplaceOffers_Procedure_Element_createInputForMultiplayReplaceOffers.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_MultiplayReplaceOffers.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_getParentItemFromMergeItemsForMergOfPlan.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_ApplyConfigurations.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_AssignMembers.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_UpdateCartProductRelationshipForReplacedOffer.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_DisconnectCartProductRelationshipForSourceOffer.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_ApplyAdjustments.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_getAssetRefIdforQli.json",
+        "ESM_MultiplyReplaceOffers_Procedure_Element_ValidateLineItems.json"
+    ],
+    "OmniProcessKey": "ESM_MultiplyReplaceOffers",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_MultiplyReplaceOffers_Procedure_PropertySetConfig.json",
+    "SubType": "MultiplyReplaceOffers",
+    "Type": "ESM",
+    "UniqueName": "ESM_MultiplyReplaceOffers_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/MultiplyReplaceOffers/Procedure"
+}

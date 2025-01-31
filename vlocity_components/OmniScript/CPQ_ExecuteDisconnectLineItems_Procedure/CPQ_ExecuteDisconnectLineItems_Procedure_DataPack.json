@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "CPQ_ExecuteDisconnectLineItems_Procedure_JavaScript.js",
+    "Description": "This IP will invoke remote method that executes disconnecting child line items for the given set of rootIds",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ExecuteDisconnectLineItems",
+    "OmniProcessElement": "CPQ_ExecuteDisconnectLineItems_Procedure_Element_ExecuteDisconnectLineItems.json",
+    "OmniProcessKey": "CPQ_ExecuteDisconnectLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_ExecuteDisconnectLineItems_Procedure_PropertySetConfig.json",
+    "SubType": "ExecuteDisconnectLineItems",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_ExecuteDisconnectLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/ExecuteDisconnectLineItems/Procedure"
+}

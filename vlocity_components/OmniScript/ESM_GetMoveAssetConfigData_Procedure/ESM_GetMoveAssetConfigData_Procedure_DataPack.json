@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_GetMoveAssetConfigData_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GetMoveAssetConfigData",
+    "OmniProcessElement": [
+        "ESM_GetMoveAssetConfigData_Procedure_Element_responseData.json",
+        "ESM_GetMoveAssetConfigData_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_GetMoveAssetConfigData",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_GetMoveAssetConfigData_Procedure_PropertySetConfig.json",
+    "SubType": "GetMoveAssetConfigData",
+    "Type": "ESM",
+    "UniqueName": "ESM_GetMoveAssetConfigData_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/GetMoveAssetConfigData/Procedure"
+}

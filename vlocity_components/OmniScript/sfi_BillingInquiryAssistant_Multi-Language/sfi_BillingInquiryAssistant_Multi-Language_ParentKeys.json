@@ -1,0 +1,11 @@
+[
+    "IntegrationProcedure/sfi_BillingInquiryAssistant",
+    "IntegrationProcedure/sfi_CheckIntelligencePreference",
+    "IntegrationProcedure/sfi_DataAndCallUsageAnalysis",
+    "IntegrationProcedure/sfi_GetInvoices",
+    "IntegrationProcedure/sfi_GetPaymentAndBalanceData",
+    "IntegrationProcedure/sfi_GetUsageData",
+    "IntegrationProcedure/sfi_GetUsageDataForComparison",
+    "IntegrationProcedure/sfi_HighBillAnalysis",
+    "IntegrationProcedure/sfi_PaymentAndBalanceAnalysis"
+]

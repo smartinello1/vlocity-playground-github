@@ -1,0 +1,28 @@
+<template>
+<div>
+    <template if:true={dataLoaded}>
+<lightning-card>
+    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium" >   
+    <lightning-layout pull-to-boundary="small">
+            <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+                <div class="slds-box slds-p-around_none">
+                    <lightning-card>
+                <h3 slot="title">
+                    <lightning-icon icon-name={appData.IconName} class="cloudicon slds-p-right_small" size={appData.IconSize}></lightning-icon>
+                    {appData.Heading}
+                </h3>
+                <p class="slds-p-horizontal_small slds-p-right_small">
+                    <lightning-formatted-rich-text value={appData.Overview}></lightning-formatted-rich-text> </p>
+               
+            </lightning-card>
+                </div>  
+        </lightning-layout-item>
+        <lightning-layout-item flexibility="auto" padding="horizontal-medium">
+            <iframe width="318" height="170" src={appData.VideoURL} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </lightning-layout-item>
+    </lightning-layout>
+    </div>
+</lightning-card>
+</template>
+</div>
+</template>

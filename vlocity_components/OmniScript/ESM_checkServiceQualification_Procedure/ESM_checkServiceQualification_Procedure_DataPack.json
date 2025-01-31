@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "ESM_checkServiceQualification_Procedure_JavaScript.js",
+    "Description": "The IP is created to check service qualification for selected Quote Members.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "checkServiceQualification",
+    "OmniProcessElement": [
+        "ESM_checkServiceQualification_Procedure_Element_GetQuoteMemberAddresses.json",
+        "ESM_checkServiceQualification_Procedure_Element_QuoteMemberFieldMapping.json",
+        "ESM_checkServiceQualification_Procedure_Element_KeyValueLabel.json",
+        "ESM_checkServiceQualification_Procedure_Element_ForEachMember.json",
+        "ESM_checkServiceQualification_Procedure_Element_PreparePayloadForServiceQualificationItem.json",
+        "ESM_checkServiceQualification_Procedure_Element_TMFApiCall.json",
+        "ESM_checkServiceQualification_Procedure_Element_updaterServiceabilityDataToMembers.json",
+        "ESM_checkServiceQualification_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_checkServiceQualification",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_checkServiceQualification_Procedure_PropertySetConfig.json",
+    "SubType": "checkServiceQualification",
+    "Type": "ESM",
+    "UniqueName": "ESM_checkServiceQualification_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/checkServiceQualification/Procedure"
+}

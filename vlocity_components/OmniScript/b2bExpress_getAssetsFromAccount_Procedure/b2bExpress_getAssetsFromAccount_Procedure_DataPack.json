@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "b2bExpress_getAssetsFromAccount_Procedure_JavaScript.js",
+    "Description": "B2B Cmex - The integration procedure is used to get Assets and related details for given account Id. The IP calls getAssetsByAccount() from CpqAppHandler.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "getAssetsFromAccount",
+    "OmniProcessElement": [
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_Account.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_getRecordType.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_checkAccountRecordType.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_IfServiceAccount.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_IfOthers.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_FieldsToQuery.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_getAssetsForServiceAccount.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_getAssetsForOthers.json",
+        "b2bExpress_getAssetsFromAccount_Procedure_Element_AssetResponse.json"
+    ],
+    "OmniProcessKey": "b2bExpress_getAssetsFromAccount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "b2bExpress_getAssetsFromAccount_Procedure_PropertySetConfig.json",
+    "SubType": "getAssetsFromAccount",
+    "Type": "b2bExpress",
+    "UniqueName": "b2bExpress_getAssetsFromAccount_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/b2bExpress/getAssetsFromAccount/Procedure"
+}

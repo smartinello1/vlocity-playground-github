@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_PriceLineItemsMergeFlow_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_PriceLineItemsMergeFlow",
+    "OmniProcessElement": [
+        "ESM_PriceLineItemsMergeFlow_Element_getParentItemFromMergeItemsForMergOfPlan.json",
+        "ESM_PriceLineItemsMergeFlow_Element_getAssetRefIdforQli.json",
+        "ESM_PriceLineItemsMergeFlow_Element_priceLineItems.json"
+    ],
+    "OmniProcessKey": "ESM_PriceLineItemsMergeFlow",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_PriceLineItemsMergeFlow_PropertySetConfig.json",
+    "SubType": "PriceLineItemsMergeFlow",
+    "Type": "ESM",
+    "UniqueName": "ESM_PriceLineItemsMergeFlow_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/PriceLineItemsMergeFlow/Procedure"
+}

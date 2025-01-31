@@ -1,0 +1,6 @@
+[
+    "DataRaptor/GenericDocuSignGetContacts",
+    "DataRaptor/GenericDocuSignGetDocuments",
+    "DataRaptor/GenericDocuSignTransformDocuments",
+    "IntegrationProcedure/genericDocuSign_sendEsignature"
+]

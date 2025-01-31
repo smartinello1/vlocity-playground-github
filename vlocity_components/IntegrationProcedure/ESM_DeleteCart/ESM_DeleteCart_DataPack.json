@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "ESM_DeleteCart_SampleInput.json",
+    "Description": "This IP deletes group and/or working carts for Quote and Order",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMDeleteCart",
+    "OmniProcessElement": [
+        "ESM_DeleteCart_Element_DeleteQuoteGroupCart.json",
+        "ESM_DeleteCart_Element_DeleteQuoteWorkingCart.json",
+        "ESM_DeleteCart_Element_DeleteOrderGroupCart.json",
+        "ESM_DeleteCart_Element_DeleteOrderWorkingCart.json",
+        "ESM_DeleteCart_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_DeleteCart",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_DeleteCart_PropertySetConfig.json",
+    "SubType": "DeleteCart",
+    "Type": "ESM",
+    "UniqueName": "ESM_DeleteCart_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/DeleteCart/Procedure"
+}

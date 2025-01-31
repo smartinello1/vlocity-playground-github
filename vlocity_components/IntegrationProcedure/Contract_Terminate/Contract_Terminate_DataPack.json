@@ -1,0 +1,33 @@
+{
+    "CustomHtmlTemplates": "Contract_Terminate_HTMLTemplates.html",
+    "CustomJavaScript": "baseCtrl.prototype.onSelectItemCustomized = function(control, option, index, scp, bFlip)\n        {\n            if(control === undefined || control === null || option === undefined || option === null)\n                return;\n            // multi-select, single select\n            var bSetVal = true;\n            var response = [];\n            if(bFlip)\n            {\n                if(option.vlcSelected === undefined || option.vlcSelected === null)\n                {\n                    option.vlcSelected = bSetVal;\n                }\n                else\n                {\n                    bSetVal = !option.vlcSelected;\n                    option.vlcSelected = bSetVal;\n                }\n            }\n\n            // update 'Selectable Items' response\n            var recSet = control.vlcSI[control.itemsKey];\n            // HP bug, use $$hashKey to check\n            for(var i=0; i<recSet.length; i++)\n            {\n                if(option.$$hashKey !== recSet[i].$$hashKey && bFlip && bSetVal && control.propSetMap.selectMode === 'Single')\n                     recSet[i].vlcSelected = false;\n                if(recSet[i].vlcSelected === true)\n                {\n                    recSet[i].Status = 'Inactive';\n                    response.push(recSet[i]);\n                }\n            }\n\n            if(response.length > 0)\n                control.response = response;\n            else\n                control.response = null;\n\n            if(control.propSetMap.dataJSON === true)\n                scp.aggregate(scp, control.index, control.indexInParent, true, -1);\n        };",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Terminate Contract",
+    "OmniProcessElement": [
+        "Contract_Terminate_Element_Step-1.json",
+        "Contract_Terminate_Element_Terminate-Date.json",
+        "Contract_Terminate_Element_Terminate-Type.json",
+        "Contract_Terminate_Element_Terminate-Reason.json",
+        "Contract_Terminate_Element_Terminate-Option.json",
+        "Contract_Terminate_Element_Terminate-Contract.json",
+        "Contract_Terminate_Element_Extract-contract-line-items.json",
+        "Contract_Terminate_Element_Step-2.json",
+        "Contract_Terminate_Element_ContractItem.json",
+        "Contract_Terminate_Element_DataRaptor-Post-Action-2.json",
+        "Contract_Terminate_Element_Done-Action.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Contract_Terminate_PropertySetConfig.json",
+    "SubType": "Terminate",
+    "Type": "Contract",
+    "UniqueName": "Contract_Terminate_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Contract/Terminate/English"
+}

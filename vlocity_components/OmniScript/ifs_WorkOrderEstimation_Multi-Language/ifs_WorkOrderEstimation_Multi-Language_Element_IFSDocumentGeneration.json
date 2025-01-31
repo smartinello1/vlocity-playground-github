@@ -1,0 +1,22 @@
+{
+    "EmbeddedOmniScriptKey": "ifs|DocumentGeneration|Multi-Language",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "IFSDocumentGeneration",
+    "OmniProcessId": {
+        "Name": "IFSWorkOrderEstimation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ifs/WorkOrderEstimation/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "Multi-Language",
+        "Sub Type": "DocumentGeneration",
+        "Type": "ifs",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/WorkOrderEstimation/Multi-Language/IFSDocumentGeneration"
+}

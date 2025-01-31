@@ -1,0 +1,53 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "EinsteinConversation",
+    "OmniProcessId": {
+        "Name": "SFIBillingInquiryAssistant",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/BillingInquiryAssistant/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "GPTResponseStep",
+        "OmniProcessId": {
+            "Name": "SFIBillingInquiryAssistant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/BillingInquiryAssistant/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/BillingInquiryAssistant/Multi-Language/GPTResponseStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "GPTResponseStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "usageData",
+                "source": "%BillingUsageData%"
+            },
+            {
+                "name": "gptResponse",
+                "source": "%GPTResponse%"
+            },
+            {
+                "name": "llmParameters",
+                "source": "%llmParameters%"
+            }
+        ],
+        "disOnTplt": false,
+        "hide": false,
+        "label": "",
+        "lwcName": "runtime_billing_inquiry__commsEinsteinConversation",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/BillingInquiryAssistant/Multi-Language/EinsteinConversation"
+}

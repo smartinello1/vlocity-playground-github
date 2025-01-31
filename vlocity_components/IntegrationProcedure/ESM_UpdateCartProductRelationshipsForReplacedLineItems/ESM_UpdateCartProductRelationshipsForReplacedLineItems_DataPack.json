@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_UpdateCartProductRelationshipsForReplacedLineItems_SampleInput.json",
+    "Description": "The IP is used to update the cart product relationship for the replaced line items in Enterprise Quote.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "UpdateCartProductRelationshipsForReplacedLineItems",
+    "OmniProcessElement": [
+        "ESM_UpdateCartProductRelationshipsForReplacedLineItems_Element_UpdateCartProductRelationshipsForReplacedLineItems.json",
+        "ESM_UpdateCartProductRelationshipsForReplacedLineItems_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_UpdateCartProductRelationshipsForReplacedLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_UpdateCartProductRelationshipsForReplacedLineItems_PropertySetConfig.json",
+    "SubType": "UpdateCartProductRelationshipsForReplacedLineItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_UpdateCartProductRelationshipsForReplacedLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/UpdateCartProductRelationshipsForReplacedLineItems/Procedure"
+}

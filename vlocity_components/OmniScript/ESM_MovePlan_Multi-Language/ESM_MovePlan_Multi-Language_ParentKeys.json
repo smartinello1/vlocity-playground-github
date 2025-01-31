@@ -1,0 +1,7 @@
+[
+    "IntegrationProcedure/ESM_GetMoveAssetConfigData",
+    "IntegrationProcedure/ESM_MovePlan",
+    "IntegrationProcedure/ESM_PriceLineItemsForMovedPlans",
+    "IntegrationProcedure/ESM_SingleMovePlan",
+    "IntegrationProcedure/ESM_StartBulkMove"
+]

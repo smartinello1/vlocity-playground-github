@@ -1,0 +1,116 @@
+{
+    "@type": "ProductOrder",
+    "category": "B2C product order",
+    "channel": [
+        {
+            "id": "1",
+            "name": "Online chanel",
+            "role": "Used channel for order capture"
+        }
+    ],
+    "description": "Product Order illustration sample",
+    "externalId": "PO-456",
+    "note": [
+        {
+            "author": "Jean Pontus",
+            "date": "2019-04-30T08:13:59.509Z",
+            "id": "1",
+            "text": "This is a TMF product order illustration"
+        }
+    ],
+    "priority": "1",
+    "productOrderItem": [
+        {
+            "@type": "ProductOrderItem",
+            "action": "add",
+            "billingAccount": {
+                "@type": "BillingAccount",
+                "href": "https://host:port/billingAccountManagement/v4/billingAccount/123",
+                "id": "123"
+            },
+            "id": "6a1385af-7631-c1e2-2e93-b5d1caddc69d",
+            "productOffering": {
+                "href": "https://host:port/productCatalogManagement/v4/productOffering/14277",
+                "id": "14277",
+                "name": "TMF25"
+            },
+            "productOrderItemRelationship": [
+                {
+                    "id": "110",
+                    "relationshipType": "bundles"
+                },
+                {
+                    "id": "120",
+                    "relationshipType": "bundles"
+                },
+                {
+                    "id": "130",
+                    "relationshipType": "bundles"
+                }
+            ],
+            "quantity": 3
+        },
+        {
+            "@type": "ProductOrderItem",
+            "action": "add",
+            "id": "d4baa350-f66c-7abf-f625-c75b6205089c",
+            "product": {
+                "@type": "Product",
+                "isBundle": false,
+                "productCharacteristic": [
+                    {
+                        "name": "B2CCmex_ATTR_DATA_CHAR",
+                        "value": "50GB Updated",
+                        "valueType": "string"
+                    }
+                ],
+                "productSpecification": {
+                    "@type": "ProductSpecificationRef",
+                    "href": "https://host:port/productCatalogManagement/v4/productSpecification/14353",
+                    "id": "14353",
+                    "name": "Coverage",
+                    "version": "1"
+                }
+            },
+            "productOffering": {
+                "href": "https://host:port/productCatalogManagement/v4/productOffering/14277",
+                "id": "14277",
+                "name": "TMF25"
+            },
+            "productOrderItemRelationship": [
+                {
+                    "id": "110",
+                    "relationshipType": "bundles"
+                },
+                {
+                    "id": "120",
+                    "relationshipType": "bundles"
+                },
+                {
+                    "id": "130",
+                    "relationshipType": "bundles"
+                }
+            ],
+            "quantity": 2
+        }
+    ],
+    "relatedParty": [
+        {
+            "@referredType": "account",
+            "@type": "RelatedParty",
+            "href": "https://host:port/partyManagement/v4/individual/456-dd-df45",
+            "id": "1234567",
+            "name": "akhila singh",
+            "role": "consumer"
+        },
+        {
+            "@referredType": "Customer",
+            "@type": "RelatedParty",
+            "href": "https://host:port/partyRoleManagement/v4/customer/ff55-hjy4",
+            "id": "ff55-hjy4",
+            "name": "Jean Pontus"
+        }
+    ],
+    "requestedCompletionDate": "2019-05-02T08:13:59.506Z",
+    "requestedStartDate": "2019-05-03T08:13:59.506Z"
+}

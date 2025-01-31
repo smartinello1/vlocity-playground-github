@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_DisconnectCartProductRelationship_SampleInput.json",
+    "Description": "The IP is used to disconnect the cart product relationship from Enterprise Quote.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "DisconnectCartProductRelationship",
+    "OmniProcessElement": [
+        "ESM_DisconnectCartProductRelationship_Element_DisconnectCartProductRelationships.json",
+        "ESM_DisconnectCartProductRelationship_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_DisconnectCartProductRelationship",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_DisconnectCartProductRelationship_PropertySetConfig.json",
+    "SubType": "DisconnectCartProductRelationship",
+    "Type": "ESM",
+    "UniqueName": "ESM_DisconnectCartProductRelationship_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/DisconnectCartProductRelationship/Procedure"
+}

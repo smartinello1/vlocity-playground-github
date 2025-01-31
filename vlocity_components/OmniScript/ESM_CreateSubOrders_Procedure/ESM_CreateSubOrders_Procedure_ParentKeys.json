@@ -1,0 +1,4 @@
+[
+    "IntegrationProcedure/ESM_CreateSubOrders",
+    "IntegrationProcedure/ESM_UpdateQuantityAndPrice"
+]

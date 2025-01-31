@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_EvaluateFormula_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMEvaluteExpression",
+    "OmniProcessElement": [
+        "ESM_EvaluateFormula_Procedure_Element_evaluateFormula.json",
+        "ESM_EvaluateFormula_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_EvaluateFormula",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_EvaluateFormula_Procedure_PropertySetConfig.json",
+    "SubType": "EvaluateFormula",
+    "Type": "ESM",
+    "UniqueName": "ESM_EvaluateFormula_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/EvaluateFormula/Procedure"
+}

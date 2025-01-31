@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_AssignMembersToReplacedItems",
+    "OmniProcessElement": "ESM_AssignMembersToReplacedItems_Element_AssignMembers.json",
+    "OmniProcessKey": "ESM_AssignMembersToReplacedItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_AssignMembersToReplacedItems_PropertySetConfig.json",
+    "SubType": "AssignMembersToReplacedItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_AssignMembersToReplacedItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/AssignMembersToReplacedItems/Procedure"
+}

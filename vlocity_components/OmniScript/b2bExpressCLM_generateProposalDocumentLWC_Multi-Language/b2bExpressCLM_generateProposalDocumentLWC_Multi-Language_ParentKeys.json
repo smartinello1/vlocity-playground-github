@@ -1,0 +1,5 @@
+[
+    "DataRaptor/GetQuoteDetailsDocGen",
+    "IntegrationProcedure/b2bExpressCLM_generateProposalDocumentLWC",
+    "IntegrationProcedure/b2bExpress_TemplateConfigData"
+]

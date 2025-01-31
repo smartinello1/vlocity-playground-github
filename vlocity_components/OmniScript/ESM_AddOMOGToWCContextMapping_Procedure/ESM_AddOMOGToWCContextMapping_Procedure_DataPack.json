@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_AddOMOGToWCContextMapping_Procedure_JavaScript.js",
+    "Description": "To store configuration for context mapping from Order Member/Group fields to Order fields.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ContextMappingForOrderMembersGroups",
+    "OmniProcessElement": [
+        "ESM_AddOMOGToWCContextMapping_Procedure_Element_ContextMapping.json",
+        "ESM_AddOMOGToWCContextMapping_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_AddOMOGToWCContextMapping",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_AddOMOGToWCContextMapping_Procedure_PropertySetConfig.json",
+    "SubType": "AddOMOGToWCContextMapping",
+    "Type": "ESM",
+    "UniqueName": "ESM_AddOMOGToWCContextMapping_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/AddOMOGToWCContextMapping/Procedure"
+}

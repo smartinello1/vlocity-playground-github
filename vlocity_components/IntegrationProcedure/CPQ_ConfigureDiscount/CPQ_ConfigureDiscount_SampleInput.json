@@ -1,0 +1,1491 @@
+{
+    "cartId": "801SB00000M2xAbYAJ",
+    "discountId": "a3YSB0000000sgL2AQ",
+    "items": {
+        "records": [
+            {
+                "$$hashKey": "object:1058",
+                "%vlocity_namespace%__Action__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "PICKLIST",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__Action__c",
+                    "hidden": null,
+                    "label": "Action",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "New"
+                },
+                "%vlocity_namespace%__AppliesToAllItems__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "BOOLEAN",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__AppliesToAllItems__c",
+                    "hidden": null,
+                    "label": "Applies To All Items",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": false
+                },
+                "%vlocity_namespace%__ApprovalStatus__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "PICKLIST",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__ApprovalStatus__c",
+                    "hidden": null,
+                    "label": "ApprovalStatus",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "Approved"
+                },
+                "%vlocity_namespace%__Description__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "TEXTAREA",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__Description__c",
+                    "hidden": null,
+                    "label": "Description",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": null
+                },
+                "%vlocity_namespace%__DiscountTemplateId__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "REFERENCE",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__DiscountTemplateId__c",
+                    "hidden": null,
+                    "label": "Discount Template",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": null
+                },
+                "%vlocity_namespace%__DiscountType__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "PICKLIST",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__DiscountType__c",
+                    "hidden": null,
+                    "label": "Discount Type",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "Account"
+                },
+                "%vlocity_namespace%__DurationUnitOfMeasure__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "PICKLIST",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__DurationUnitOfMeasure__c",
+                    "hidden": null,
+                    "label": "Discount Duration Unit of Measure",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": null
+                },
+                "%vlocity_namespace%__Duration__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "DOUBLE",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__Duration__c",
+                    "hidden": null,
+                    "label": "Discount Duration",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": null
+                },
+                "%vlocity_namespace%__EffectiveEndDate__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "DATETIME",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__EffectiveEndDate__c",
+                    "hidden": null,
+                    "label": "Effective End Date",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "2024-06-30T00:00:00.000Z"
+                },
+                "%vlocity_namespace%__EffectiveStartDate__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "DATETIME",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__EffectiveStartDate__c",
+                    "hidden": null,
+                    "label": "Effective Start Date",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": null
+                },
+                "%vlocity_namespace%__ReferenceNumber__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "STRING",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__ReferenceNumber__c",
+                    "hidden": null,
+                    "label": "Reference Number",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "3f2ba3b3-f999-b079-9137-39a282ff6509"
+                },
+                "%vlocity_namespace%__Status__c": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "PICKLIST",
+                    "editable": true,
+                    "fieldName": "%vlocity_namespace%__Status__c",
+                    "hidden": null,
+                    "label": "Status",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "Not Activated"
+                },
+                "All items in cart": {
+                    "label": "All items in cart",
+                    "value": ""
+                },
+                "Allocation": {
+                    "label": "Discount Type",
+                    "selectedDiscountType": {
+                        "name": "Account",
+                        "value": "Account"
+                    },
+                    "types": [
+                        {
+                            "name": "Account",
+                            "value": "Account"
+                        },
+                        {
+                            "name": "Order",
+                            "value": "Order"
+                        },
+                        {
+                            "name": "Contract",
+                            "value": "Contract"
+                        }
+                    ]
+                },
+                "Category": {
+                    "categories": [
+                        {
+                            "$$hashKey": "object:1086",
+                            "Id": "a0hxx0000019TFQAA2",
+                            "value": "Jun_Cat4"
+                        },
+                        {
+                            "$$hashKey": "object:1087",
+                            "Id": "a0hxx0000019TCCAA2",
+                            "value": "Jun_Cat2"
+                        }
+                    ],
+                    "label": "Category"
+                },
+                "Discount": {
+                    "discounts": [
+                        {
+                            "$$hashKey": "object:1094",
+                            "chargeType": "One-time",
+                            "label": "one time charges",
+                            "selectedAdjustmentMethod": {
+                                "value": "%"
+                            },
+                            "types": [
+                                {
+                                    "detailType": "Discount",
+                                    "method": "Percent",
+                                    "value": "%"
+                                },
+                                {
+                                    "detailType": "Discount",
+                                    "method": "Absolute",
+                                    "value": "$"
+                                }
+                            ],
+                            "value": -11
+                        },
+                        {
+                            "$$hashKey": "object:1095",
+                            "actions": {
+                                "timelists": {
+                                    "client": {
+                                        "params": {
+                                        },
+                                        "records": [
+                                        ]
+                                    },
+                                    "remote": {
+                                        "params": {
+                                            "listkeys": "TimePlans,TimePolicies",
+                                            "methodName": "getListsOfValues"
+                                        }
+                                    },
+                                    "rest": {
+                                        "link": null,
+                                        "method": null,
+                                        "params": {
+                                        }
+                                    }
+                                }
+                            },
+                            "chargeType": "Recurring",
+                            "label": "monthly charges for 5 Month",
+                            "selectedAdjustmentMethod": {
+                                "value": "%"
+                            },
+                            "selectedTimePlan": null,
+                            "selectedTimePolicy": {
+                                "label": "Default Purchase Date To End of Plan Duration",
+                                "valuekey": "a3lxx000000k9d2AAA"
+                            },
+                            "types": [
+                                {
+                                    "detailType": "Discount",
+                                    "method": "Percent",
+                                    "value": "%"
+                                },
+                                {
+                                    "detailType": "Discount",
+                                    "method": "Absolute",
+                                    "value": "$"
+                                }
+                            ],
+                            "value": -12
+                        }
+                    ],
+                    "label": "Discount"
+                },
+                "Discount Name": {
+                    "label": "Discount Name",
+                    "value": "MultiSet 01"
+                },
+                "Duration unit": {
+                    "label": "Duration unit",
+                    "value": "months"
+                },
+                "End date": {
+                    "label": "End Date",
+                    "value": "2024-06-30T00:00:00.000+0000"
+                },
+                "Id": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "ID",
+                    "editable": false,
+                    "fieldName": "Id",
+                    "hidden": null,
+                    "label": "Record ID",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "a5Txx0000004Dl2EAE"
+                },
+                "Name": {
+                    "actions": {
+                    },
+                    "alternateValues": null,
+                    "dataType": "STRING",
+                    "editable": true,
+                    "fieldName": "Name",
+                    "hidden": null,
+                    "label": "Name",
+                    "messages": [
+                    ],
+                    "originalValue": null,
+                    "previousValue": null,
+                    "value": "MultiSet 01"
+                },
+                "Product": {
+                    "label": "Product",
+                    "products": [
+                        {
+                            "$$hashKey": "object:1091",
+                            "Id": "01txx0000006iGyAAI",
+                            "Name": "Jun_P2"
+                        }
+                    ]
+                },
+                "Status": {
+                    "label": "Status",
+                    "value": "Approved"
+                },
+                "actions": {
+                    "configureDiscounts": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "801xx000003GfepAAC",
+                                "discountId": "a5Txx0000004Dl2EAE",
+                                "methodName": "configureDiscounts"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "deleteDiscount": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "801xx000003GfepAAC",
+                                "id": "a5Txx0000004Dl2EAE",
+                                "methodName": "deleteCartDiscount"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "discountItems": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "%vlocity_namespace%__CatalogCategoryId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__CatalogCategoryId__c",
+                                "hidden": null,
+                                "label": "Catalog Category",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a0hxx0000019TFQAA2"
+                            },
+                            "%vlocity_namespace%__Description__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Description__c",
+                                "hidden": null,
+                                "label": "Description",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__OrderDiscountId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": false,
+                                "fieldName": "%vlocity_namespace%__OrderDiscountId__c",
+                                "hidden": null,
+                                "label": "Order Discount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "%vlocity_namespace%__ProductId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ProductId__c",
+                                "hidden": null,
+                                "label": "Product",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "CatalogCategoryId__r.Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": null,
+                                "editable": null,
+                                "fieldName": "CatalogCategoryId__r.Name",
+                                "hidden": null,
+                                "label": "CatalogCategoryId__r.Name",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Jun_Cat4"
+                            },
+                            "Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Rxx0000004CQoEAM"
+                            },
+                            "Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Reference Number",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "displaySequence": -1,
+                            "messages": [
+                            ]
+                        },
+                        {
+                            "%vlocity_namespace%__CatalogCategoryId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__CatalogCategoryId__c",
+                                "hidden": null,
+                                "label": "Catalog Category",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__Description__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Description__c",
+                                "hidden": null,
+                                "label": "Description",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__OrderDiscountId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": false,
+                                "fieldName": "%vlocity_namespace%__OrderDiscountId__c",
+                                "hidden": null,
+                                "label": "Order Discount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "%vlocity_namespace%__ProductId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ProductId__c",
+                                "hidden": null,
+                                "label": "Product",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "01txx0000006iGyAAI"
+                            },
+                            "Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Rxx0000004CQmEAM"
+                            },
+                            "Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Reference Number",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "ProductId__r.Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": null,
+                                "editable": null,
+                                "fieldName": "ProductId__r.Name",
+                                "hidden": null,
+                                "label": "ProductId__r.Name",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Jun_P2"
+                            },
+                            "displaySequence": -1,
+                            "messages": [
+                            ]
+                        },
+                        {
+                            "%vlocity_namespace%__CatalogCategoryId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__CatalogCategoryId__c",
+                                "hidden": null,
+                                "label": "Catalog Category",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a0hxx0000019TCCAA2"
+                            },
+                            "%vlocity_namespace%__Description__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Description__c",
+                                "hidden": null,
+                                "label": "Description",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__OrderDiscountId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": false,
+                                "fieldName": "%vlocity_namespace%__OrderDiscountId__c",
+                                "hidden": null,
+                                "label": "Order Discount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "%vlocity_namespace%__ProductId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ProductId__c",
+                                "hidden": null,
+                                "label": "Product",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "CatalogCategoryId__r.Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": null,
+                                "editable": null,
+                                "fieldName": "CatalogCategoryId__r.Name",
+                                "hidden": null,
+                                "label": "CatalogCategoryId__r.Name",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Jun_Cat2"
+                            },
+                            "Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Rxx0000004CQnEAM"
+                            },
+                            "Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Reference Number",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "displaySequence": -1,
+                            "messages": [
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                },
+                "discountPriceAdjustments": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "%vlocity_namespace%__AdjustmentValue__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "DOUBLE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AdjustmentValue__c",
+                                "hidden": null,
+                                "label": "Adjustment Value",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": -10
+                            },
+                            "%vlocity_namespace%__Amount__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "CURRENCY",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Amount__c",
+                                "hidden": null,
+                                "label": "Amount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__OrderDiscountId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": false,
+                                "fieldName": "%vlocity_namespace%__OrderDiscountId__c",
+                                "hidden": null,
+                                "label": "Order Discount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "%vlocity_namespace%__PricingVariableId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__PricingVariableId__c",
+                                "hidden": null,
+                                "label": "Pricing Variable",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C96EAE"
+                            },
+                            "%vlocity_namespace%__TimePlanId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__TimePlanId__c",
+                                "hidden": null,
+                                "label": "Time Plan",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__TimePolicyId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__TimePolicyId__c",
+                                "hidden": null,
+                                "label": "Time Policy",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Sxx0000004Dl2EAE"
+                            },
+                            "Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Reference Number",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "displaySequence": -1,
+                            "messages": [
+                            ],
+                            "pricingvariableid__r.%vlocity_namespace%__AdjustmentMethod__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AdjustmentMethod__c",
+                                "hidden": null,
+                                "label": "Adjustment Method",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Percent"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Aggregation__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Aggregation__c",
+                                "hidden": null,
+                                "label": "Aggregation",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Unit"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__AppliesToVariableId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AppliesToVariableId__c",
+                                "hidden": null,
+                                "label": "Applies To Variable",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C9GEAU"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__AppliesTo__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AppliesTo__c",
+                                "hidden": null,
+                                "label": "Applies To",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__ChargeType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ChargeType__c",
+                                "hidden": null,
+                                "label": "Charge Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Adjustment"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Code__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Code__c",
+                                "hidden": null,
+                                "label": "Code",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "OT_STD_PRC_ADJ_PCT"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__CurrencyType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__CurrencyType__c",
+                                "hidden": null,
+                                "label": "Currency Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Currency"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Description__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "TEXTAREA",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Description__c",
+                                "hidden": null,
+                                "label": "Description",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__IsActive__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "BOOLEAN",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__IsActive__c",
+                                "hidden": null,
+                                "label": "Active",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": true
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__RecurringFrequency__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__RecurringFrequency__c",
+                                "hidden": null,
+                                "label": "Frequency",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Scope__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Scope__c",
+                                "hidden": null,
+                                "label": "Scope",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Line"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__SubType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__SubType__c",
+                                "hidden": null,
+                                "label": "Sub-Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Standard"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Type__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Type__c",
+                                "hidden": null,
+                                "label": "Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Price"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__ValueType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ValueType__c",
+                                "hidden": null,
+                                "label": "ValueType",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Pricing Element"
+                            },
+                            "pricingvariableid__r.Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C96EAE"
+                            },
+                            "pricingvariableid__r.Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Pricing Variable Name",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "One Time Std Price Adjustment Pct"
+                            }
+                        },
+                        {
+                            "%vlocity_namespace%__AdjustmentValue__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "DOUBLE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AdjustmentValue__c",
+                                "hidden": null,
+                                "label": "Adjustment Value",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": -12
+                            },
+                            "%vlocity_namespace%__Amount__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "CURRENCY",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Amount__c",
+                                "hidden": null,
+                                "label": "Amount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "%vlocity_namespace%__OrderDiscountId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": false,
+                                "fieldName": "%vlocity_namespace%__OrderDiscountId__c",
+                                "hidden": null,
+                                "label": "Order Discount",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "%vlocity_namespace%__PricingVariableId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__PricingVariableId__c",
+                                "hidden": null,
+                                "label": "Pricing Variable",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C9BEAU"
+                            },
+                            "%vlocity_namespace%__TimePlanId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__TimePlanId__c",
+                                "hidden": null,
+                                "label": "Time Plan",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3kxx0000005A8OAAU"
+                            },
+                            "%vlocity_namespace%__TimePolicyId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__TimePolicyId__c",
+                                "hidden": null,
+                                "label": "Time Policy",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3lxx000000k9d2AAA"
+                            },
+                            "Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Sxx0000004Dl3EAE"
+                            },
+                            "Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Reference Number",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a5Txx0000004Dl2EAE"
+                            },
+                            "displaySequence": -1,
+                            "messages": [
+                            ],
+                            "pricingvariableid__r.%vlocity_namespace%__AdjustmentMethod__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AdjustmentMethod__c",
+                                "hidden": null,
+                                "label": "Adjustment Method",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Percent"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Aggregation__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Aggregation__c",
+                                "hidden": null,
+                                "label": "Aggregation",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Unit"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__AppliesToVariableId__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "REFERENCE",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AppliesToVariableId__c",
+                                "hidden": null,
+                                "label": "Applies To Variable",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C9HEAU"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__AppliesTo__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__AppliesTo__c",
+                                "hidden": null,
+                                "label": "Applies To",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__ChargeType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ChargeType__c",
+                                "hidden": null,
+                                "label": "Charge Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Adjustment"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Code__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Code__c",
+                                "hidden": null,
+                                "label": "Code",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "REC_MNTH_STD_PRC_ADJ_PCT"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__CurrencyType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__CurrencyType__c",
+                                "hidden": null,
+                                "label": "Currency Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Currency"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Description__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "TEXTAREA",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Description__c",
+                                "hidden": null,
+                                "label": "Description",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": null
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__IsActive__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "BOOLEAN",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__IsActive__c",
+                                "hidden": null,
+                                "label": "Active",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": true
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__RecurringFrequency__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__RecurringFrequency__c",
+                                "hidden": null,
+                                "label": "Frequency",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Monthly"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Scope__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Scope__c",
+                                "hidden": null,
+                                "label": "Scope",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Line"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__SubType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__SubType__c",
+                                "hidden": null,
+                                "label": "Sub-Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Standard"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__Type__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__Type__c",
+                                "hidden": null,
+                                "label": "Type",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Price"
+                            },
+                            "pricingvariableid__r.%vlocity_namespace%__ValueType__c": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "PICKLIST",
+                                "editable": true,
+                                "fieldName": "%vlocity_namespace%__ValueType__c",
+                                "hidden": null,
+                                "label": "ValueType",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Pricing Element"
+                            },
+                            "pricingvariableid__r.Id": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "ID",
+                                "editable": false,
+                                "fieldName": "Id",
+                                "hidden": null,
+                                "label": "Record ID",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "a3Nxx0000004C9BEAU"
+                            },
+                            "pricingvariableid__r.Name": {
+                                "actions": {
+                                },
+                                "alternateValues": null,
+                                "dataType": "STRING",
+                                "editable": true,
+                                "fieldName": "Name",
+                                "hidden": null,
+                                "label": "Pricing Variable Name",
+                                "messages": [
+                                ],
+                                "originalValue": null,
+                                "previousValue": null,
+                                "value": "Recurring Monthly Std Price Adjustment Pct"
+                            }
+                        }
+                    ],
+                    "totalSize": 2
+                },
+                "displaySequence": -1,
+                "messages": [
+                ],
+                "name": "MultiSet 01",
+                "objectName": "OrderDiscount__c",
+                "timePlanList": [
+                    {
+                        "label": "5 months",
+                        "valuekey": "a3kxx0000005A8OAAU"
+                    },
+                    {
+                        "label": "",
+                        "valuekey": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "methodName": "configureDiscounts"
+}

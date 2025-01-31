@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_ValidateLineItemExecuteProcess_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_ValidateLineItemExecuteProcess",
+    "OmniProcessElement": [
+        "ESM_ValidateLineItemExecuteProcess_Procedure_Element_GetReplacedLineItemIds.json",
+        "ESM_ValidateLineItemExecuteProcess_Procedure_Element_getAssetRefIdforQli.json",
+        "ESM_ValidateLineItemExecuteProcess_Procedure_Element_ValidateItems.json"
+    ],
+    "OmniProcessKey": "ESM_ValidateLineItemExecuteProcess",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ValidateLineItemExecuteProcess_Procedure_PropertySetConfig.json",
+    "SubType": "ValidateLineItemExecuteProcess",
+    "Type": "ESM",
+    "UniqueName": "ESM_ValidateLineItemExecuteProcess_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ValidateLineItemExecuteProcess/Procedure"
+}

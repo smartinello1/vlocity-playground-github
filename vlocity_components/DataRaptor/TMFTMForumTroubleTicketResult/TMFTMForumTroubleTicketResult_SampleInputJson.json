@@ -1,0 +1,162 @@
+{
+    "%vlocity_namespace%__EndOfLifeDate__c": 1524156143000,
+    "%vlocity_namespace%__SellingStartDate__c": 1497830400000,
+    "%vlocity_namespace%__SpecificationSubType__c": "Bundle",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__VersionLabel__c": "2.0",
+    "Description": "Siri works on this iPhone",
+    "IsActive": true,
+    "Name": "iPhone 59",
+    "ProductCode": "I42-340-DX",
+    "attributeAssignments": [
+        {
+            "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Screen size",
+            "%vlocity_namespace%__Description__c": "Screen size",
+            "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+            "%vlocity_namespace%__EffectiveUntilDate__c": 1495212143000,
+            "%vlocity_namespace%__IsConfigurable__c": false,
+            "%vlocity_namespace%__ValueType__c": "Number",
+            "Name": "Screen Size",
+            "attributes": [
+                {
+                    "%vlocity_namespace%__EffectiveFromDate__c": 1600819200000,
+                    "%vlocity_namespace%__EffectiveUntilDate__c": 1669248000000,
+                    "isDefault": true,
+                    "value": 8,
+                    "valueType": "number"
+                }
+            ]
+        },
+        {
+            "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Colour",
+            "%vlocity_namespace%__Description__c": "Colour",
+            "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+            "%vlocity_namespace%__EffectiveUntilDate__c": 1495212143000,
+            "%vlocity_namespace%__IsConfigurable__c": true,
+            "%vlocity_namespace%__ValueType__c": "String",
+            "Name": "Colour",
+            "attributes": [
+                {
+                    "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+                    "%vlocity_namespace%__EffectiveUntilDate__c": 1495212143000,
+                    "isDefault": true,
+                    "value": "Black",
+                    "valueType": "String"
+                },
+                {
+                    "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+                    "%vlocity_namespace%__EffectiveUntilDate__c": 1495212143000,
+                    "isDefault": false,
+                    "value": "White",
+                    "valueType": "String"
+                }
+            ]
+        }
+    ],
+    "createdBy": {
+        "Id": "1234",
+        "Name": "Gustave Flaubert",
+        "UserRole": {
+            "Name": "Owner"
+        }
+    },
+    "priceListEntries": [
+        {
+            "%vlocity_namespace%__DisplayText__c": "New offer description",
+            "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+            "%vlocity_namespace%__EffectiveUntilDate__c": 1555692143000,
+            "%vlocity_namespace%__PricingElementId__r": {
+                "%vlocity_namespace%__Amount__c": 1,
+                "%vlocity_namespace%__CurrencyCode__c": "USD",
+                "%vlocity_namespace%__PerUsageMeasurementId__r": {
+                    "Name": "USD"
+                },
+                "%vlocity_namespace%__PricingVariableId__r": {
+                    "%vlocity_namespace%__ChargeType__c": "recurring",
+                    "%vlocity_namespace%__RecurringFrequency__c": "monthly"
+                }
+            },
+            "%vlocity_namespace%__ProductId__r": {
+                "%vlocity_namespace%__VersionLabel__c": "1.0"
+            },
+            "%vlocity_namespace%__PromotionId__r": {
+                "%vlocity_namespace%__DurationTimePlanId__r": {
+                    "%vlocity_namespace%__Description__c": "New offer description2",
+                    "%vlocity_namespace%__EffectiveEndDate__c": 1555692143000,
+                    "%vlocity_namespace%__EffectiveStartDate__c": 1492620143000,
+                    "%vlocity_namespace%__TotalDurationUoM__c": "Paisa",
+                    "%vlocity_namespace%__TotalDuration__c": "2",
+                    "Name": "offerNam2"
+                }
+            },
+            "Name": "offerName"
+        },
+        {
+            "%vlocity_namespace%__DisplayText__c": "New offer description2",
+            "%vlocity_namespace%__EffectiveFromDate__c": 1492620143000,
+            "%vlocity_namespace%__EffectiveUntilDate__c": 1555692143000,
+            "%vlocity_namespace%__PricingElementId__r": {
+                "%vlocity_namespace%__Amount__c": 1,
+                "%vlocity_namespace%__CurrencyCode__c": "USD",
+                "%vlocity_namespace%__PerUsageMeasurementId__r": {
+                    "Name": "Paisa"
+                },
+                "%vlocity_namespace%__PricingVariableId__r": {
+                    "%vlocity_namespace%__ChargeType__c": "recurring",
+                    "%vlocity_namespace%__RecurringFrequency__c": "Daily"
+                }
+            },
+            "%vlocity_namespace%__ProductId__r": {
+                "%vlocity_namespace%__VersionLabel__c": "2.0"
+            },
+            "%vlocity_namespace%__PromotionId__r": {
+                "%vlocity_namespace%__DurationTimePlanId__r": {
+                    "%vlocity_namespace%__Description__c": "New offer description",
+                    "%vlocity_namespace%__EffectiveEndDate__c": 1555692143000,
+                    "%vlocity_namespace%__EffectiveStartDate__c": 1492620143000,
+                    "%vlocity_namespace%__TotalDurationUoM__c": "Rs",
+                    "%vlocity_namespace%__TotalDuration__c": "1",
+                    "Name": "offerName"
+                }
+            },
+            "Name": "offerName2"
+        }
+    ],
+    "productRelationships": [
+        {
+            "%vlocity_namespace%__RelatedProductId__c": "23",
+            "%vlocity_namespace%__RelationshipType__c": "Dependency",
+            "RelatedProductId__r": {
+                "%vlocity_namespace%__SellingStartDate__c": 1492620143000
+            }
+        }
+    ],
+    "resourceSpecifications": [
+        {
+            "%vlocity_namespace%__VersionLabel__c": "1.0",
+            "Id": "63",
+            "Name": "specification 63"
+        }
+    ],
+    "serviceSpecifications": [
+        {
+            "%vlocity_namespace%__VersionLabel__c": "1.0",
+            "Id": "22",
+            "Name": "specification 22"
+        }
+    ],
+    "vlocityAttachments": [
+        {
+            "%vlocity_namespace%__UrlLong__c": "https://mycsp.com:7070/docloader?docnum=774454321",
+            "Document": {
+                "Type": "application/pdf"
+            },
+            "Name": "Product Manual"
+        },
+        {
+            "%vlocity_namespace%__AttachmentId__c": "01t5f000000igLQAAY",
+            "%vlocity_namespace%__UrlLong__c": "https://mycsp.com:7070/docloader?docnum=01t5f000000igLQAAY",
+            "Name": "Product Manual"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CPQCreateNewSite",
+    "OmniProcessElement": [
+        "CPQ_CreateNewSite_Element_CreateNewSiteRemoteAction.json",
+        "CPQ_CreateNewSite_Element_CreateNewSiteResponseAction.json"
+    ],
+    "OmniProcessKey": "CPQ_CreateNewSite",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_CreateNewSite_PropertySetConfig.json",
+    "SubType": "CreateNewSite",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_CreateNewSite_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/CreateNewSite/Procedure"
+}

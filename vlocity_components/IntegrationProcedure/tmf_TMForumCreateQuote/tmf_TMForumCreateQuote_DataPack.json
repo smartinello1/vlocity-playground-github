@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "tmf_TMForumCreateQuote_SampleInput.json",
+    "Description": "v248.0 This VIP contains the POST Implementation for TMF648 Quote Management",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumCreateQuote",
+    "OmniProcessElement": [
+        "tmf_TMForumCreateQuote_Element_QuoteRequestDRT.json",
+        "tmf_TMForumCreateQuote_Element_PostQuote.json",
+        "tmf_TMForumCreateQuote_Element_QuoteResponseDRT.json",
+        "tmf_TMForumCreateQuote_Element_QuoteResponse.json",
+        "tmf_TMForumCreateQuote_Element_QuoteFailureResponse.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumCreateQuote",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumCreateQuote_PropertySetConfig.json",
+    "SubType": "TMForumCreateQuote",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumCreateQuote_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumCreateQuote/Procedure"
+}

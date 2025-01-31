@@ -1,0 +1,298 @@
+[
+    {
+        "apiVersion": "v48.0",
+        "order": {
+            "%vlocity_namespace%__OriginatingChannel__c": "Call Center",
+            "AccountId": "0014x00000KlmAgAAJ",
+            "Id": "8014x000000njmoAAA",
+            "OrderNumber": "00004122",
+            "Status": "Draft",
+            "attributes": {
+                "type": "Order",
+                "url": "/services/data/v57.0/sobjects/Order/8014x000000njmoAAA"
+            }
+        },
+        "productOrderItem": [
+            {
+                "%vlocity_namespace%__Action__c": "Add",
+                "%vlocity_namespace%__BillingAccountId__c": "0014x000018chUeAAI",
+                "%vlocity_namespace%__PricingLogData__c": "{\"LogData\":{\"REC_MNTH_STD_PRC_TOTAL\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"[Recurring Calculated Price (0.00) + Rollup Recurring Total (0.00)] x Quantity (1.00)\"}],\"REC_MNTH_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"Recurring Charge (0.00) - Recurring Manual Discount (0.00%)\"}],\"OT_STD_PRC_TOTAL\":[{\"ChargeTiming\":\"One-Time\",\"LogSequence\":0,\"DisplayText\":\"[One Time Calculated Price (10.00) + Rollup One Time Total (0.00)] x Quantity (1.00)\"}],\"OT_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"One Time Charge (10.00000) - One Time Manual Discount (0.00%)\"}],\"OT_STD_PRC\":[{\"LogSequence\":0,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"AdjustmentType\":\"None\",\"LoyaltyCode\":\"PTS\",\"CurrencyCode\":\"USD\",\"CurrencyType\":\"Currency\",\"Amount\":12.00000,\"AdjustmentValue\":0.00,\"AdjustmentMethod\":null,\"BaseValue\":12.00000,\"BaseAdjustment\":null,\"PriceListId\":\"a3C4x000000cXvqEAE\",\"OfferId\":null,\"PromotionId\":null,\"PricingElementId\":\"a3E4x000000cFWdEAM\",\"PricingVariableCode\":\"OT_STD_PRC\",\"DisplayText\":\"PLE\",\"EndValue\":12.00000,\"ChargeTiming\":\"One-time\",\"Frequency\":null,\"SubType\":\"Standard\",\"StartValue\":12.00000,\"PricingElementGlobalKey\":\"9b7a8cc9-093b-9867-858a-414b0927cd13\",\"LogType\":\"PRICE\",\"PriceListEntryId\":\"a3B4x000001bPvlEAE\"},{\"LogSequence\":1,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"DateApplied\":\"2023-02-15T11:58:52.000Z\",\"AppliedBy\":\"epc epc\",\"DisplayText\":\"Discount applied by epc epc\",\"PricingAdjustmentId\":\"a344x000000mC6vAAE\",\"Source\":\"Agent\",\"AdjustmentType\":\"Discount\",\"Amount\":0.00,\"AdjustmentValue\":-2.00,\"AdjustmentMethod\":\"Absolute\",\"PricingVariableCode\":\"OT_STD_PRC_ADJ_ABS\",\"EndValue\":10.00000,\"ChargeTiming\":\"Adjustment\",\"Frequency\":null,\"SubType\":\"Standard\",\"StartValue\":12.00000,\"LogType\":\"ADJUSTMENT\"}]},\"PricingVariableCodeFieldBinding\":{\"%vlocity_namespace%__EffectiveQuantity__c\":\"EFFECTIVE_QUANTITY\",\"Quantity\":\"LINE_QUANTITY\",\"%vlocity_namespace%__EffectiveRecurringTotal__c\":\"EFF_REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringTotal__c\":\"REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringCalculatedPrice__c\":\"REC_MNTH_STD_PRC_CALC\",\"%vlocity_namespace%__RecurringCharge__c\":\"REC_MNTH_STD_PRC\",\"%vlocity_namespace%__EffectiveOneTimeTotal__c\":\"EFF_OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeTotal__c\":\"OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeCalculatedPrice__c\":\"OT_STD_PRC_CALC\",\"%vlocity_namespace%__OneTimeCharge__c\":\"OT_STD_PRC\",\"%vlocity_namespace%__RecurringManualDiscount__c\":\"REC_MNTH_STD_PRC_DISC_PCT_MAN\",\"%vlocity_namespace%__OneTimeManualDiscount__c\":\"OT_STD_PRC_DISC_PCT_MAN\"},\"PriceAdjustmentPromoKeys\":[],\"PricingVariableCodeValues\":{\"DISP_OT_STD_PRC\":10.00000,\"ROLLUP_OT_STD_PRC_TOTAL\":0.00,\"ROLLUP_REC_MNTH_STD_PRC_TOTAL\":0.00,\"EFFECTIVE_QUANTITY\":1.00,\"LINE_QUANTITY\":1.00,\"EFF_REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_CALC\":0.00,\"REC_MNTH_STD_PRC\":0.00,\"EFF_OT_STD_PRC_TOTAL\":10.00,\"OT_STD_PRC_TOTAL\":10.00,\"OT_STD_PRC_CALC\":10.00,\"OT_STD_PRC\":10.00000,\"REC_MNTH_STD_PRC_DISC_PCT_MAN\":0.00,\"OT_STD_PRC_DISC_PCT_MAN\":0.00},\"PricingVariableCodeBaseValues\":{\"OT_STD_PRC\":12.00000},\"LogVersion\":\"3.0\",\"PriceAsOfDateTime\":\"2023-02-22T14:19:33.905Z\",\"LastPricingTime\":\"2023-02-22T14:19:33.905Z\",\"SequentialOffers\":false,\"SequentialPromotions\":false,\"SequentialDiscounts\":false}",
+                "%vlocity_namespace%__ProductGroupKey__c": "edba76d6-5e06-ab1b-7dd0-c00064a792f1",
+                "Id": "8024x00000TFb66AAD",
+                "OrderId": "8014x000000njmoAAA",
+                "Quantity": 1,
+                "billingAccount": [
+                    {
+                        "Id": "0014x000018chUeAAI",
+                        "Name": "Account-01",
+                        "attributes": {
+                            "type": "Account",
+                            "url": "/services/data/v57.0/sobjects/Account/0014x000018chUeAAI"
+                        }
+                    }
+                ],
+                "pricingAdjustments": {
+                    "Absolute": -2,
+                    "priceType": "One-time"
+                }
+            },
+            {
+                "%vlocity_namespace%__Action__c": "Add",
+                "%vlocity_namespace%__BillingAccountId__c": "0014x00000KlmAgAAJ",
+                "%vlocity_namespace%__PricingLogData__c": "{\"LogData\":{\"REC_MNTH_STD_PRC_TOTAL\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"[Recurring Calculated Price (0.00) + Rollup Recurring Total (0.00)] x Quantity (1.00)\"}],\"REC_MNTH_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"Recurring Charge (0.00) - Recurring Manual Discount (0.00%)\"}],\"OT_STD_PRC_TOTAL\":[{\"ChargeTiming\":\"One-Time\",\"LogSequence\":0,\"DisplayText\":\"[One Time Calculated Price (135.00) + Rollup One Time Total (0.00)] x Quantity (1.00)\"}],\"OT_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"One Time Charge (135.0000000) - One Time Manual Discount (0.00%)\"}],\"OT_STD_PRC\":[{\"LogSequence\":0,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"AdjustmentType\":\"None\",\"LoyaltyCode\":\"PTS\",\"CurrencyCode\":\"USD\",\"CurrencyType\":\"Currency\",\"Amount\":150.00000,\"AdjustmentValue\":0.00,\"AdjustmentMethod\":null,\"BaseValue\":150.00000,\"BaseAdjustment\":null,\"PriceListId\":\"a3C4x000000cXvqEAE\",\"OfferId\":null,\"PromotionId\":null,\"PricingElementId\":\"a3E4x000000uQ0UEAU\",\"PricingVariableCode\":\"OT_STD_PRC\",\"DisplayText\":\"PLE\",\"EndValue\":150.00000,\"ChargeTiming\":\"One-time\",\"Frequency\":null,\"SubType\":\"Standard\",\"StartValue\":150.00000,\"PricingElementGlobalKey\":\"c2da55a6-9c5c-224d-871e-8d0886689300\",\"LogType\":\"PRICE\",\"PriceListEntryId\":\"a3B4x000001bPvqEAE\"},{\"LogSequence\":1,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"DateApplied\":\"2023-02-15T12:05:40.000Z\",\"AppliedBy\":\"epc epc\",\"DisplayText\":\"Discount applied by epc epc\",\"PricingAdjustmentId\":\"a344x000000mC70AAE\",\"Source\":\"Agent\",\"AdjustmentType\":\"Discount\",\"Amount\":0.00,\"AdjustmentValue\":-10.00,\"AdjustmentMethod\":\"Percent\",\"PricingVariableCode\":\"OT_STD_PRC_ADJ_PCT\",\"EndValue\":135.0000000,\"ChargeTiming\":\"Adjustment\",\"Frequency\":null,\"SubType\":\"Standard\",\"StartValue\":150.00000,\"LogType\":\"ADJUSTMENT\"}]},\"PricingVariableCodeFieldBinding\":{\"%vlocity_namespace%__EffectiveQuantity__c\":\"EFFECTIVE_QUANTITY\",\"Quantity\":\"LINE_QUANTITY\",\"%vlocity_namespace%__EffectiveRecurringTotal__c\":\"EFF_REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringTotal__c\":\"REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringCalculatedPrice__c\":\"REC_MNTH_STD_PRC_CALC\",\"%vlocity_namespace%__RecurringCharge__c\":\"REC_MNTH_STD_PRC\",\"%vlocity_namespace%__EffectiveOneTimeTotal__c\":\"EFF_OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeTotal__c\":\"OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeCalculatedPrice__c\":\"OT_STD_PRC_CALC\",\"%vlocity_namespace%__OneTimeCharge__c\":\"OT_STD_PRC\",\"%vlocity_namespace%__RecurringManualDiscount__c\":\"REC_MNTH_STD_PRC_DISC_PCT_MAN\",\"%vlocity_namespace%__OneTimeManualDiscount__c\":\"OT_STD_PRC_DISC_PCT_MAN\"},\"PriceAdjustmentPromoKeys\":[],\"PricingVariableCodeValues\":{\"DISP_OT_STD_PRC\":135.0000000,\"ROLLUP_OT_STD_PRC_TOTAL\":0.00,\"ROLLUP_REC_MNTH_STD_PRC_TOTAL\":0.00,\"EFFECTIVE_QUANTITY\":1.00,\"LINE_QUANTITY\":1.00,\"EFF_REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_CALC\":0.00,\"REC_MNTH_STD_PRC\":0.00,\"EFF_OT_STD_PRC_TOTAL\":135.00,\"OT_STD_PRC_TOTAL\":135.00,\"OT_STD_PRC_CALC\":135.00,\"OT_STD_PRC\":135.0000000,\"REC_MNTH_STD_PRC_DISC_PCT_MAN\":0.00,\"OT_STD_PRC_DISC_PCT_MAN\":0.00},\"PricingVariableCodeBaseValues\":{\"OT_STD_PRC\":150.00000},\"LogVersion\":\"3.0\",\"PriceAsOfDateTime\":\"2023-02-22T14:19:33.905Z\",\"LastPricingTime\":\"2023-02-22T14:19:33.905Z\",\"SequentialOffers\":false,\"SequentialPromotions\":false,\"SequentialDiscounts\":false}",
+                "%vlocity_namespace%__ProductGroupKey__c": "71f67531-4691-1b28-6165-ff4aa956a94e",
+                "Id": "8024x00000TFb6BAAT",
+                "OrderId": "8014x000000njmoAAA",
+                "Quantity": 1,
+                "pricingAdjustments": {
+                    "Percent": -10,
+                    "priceType": "One-time"
+                }
+            },
+            {
+                "%vlocity_namespace%__Action__c": "Add",
+                "%vlocity_namespace%__BillingAccountId__c": "0014x00000KlmAgAAJ",
+                "%vlocity_namespace%__PricingLogData__c": "{\"LogData\":{\"REC_MNTH_STD_PRC_TOTAL\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"[Recurring Calculated Price (90.00) + Rollup Recurring Total (0.00)] x Quantity (1.00)\"}],\"REC_MNTH_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"Recurring Charge (90.0000000) - Recurring Manual Discount (0.00%)\"}],\"OT_STD_PRC_TOTAL\":[{\"ChargeTiming\":\"One-Time\",\"LogSequence\":0,\"DisplayText\":\"[One Time Calculated Price (0.00) + Rollup One Time Total (0.00)] x Quantity (1.00)\"}],\"OT_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"One Time Charge (0.00) - One Time Manual Discount (0.00%)\"}],\"REC_MNTH_STD_PRC\":[{\"LogSequence\":0,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"AdjustmentType\":\"None\",\"LoyaltyCode\":\"PTS\",\"CurrencyCode\":\"USD\",\"CurrencyType\":\"Currency\",\"Amount\":100.00000,\"AdjustmentValue\":0.00,\"AdjustmentMethod\":null,\"BaseValue\":100.00000,\"BaseAdjustment\":null,\"PriceListId\":\"a3C4x000000cXvqEAE\",\"OfferId\":null,\"PromotionId\":null,\"PricingElementId\":\"a3E4x000000uQ2kEAE\",\"PricingVariableCode\":\"REC_MNTH_STD_PRC\",\"DisplayText\":\"PLE Recurring\",\"EndValue\":100.00000,\"ChargeTiming\":\"Recurring\",\"Frequency\":\"Monthly\",\"SubType\":\"Standard\",\"StartValue\":100.00000,\"PricingElementGlobalKey\":\"ebfdf064-a44c-2a29-8988-feca8c742474\",\"LogType\":\"PRICE\",\"PriceListEntryId\":\"a3B4x000001bPzTEAU\"},{\"LogSequence\":1,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"DateApplied\":\"2023-02-16T07:54:44.000Z\",\"AppliedBy\":\"epc epc\",\"DisplayText\":\"Discount applied by epc epc\",\"PricingAdjustmentId\":\"a344x000000mCBRAA2\",\"Source\":\"Agent\",\"AdjustmentType\":\"Discount\",\"Amount\":0.00,\"AdjustmentValue\":-10.00,\"AdjustmentMethod\":\"Percent\",\"PricingVariableCode\":\"REC_MNTH_STD_PRC_ADJ_PCT\",\"EndValue\":90.0000000,\"ChargeTiming\":\"Adjustment\",\"Frequency\":\"Monthly\",\"SubType\":\"Standard\",\"StartValue\":100.00000,\"LogType\":\"ADJUSTMENT\"}]},\"PricingVariableCodeFieldBinding\":{\"%vlocity_namespace%__EffectiveQuantity__c\":\"EFFECTIVE_QUANTITY\",\"Quantity\":\"LINE_QUANTITY\",\"%vlocity_namespace%__EffectiveRecurringTotal__c\":\"EFF_REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringTotal__c\":\"REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringCalculatedPrice__c\":\"REC_MNTH_STD_PRC_CALC\",\"%vlocity_namespace%__RecurringCharge__c\":\"REC_MNTH_STD_PRC\",\"%vlocity_namespace%__EffectiveOneTimeTotal__c\":\"EFF_OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeTotal__c\":\"OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeCalculatedPrice__c\":\"OT_STD_PRC_CALC\",\"%vlocity_namespace%__OneTimeCharge__c\":\"OT_STD_PRC\",\"%vlocity_namespace%__RecurringManualDiscount__c\":\"REC_MNTH_STD_PRC_DISC_PCT_MAN\",\"%vlocity_namespace%__OneTimeManualDiscount__c\":\"OT_STD_PRC_DISC_PCT_MAN\"},\"PriceAdjustmentPromoKeys\":[],\"PricingVariableCodeValues\":{\"DISP_OT_STD_PRC\":0.00,\"ROLLUP_OT_STD_PRC_TOTAL\":0.00,\"ROLLUP_REC_MNTH_STD_PRC_TOTAL\":0.00,\"EFFECTIVE_QUANTITY\":1.00,\"LINE_QUANTITY\":1.00,\"EFF_REC_MNTH_STD_PRC_TOTAL\":90.00,\"REC_MNTH_STD_PRC_TOTAL\":90.00,\"REC_MNTH_STD_PRC_CALC\":90.00,\"REC_MNTH_STD_PRC\":90.0000000,\"EFF_OT_STD_PRC_TOTAL\":0.00,\"OT_STD_PRC_TOTAL\":0.00,\"OT_STD_PRC_CALC\":0.00,\"OT_STD_PRC\":0.00,\"REC_MNTH_STD_PRC_DISC_PCT_MAN\":0.00,\"OT_STD_PRC_DISC_PCT_MAN\":0.00},\"PricingVariableCodeBaseValues\":{\"REC_MNTH_STD_PRC\":100.00000},\"LogVersion\":\"3.0\",\"PriceAsOfDateTime\":\"2023-02-22T14:19:33.905Z\",\"LastPricingTime\":\"2023-02-22T14:19:33.905Z\",\"SequentialOffers\":false,\"SequentialPromotions\":false,\"SequentialDiscounts\":false}",
+                "%vlocity_namespace%__ProductGroupKey__c": "f591696e-e1a5-3e1c-0af2-bb1b6f06e291",
+                "Id": "8024x00000TFbeWAAT",
+                "OrderId": "8014x000000njmoAAA",
+                "Quantity": 1,
+                "pricingAdjustments": {
+                    "Percent": -10,
+                    "priceType": "Recurring"
+                }
+            },
+            {
+                "%vlocity_namespace%__Action__c": "Add",
+                "%vlocity_namespace%__BillingAccountId__c": "0014x00000KlmAgAAJ",
+                "%vlocity_namespace%__PricingLogData__c": "{\"LogData\":{\"REC_MNTH_STD_PRC_TOTAL\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"[Recurring Calculated Price (0.00) + Rollup Recurring Total (0.00)] x Quantity (1.00)\"}],\"REC_MNTH_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"Recurring Charge (0.00) - Recurring Manual Discount (0.00%)\"}],\"OT_STD_PRC_TOTAL\":[{\"ChargeTiming\":\"One-Time\",\"LogSequence\":0,\"DisplayText\":\"[One Time Calculated Price (12.00) + Rollup One Time Total (0.00)] x Quantity (1.00)\"}],\"OT_STD_PRC_CALC\":[{\"ChargeTiming\":null,\"LogSequence\":0,\"DisplayText\":\"One Time Charge (12.00000) - One Time Manual Discount (0.00%)\"}],\"OT_STD_PRC\":[{\"LogSequence\":0,\"IsEffective\":true,\"EndDate\":null,\"StartDate\":null,\"AdjustmentType\":\"None\",\"LoyaltyCode\":\"PTS\",\"CurrencyCode\":\"USD\",\"CurrencyType\":\"Currency\",\"Amount\":12.00000,\"AdjustmentValue\":0.00,\"AdjustmentMethod\":null,\"BaseValue\":12.00000,\"BaseAdjustment\":null,\"PriceListId\":\"a3C4x000000cXvqEAE\",\"OfferId\":null,\"PromotionId\":null,\"PricingElementId\":\"a3E4x000000cFWdEAM\",\"PricingVariableCode\":\"OT_STD_PRC\",\"DisplayText\":\"PLE\",\"EndValue\":12.00000,\"ChargeTiming\":\"One-time\",\"Frequency\":null,\"SubType\":\"Standard\",\"StartValue\":12.00000,\"PricingElementGlobalKey\":\"9b7a8cc9-093b-9867-858a-414b0927cd13\",\"LogType\":\"PRICE\",\"PriceListEntryId\":\"a3B4x000001bQKCEA2\"}]},\"PricingVariableCodeFieldBinding\":{\"%vlocity_namespace%__EffectiveQuantity__c\":\"EFFECTIVE_QUANTITY\",\"Quantity\":\"LINE_QUANTITY\",\"%vlocity_namespace%__EffectiveRecurringTotal__c\":\"EFF_REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringTotal__c\":\"REC_MNTH_STD_PRC_TOTAL\",\"%vlocity_namespace%__RecurringCalculatedPrice__c\":\"REC_MNTH_STD_PRC_CALC\",\"%vlocity_namespace%__RecurringCharge__c\":\"REC_MNTH_STD_PRC\",\"%vlocity_namespace%__EffectiveOneTimeTotal__c\":\"EFF_OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeTotal__c\":\"OT_STD_PRC_TOTAL\",\"%vlocity_namespace%__OneTimeCalculatedPrice__c\":\"OT_STD_PRC_CALC\",\"%vlocity_namespace%__OneTimeCharge__c\":\"OT_STD_PRC\",\"%vlocity_namespace%__RecurringManualDiscount__c\":\"REC_MNTH_STD_PRC_DISC_PCT_MAN\",\"%vlocity_namespace%__OneTimeManualDiscount__c\":\"OT_STD_PRC_DISC_PCT_MAN\"},\"PriceAdjustmentPromoKeys\":[],\"PricingVariableCodeValues\":{\"DISP_OT_STD_PRC\":12.00000,\"ROLLUP_OT_STD_PRC_TOTAL\":0.00,\"ROLLUP_REC_MNTH_STD_PRC_TOTAL\":0.00,\"EFFECTIVE_QUANTITY\":1.00,\"LINE_QUANTITY\":1.00,\"EFF_REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_TOTAL\":0.00,\"REC_MNTH_STD_PRC_CALC\":0.00,\"REC_MNTH_STD_PRC\":0.00,\"EFF_OT_STD_PRC_TOTAL\":12.00,\"OT_STD_PRC_TOTAL\":12.00,\"OT_STD_PRC_CALC\":12.00,\"OT_STD_PRC\":12.00000,\"REC_MNTH_STD_PRC_DISC_PCT_MAN\":0.00,\"OT_STD_PRC_DISC_PCT_MAN\":0.00},\"PricingVariableCodeBaseValues\":{\"OT_STD_PRC\":12.00000},\"LogVersion\":\"3.0\",\"PriceAsOfDateTime\":\"2023-02-22T14:19:33.905Z\",\"LastPricingTime\":\"2023-02-22T14:19:33.905Z\",\"SequentialOffers\":false,\"SequentialPromotions\":false,\"SequentialDiscounts\":false}",
+                "%vlocity_namespace%__ProductGroupKey__c": "b7073c11-4c86-713e-5797-03c01880f951",
+                "Id": "8024x00000TFfdsAAD",
+                "OrderId": "8014x000000njmoAAA",
+                "Quantity": 1,
+                "pricingAdjustments": {
+                },
+                "productCharacteristic": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "default": "test data",
+                            "uiDisplayType": "Text",
+                            "value": "test data"
+                        },
+                        "attributecategoryid__c": "a0b4x000000qCcAAAU",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Rohit Attribute Text",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0c4x000002XTHtAAO",
+                        "attributeuniquecode__c": "Rohit Attribute Text",
+                        "categorycode__c": "f81b1831-8146-600a-90e4-90ea01c36eea",
+                        "categorydisplaysequence__c": 123,
+                        "categoryname__c": "Rohit Attribute Category",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "123",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a234x000000n3D5AAI",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnotassetizable__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4x000004b4wwAAA",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": "test data",
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Multi Picklist",
+                            "default": [
+                            ],
+                            "selectedItems": [
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "test",
+                                    "id": "856190cf-e62b-035f-7f6d-e351bfa5f496",
+                                    "sequence": 1,
+                                    "value": null
+                                },
+                                {
+                                    "displayText": "test1label",
+                                    "id": "f00aceba-cb5a-afe8-7e9c-348eb649d93c",
+                                    "sequence": 2,
+                                    "value": "test1"
+                                },
+                                {
+                                    "displayText": "test2label",
+                                    "id": "b749d4b3-68c1-b2c6-d454-edbcf77d8252",
+                                    "sequence": 3,
+                                    "value": "test2"
+                                },
+                                {
+                                    "displayText": "test3label",
+                                    "id": "8a1267c2-2d77-849c-3feb-52e306382f4f",
+                                    "sequence": 4,
+                                    "value": "test3"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0b4x000000owWtAAI",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Test multipicklist",
+                        "attributedisplaysequence__c": "100",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0c4x000002YJYzAAO",
+                        "attributeuniquecode__c": "Test multipicklist",
+                        "categorycode__c": "d8b91c60-a1a2-b3ca-d7e0-13324e77b1fc",
+                        "categorydisplaysequence__c": 1,
+                        "categoryname__c": "Physical Attribute Category",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "1",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a234x000000n3D6AAI",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnotassetizable__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4x000004b4wwAAA",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": null,
+                        "valuedatatype__c": "Multi Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "default": "Some text",
+                            "uiDisplayType": "Text",
+                            "value": "Some text"
+                        },
+                        "attributecategoryid__c": "a0b4x000000owWtAAI",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Text Attribute",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0c4x000000mgUhAAI",
+                        "attributeuniquecode__c": "Text Attribute",
+                        "categorycode__c": "d8b91c60-a1a2-b3ca-d7e0-13324e77b1fc",
+                        "categorydisplaysequence__c": 1,
+                        "categoryname__c": "Physical Attribute Category",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "1",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a234x000000n3D8AAI",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnotassetizable__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4x000004b4wwAAA",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": "Some text",
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Date",
+                            "value": null
+                        },
+                        "attributecategoryid__c": "a0b4x000000qFlpAAE",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "TEST_DATE",
+                        "attributedisplaysequence__c": "900",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0c4x000002qkMOAAY",
+                        "attributeuniquecode__c": "TEST_DATE",
+                        "categorycode__c": "1e1d2942-1c2e-b2cb-4275-17128ccad489",
+                        "categorydisplaysequence__c": 5,
+                        "categoryname__c": "CategoryEPC-5756",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "5",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a234x000000n3D7AAI",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnotassetizable__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4x000004b4wwAAA",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Date",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            }
+        ],
+        "relatedParty": [
+            {
+                "AccountNumber": "CD451791",
+                "Id": "0014x00000KlmAgAAJ",
+                "Name": "Test Sh1",
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v57.0/sobjects/Account/0014x00000KlmAgAAJ"
+                }
+            }
+        ],
+        "requestUrl": "/services/apexrest/%vlocity_namespace%/tmforum/productopenapi/v1/"
+    }
+]

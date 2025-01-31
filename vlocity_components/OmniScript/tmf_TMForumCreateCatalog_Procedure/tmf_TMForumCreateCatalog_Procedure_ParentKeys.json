@@ -1,0 +1,5 @@
+[
+    "DataRaptor/TMFTMForumGetDefaultPriceList",
+    "DataRaptor/TMFTMForumTransformCatalogRequest",
+    "DataRaptor/TMFTMForumTransformCatalogResponse"
+]

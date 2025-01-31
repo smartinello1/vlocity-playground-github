@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_LinkProductsForOrder_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_LinkProductsForOrder",
+    "OmniProcessElement": [
+        "ESM_LinkProductsForOrder_Procedure_Element_LinkProducts.json",
+        "ESM_LinkProductsForOrder_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_LinkProductsForOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_LinkProductsForOrder_Procedure_PropertySetConfig.json",
+    "SubType": "LinkProductsForOrder",
+    "Type": "ESM",
+    "UniqueName": "ESM_LinkProductsForOrder_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/LinkProductsForOrder/Procedure"
+}

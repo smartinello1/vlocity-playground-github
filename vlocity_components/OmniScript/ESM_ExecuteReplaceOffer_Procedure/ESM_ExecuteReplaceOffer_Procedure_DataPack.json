@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "ESM_ExecuteReplaceOffer_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_ExecuteReplaceOffer",
+    "OmniProcessElement": "ESM_ExecuteReplaceOffer_Procedure_Element_ReplaceOffers.json",
+    "OmniProcessKey": "ESM_ExecuteReplaceOffer",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ExecuteReplaceOffer_Procedure_PropertySetConfig.json",
+    "SubType": "ExecuteReplaceOffer",
+    "Type": "ESM",
+    "UniqueName": "ESM_ExecuteReplaceOffer_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ExecuteReplaceOffer/Procedure"
+}

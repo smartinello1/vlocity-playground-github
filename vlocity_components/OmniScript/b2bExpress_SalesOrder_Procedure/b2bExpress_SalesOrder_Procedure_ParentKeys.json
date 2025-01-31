@@ -1,0 +1,8 @@
+[
+    "DataRaptor/GetIndependentQuoteLineItems",
+    "DataRaptor/GetMasterOrderDetails",
+    "DataRaptor/GetRecordTypesForOrders",
+    "IntegrationProcedure/ESM_UpdateObjectStatus",
+    "IntegrationProcedure/b2bExpress_CreateSubOrder",
+    "IntegrationProcedure/b2bExpress_SalesOrder"
+]

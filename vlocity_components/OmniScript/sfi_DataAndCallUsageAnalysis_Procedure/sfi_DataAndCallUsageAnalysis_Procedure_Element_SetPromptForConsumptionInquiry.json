@@ -1,0 +1,30 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetPromptForConsumptionInquiry",
+    "OmniProcessId": {
+        "Name": "SFIDataAndCallUsageAnalysis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/DataAndCallUsageAnalysis/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Prompt": "=IF(%inquiryType% && %inquiryType% == \"CallUsageInquiry\",\"You are an experienced customer support agent. You will be provided with a list of call usage records of the customer. You should detect unusual calling patterns and summarize the calling charges. You should also highlight unusual charges or usage spikes. You should also provide a recommendation for how a customer can manage their usage and avoid or understand additional charges.\",\"You are an experienced customer support agent for handling internet data consumption inquiries. You will be provided with a list of data usage consumption records of the customer. There is an overall data plan limit provided. Total data consumed by the customer will be the sum of all given usage values. Please fetch and display that data limit for the customer and analyze if the customer has exceeded their data plan limit by comparing with the total data consumed. You should also provide a recommendation for how a customer can manage their usage and avoid or understand additional charges.\")"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/DataAndCallUsageAnalysis/Procedure/SetPromptForConsumptionInquiry"
+}

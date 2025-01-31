@@ -1,0 +1,8 @@
+[
+    "DataRaptor/ESMGetGroupDetailsWithRootItems",
+    "DataRaptor/GetAllRootLineItemsByQuote",
+    "DataRaptor/GetGroupSize",
+    "DataRaptor/RemoveQMsQuoteGroup",
+    "DataRaptor/UpdateLineItemsQuantity",
+    "OmniScript/removeQM_FromQuoteGroup_Procedure"
+]

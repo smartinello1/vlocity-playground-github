@@ -1,0 +1,22 @@
+{
+    "CustomJavaScript": "ESM_SelfServiceExecuteDisconnectLineItems_Procedure_JavaScript.js",
+    "Description": "This IP will invoke remote method that executes disconnecting child line items for the given set of rootIds",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_SelfServiceExecuteDisconnectLineItems",
+    "OmniProcessElement": "ESM_SelfServiceExecuteDisconnectLineItems_Procedure_Element_ExecuteDisconnectLineItems.json",
+    "OmniProcessKey": "ESM_SelfServiceExecuteDisconnectLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_SelfServiceExecuteDisconnectLineItems_Procedure_PropertySetConfig.json",
+    "SubType": "SelfServiceExecuteDisconnectLineItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_SelfServiceExecuteDisconnectLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceExecuteDisconnectLineItems/Procedure"
+}

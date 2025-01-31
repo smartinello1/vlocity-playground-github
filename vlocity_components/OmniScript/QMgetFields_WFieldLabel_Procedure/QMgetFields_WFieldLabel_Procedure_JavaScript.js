@@ -1,0 +1,1 @@
+{"FieldSetType":"%vlocity_namespace%__MemberUploadSubscriber"}

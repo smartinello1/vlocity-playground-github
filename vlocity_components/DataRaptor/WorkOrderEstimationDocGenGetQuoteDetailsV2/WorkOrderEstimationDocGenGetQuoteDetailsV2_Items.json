@@ -1,0 +1,71 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "WorkOrderEstimationDocGenGetQuoteDetailsV2Custom0jIWs0000008VzVMAUItem0",
+        "InputFieldName": "Quote:Email",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "WorkOrderEstimationDocGenGetQuoteDetailsV2Custom0jIWs0000008VzVMAUItem2",
+        "InputFieldName": "Quote:QuoteNumber",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "QuoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "quoteId",
+        "GlobalKey": "WorkOrderEstimationDocGenGetQuoteDetailsV2Custom0jIWs0000008VzVMAUItem1",
+        "InputFieldName": "Id",
+        "InputObjectName": "Quote",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+        "OmniDataTransformationId": {
+            "Name": "WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/WorkOrderEstimationDocGenGetQuoteDetailsV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Quote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

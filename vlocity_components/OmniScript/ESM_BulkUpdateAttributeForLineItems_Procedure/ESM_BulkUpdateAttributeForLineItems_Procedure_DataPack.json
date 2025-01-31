@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ESM_BulkUpdateAttributeForLineItems_Procedure_JavaScript.js",
+    "Description": "This IP to start the async process for updating attributes of line items in bulk",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_BulkUpdateAttributeForLineItems",
+    "OmniProcessElement": [
+        "ESM_BulkUpdateAttributeForLineItems_Procedure_Element_SetValues.json",
+        "ESM_BulkUpdateAttributeForLineItems_Procedure_Element_StartBulkUpdateAttributeForLineItems.json",
+        "ESM_BulkUpdateAttributeForLineItems_Procedure_Element_sendNotificationStarted.json",
+        "ESM_BulkUpdateAttributeForLineItems_Procedure_Element_Response.json"
+    ],
+    "OmniProcessKey": "ESM_BulkUpdateAttributeForLineItems",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_BulkUpdateAttributeForLineItems_Procedure_PropertySetConfig.json",
+    "SubType": "BulkUpdateAttributeForLineItems",
+    "Type": "ESM",
+    "UniqueName": "ESM_BulkUpdateAttributeForLineItems_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/BulkUpdateAttributeForLineItems/Procedure"
+}

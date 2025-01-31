@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_UpdateLinearRelationshipForMovedPlan_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_UpdateLinearRelationshipForMovedPlan",
+    "OmniProcessElement": [
+        "ESM_UpdateLinearRelationshipForMovedPlan_Element_UpdateLinearRelationshipForMovedPlan.json",
+        "ESM_UpdateLinearRelationshipForMovedPlan_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_UpdateLinearRelationshipForMovedPlan",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_UpdateLinearRelationshipForMovedPlan_PropertySetConfig.json",
+    "SubType": "UpdateLinearRelationshipForMovedPlan",
+    "Type": "ESM",
+    "UniqueName": "ESM_UpdateLinearRelationshipForMovedPlan_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/UpdateLinearRelationshipForMovedPlan/Procedure"
+}

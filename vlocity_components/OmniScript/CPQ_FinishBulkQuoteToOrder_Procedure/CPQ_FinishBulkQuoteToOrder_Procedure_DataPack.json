@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "CPQ_FinishBulkQuoteToOrder_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CPQ_FinishBulkQuoteToOrder",
+    "OmniProcessElement": [
+        "CPQ_FinishBulkQuoteToOrder_Procedure_Element_sendNotificationFinished.json",
+        "CPQ_FinishBulkQuoteToOrder_Procedure_Element_sendNotificationFailedToFinish.json"
+    ],
+    "OmniProcessKey": "CPQ_FinishBulkQuoteToOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_FinishBulkQuoteToOrder_Procedure_PropertySetConfig.json",
+    "SubType": "FinishBulkQuoteToOrder",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_FinishBulkQuoteToOrder_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/FinishBulkQuoteToOrder/Procedure"
+}

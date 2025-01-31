@@ -1,0 +1,44 @@
+<template>
+    
+
+    <lightning-card>
+
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:apps" class="topicicon slds-p-right_small" size="small"></lightning-icon>
+            Communications Cloud & Key Modules
+        </h3>
+        <p class="slds-p-left_x-large">Industries Communications Application Suite provides prebuilt modules and application components built on top of the core platform and products. Industries Communications Application Suite applications are targeted to specific segments of the communications industry. These applications are designed to help you to quickly and easily set up a platform to address customer requirements through both community self-service interfaces as well as through an agent console.</p>
+    
+
+    
+        
+           
+        <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none " >   
+        <lightning-layout horizontal-align="left" multiple-rows="true">
+                <template if:true={dataLoaded} for:each={appData} for:item="app">
+                    <lightning-layout-item key={app.Id} padding="around-small" size="4">
+                        
+                        <div class="slds-box" style="height: 228px;">
+                            
+                            <h3 slot="title" class="app-content-persona">
+                                <lightning-icon icon-name={app.Icon_Name__c} class="app-content-icon slds-p-right_small" size={app.Icon_Size__c}></lightning-icon>
+                                {app.Persona__c}
+                            </h3>
+                            <div class="slds-p-top_medium">
+                                <h3 slot="title" class="slds-p-right_small"><b>{app.Heading__c}</b></h3> 
+                                <div class="slds-p-top_xxx-small">
+                                    <lightning-formatted-rich-text class="slds-p-horizontal_small slds-p-right_small app-content-description" value={app.Description__c}></lightning-formatted-rich-text>
+                                    <!-- <p class="slds-p-horizontal_small slds-p-right_small app-content-description">{app.Description__c}</p> -->
+                                </div>
+                                <div slot="footer" clas>
+                                   <lightning-button variant="brand" label="Get Started" data-id={app.Heading__c} title="Get Started" onclick={handleClick} class="slds-p-right_x-large app-details-btn-layout slds-p-top_medium"></lightning-button>
+                                 </div>
+                            </div>
+                        </div>
+        
+                    </lightning-layout-item>
+                </template>
+        </lightning-layout>
+            </div>
+</lightning-card>
+</template>

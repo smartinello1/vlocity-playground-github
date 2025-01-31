@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "CPQ_GetDiscount_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GetDiscounts",
+    "OmniProcessElement": [
+        "CPQ_GetDiscount_Procedure_Element_GetAllDiscounts.json",
+        "CPQ_GetDiscount_Procedure_Element_FinalResponse.json"
+    ],
+    "OmniProcessKey": "CPQ_GetDiscount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CPQ_GetDiscount_Procedure_PropertySetConfig.json",
+    "SubType": "GetDiscount",
+    "Type": "CPQ",
+    "UniqueName": "CPQ_GetDiscount_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/GetDiscount/Procedure"
+}

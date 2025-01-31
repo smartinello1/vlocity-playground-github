@@ -1,0 +1,1 @@
+{"cartType":"Quote","objectNames":["%vlocity_namespace%__ServicePoint__c"]}

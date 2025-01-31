@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ESM_UpdateQuantityAndPrice_Procedure_JavaScript.js",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "UpdateQtyAndPrice",
+    "OmniProcessElement": [
+        "ESM_UpdateQuantityAndPrice_Procedure_Element_getOrderItem.json",
+        "ESM_UpdateQuantityAndPrice_Procedure_Element_GetGroupSize.json",
+        "ESM_UpdateQuantityAndPrice_Procedure_Element_updateQuantity.json",
+        "ESM_UpdateQuantityAndPrice_Procedure_Element_Reprice.json",
+        "ESM_UpdateQuantityAndPrice_Procedure_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "ESM_UpdateQuantityAndPrice",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_UpdateQuantityAndPrice_Procedure_PropertySetConfig.json",
+    "SubType": "UpdateQuantityAndPrice",
+    "Type": "ESM",
+    "UniqueName": "ESM_UpdateQuantityAndPrice_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/UpdateQuantityAndPrice/Procedure"
+}

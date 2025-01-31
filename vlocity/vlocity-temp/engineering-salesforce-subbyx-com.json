@@ -1,0 +1,11 @@
+{
+	"username": "engineering.salesforce@subbyx.com",
+	"id": "00D7R000005UoIYUA0",
+	"connectedStatus": "Connected",
+	"accessToken": "00D7R000005UoIY!AQEAQJ.02kqZ5oCixDZjV0Dh1xl5gbqImWMfxZaf0_Mj1.BNP8EKRnRjXdSFAYq4YSflFuP8tEPcIh2pyVSbbZVpMNeYUURk",
+	"instanceUrl": "https://ruby-agility-992.my.salesforce.com",
+	"clientId": "PlatformCLI",
+	"sfdxAuthUrl": "force://PlatformCLI::5Aep861Y8l_6ioFzLVbfTonCnokIrEM7uJzcqd1bxWliU6np.K3OYPHYl2qcCZ0Cn7tzEg0U.0C_O5y76uth8Mx@ruby-agility-992.my.salesforce.com",
+	"alias": "PROD",
+	"vbtSfdxUsername": "engineering.salesforce@subbyx.com"
+}

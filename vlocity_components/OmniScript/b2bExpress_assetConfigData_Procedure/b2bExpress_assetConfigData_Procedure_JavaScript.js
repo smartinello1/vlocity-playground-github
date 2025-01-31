@@ -1,0 +1,1 @@
+{"namespace":"vlocity_ritu__"}

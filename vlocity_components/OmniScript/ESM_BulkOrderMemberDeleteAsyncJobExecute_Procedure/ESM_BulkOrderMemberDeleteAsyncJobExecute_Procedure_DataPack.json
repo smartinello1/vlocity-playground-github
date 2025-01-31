@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_BulkOrderMemberDeleteAsyncJobExecute_Procedure_JavaScript.js",
+    "Description": "Async job for Bulk Order Member Delete",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESMBulkOrderMemberDeleteAsyncJobExecute",
+    "OmniProcessElement": [
+        "ESM_BulkOrderMemberDeleteAsyncJobExecute_Procedure_Element_BulkDeleteAsyncJobExecuteMethod.json",
+        "ESM_BulkOrderMemberDeleteAsyncJobExecute_Procedure_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_BulkOrderMemberDeleteAsyncJobExecute",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_BulkOrderMemberDeleteAsyncJobExecute_Procedure_PropertySetConfig.json",
+    "SubType": "BulkOrderMemberDeleteAsyncJobExecute",
+    "Type": "ESM",
+    "UniqueName": "ESM_BulkOrderMemberDeleteAsyncJobExecute_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/BulkOrderMemberDeleteAsyncJobExecute/Procedure"
+}

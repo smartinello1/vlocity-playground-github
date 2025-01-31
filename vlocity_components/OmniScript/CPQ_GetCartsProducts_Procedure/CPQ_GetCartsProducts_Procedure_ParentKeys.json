@@ -1,0 +1,7 @@
+[
+    "DataRaptor/productDescription",
+    "DataRaptor/productName",
+    "DataRaptor/promotionDescription",
+    "DataRaptor/promotionName",
+    "IntegrationProcedure/CPQ_GetCartsProducts"
+]

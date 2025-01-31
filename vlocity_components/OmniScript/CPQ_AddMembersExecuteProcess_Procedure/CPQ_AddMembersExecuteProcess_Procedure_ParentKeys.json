@@ -1,0 +1,5 @@
+[
+    "DataRaptor/CPQGetProductsFromAssets",
+    "DataRaptor/ConsolidateProductData",
+    "IntegrationProcedure/CPQ_AddMembersExecuteProcess"
+]

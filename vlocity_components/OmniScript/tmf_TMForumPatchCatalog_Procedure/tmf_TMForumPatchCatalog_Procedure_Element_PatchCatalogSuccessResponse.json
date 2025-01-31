@@ -1,0 +1,36 @@
+{
+    "Description": "PatchCatalogSuccessResponse takes care of success message. v244",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "PatchCatalogSuccessResponse",
+    "OmniProcessId": {
+        "Name": "TMFTMForumPatchCatalog",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumPatchCatalog/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "%CatalogPatchRequestRA:epcResponse:overallResult% == 'success'",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "CatalogPatchResultDRT:outputResponse",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumPatchCatalog/Procedure/PatchCatalogSuccessResponse"
+}

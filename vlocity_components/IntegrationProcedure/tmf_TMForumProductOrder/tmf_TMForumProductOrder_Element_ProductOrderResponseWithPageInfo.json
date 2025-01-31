@@ -1,0 +1,38 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ProductOrderResponseWithPageInfo",
+    "OmniProcessId": {
+        "Name": "TMFTMForumProductOrder",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/tmf/TMForumProductOrder/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "PageInfo": "=CONCAT('Page ',ProductOrderRemoteRequest:pageNumber)",
+            "PageSize": "=ProductOrderRemoteRequest:pageSize",
+            "result": "=ProductOrderResult:outputResponse"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "ProductOrderRemoteRequest:enablePageInfo == true",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/tmf/TMForumProductOrder/Procedure/ProductOrderResponseWithPageInfo"
+}

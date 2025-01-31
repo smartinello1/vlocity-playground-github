@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "ESM_ExecuteUpdateAttributeForLineItem_SampleInput.json",
+    "Description": "This IP will invoke remote method that executes attribute update line item for a given root and its children",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ExecuteUpdateAttributeForLineItem",
+    "OmniProcessElement": [
+        "ESM_ExecuteUpdateAttributeForLineItem_Element_ExecuteUpdateAttributeForLineItem.json",
+        "ESM_ExecuteUpdateAttributeForLineItem_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_ExecuteUpdateAttributeForLineItem",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ExecuteUpdateAttributeForLineItem_PropertySetConfig.json",
+    "SubType": "ExecuteUpdateAttributeForLineItem",
+    "Type": "ESM",
+    "UniqueName": "ESM_ExecuteUpdateAttributeForLineItem_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ExecuteUpdateAttributeForLineItem/Procedure"
+}

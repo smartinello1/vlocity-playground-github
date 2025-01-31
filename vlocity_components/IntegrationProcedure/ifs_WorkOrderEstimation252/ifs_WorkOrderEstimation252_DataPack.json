@@ -1,0 +1,26 @@
+{
+    "Description": "This OmniScript acts as container to launch Work Order Estimation guided flow. This OmniScript can be launched from Account page, Quote page, Asset page and WorkOrder page by passing the respective record id in recordId parameter of the OmniScript url",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "Multi-Language",
+    "LastPreviewPage": "Lightning Universal Page",
+    "Name": "IFSWorkOrderEstimation252",
+    "OmniProcessElement": [
+        "ifs_WorkOrderEstimation252_Element_WorkOrderEstimationGuidedFlow.json",
+        "ifs_WorkOrderEstimation252_Element_Headline1.json",
+        "ifs_WorkOrderEstimation252_Element_WorkOrderEstimation.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "OverrideKey": "runtime_industries_fieldservice__ifs_WorkOrderEstimation_multiLanguage_1",
+    "PropertySetConfig": "ifs_WorkOrderEstimation252_PropertySetConfig.json",
+    "SubType": "WorkOrderEstimation252",
+    "Type": "ifs",
+    "UniqueName": "ifs_WorkOrderEstimation252_multiLanguage_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ifs/WorkOrderEstimation252/Multi-Language"
+}

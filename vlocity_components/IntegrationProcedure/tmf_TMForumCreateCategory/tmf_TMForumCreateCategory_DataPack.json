@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "tmf_TMForumCreateCategory_SampleInput.json",
+    "Description": "v244.0 - TMF category Api entry vip",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "TMFTMForumCreateCategory",
+    "OmniProcessElement": [
+        "tmf_TMForumCreateCategory_Element_CheckForTypeAndSubCategory.json",
+        "tmf_TMForumCreateCategory_Element_CheckOrCreateCatalog.json",
+        "tmf_TMForumCreateCategory_Element_TransformRequestBody.json",
+        "tmf_TMForumCreateCategory_Element_PostCategory.json",
+        "tmf_TMForumCreateCategory_Element_TransformResponseBody.json",
+        "tmf_TMForumCreateCategory_Element_TMForumCreateCategoryResponse.json",
+        "tmf_TMForumCreateCategory_Element_TMForumCreateCategoryResponseSuccess.json",
+        "tmf_TMForumCreateCategory_Element_TMForumCatalogErrorResponse.json"
+    ],
+    "OmniProcessKey": "tmf_TMForumCreateCategory",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "tmf_TMForumCreateCategory_PropertySetConfig.json",
+    "SubType": "TMForumCreateCategory",
+    "Type": "tmf",
+    "UniqueName": "tmf_TMForumCreateCategory_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/tmf/TMForumCreateCategory/Procedure"
+}

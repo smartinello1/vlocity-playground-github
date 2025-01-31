@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "The IP is used to delete line items from cart and add new line item in cart.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ReplaceOfferInCart",
+    "OmniProcessElement": [
+        "ESM_ReplaceOfferInCart_Element_DeleteCartItemsQuote.json",
+        "ESM_ReplaceOfferInCart_Element_DeleteCartItemsOrder.json",
+        "ESM_ReplaceOfferInCart_Element_postCartItemCall.json",
+        "ESM_ReplaceOfferInCart_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ESM_ReplaceOfferInCart",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_ReplaceOfferInCart_PropertySetConfig.json",
+    "SubType": "ReplaceOfferInCart",
+    "Type": "ESM",
+    "UniqueName": "ESM_ReplaceOfferInCart_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/ReplaceOfferInCart/Procedure"
+}

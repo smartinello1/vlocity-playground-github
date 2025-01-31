@@ -1,0 +1,27 @@
+{
+    "accountId": "001B000001RTui1IAD",
+    "selectedCharges": [
+        {
+            "Amount": 45,
+            "Date": "2024-05-02T03:59:49.938Z",
+            "Description": "Mobile 1.",
+            "DisputedAmount": 10,
+            "Product": "Awesome Mobile",
+            "Rate": "Mobile 1 MRC",
+            "Type": "Monthly",
+            "id": "ABR129",
+            "selectrow": true
+        },
+        {
+            "Amount": 999,
+            "Date": "2024-05-02T03:59:49.938Z",
+            "Description": "Mobile 1.",
+            "DisputedAmount": 120,
+            "Product": "Awesome Mobile",
+            "Rate": "Mobile 1 MRC",
+            "Type": "Monthly",
+            "id": "ABR128",
+            "selectrow": true
+        }
+    ]
+}

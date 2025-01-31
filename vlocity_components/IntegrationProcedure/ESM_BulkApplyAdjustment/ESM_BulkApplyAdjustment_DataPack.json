@@ -1,0 +1,24 @@
+{
+    "CustomJavaScript": "ESM_BulkApplyAdjustment_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "ESM_BulkApplyAdjustment",
+    "OmniProcessElement": [
+        "ESM_BulkApplyAdjustment_Element_GetReplacedLineItemIds.json",
+        "ESM_BulkApplyAdjustment_Element_ApplyAdjustment.json"
+    ],
+    "OmniProcessKey": "ESM_BulkApplyAdjustment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ESM_BulkApplyAdjustment_PropertySetConfig.json",
+    "SubType": "BulkApplyAdjustment",
+    "Type": "ESM",
+    "UniqueName": "ESM_BulkApplyAdjustment_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ESM/BulkApplyAdjustment/Procedure"
+}

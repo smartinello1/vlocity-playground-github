@@ -1,0 +1,6 @@
+[
+    "DataRaptor/ESMGetAccountDetails",
+    "DataRaptor/ESMGetOpportunityDetails",
+    "DataRaptor/GetRecordTypeId",
+    "IntegrationProcedure/b2bExpress_CreateQuote"
+]

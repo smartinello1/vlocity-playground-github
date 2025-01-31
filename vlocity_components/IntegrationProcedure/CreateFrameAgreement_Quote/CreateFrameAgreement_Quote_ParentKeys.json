@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CreateContractDiscountsQuote",
+    "DataRaptor/QuoteDiscountExtractCreate",
+    "DataRaptor/UpdateQuoteDiscountDate",
+    "OmniScript/CreateFrameAgreement_Quote_English"
+]

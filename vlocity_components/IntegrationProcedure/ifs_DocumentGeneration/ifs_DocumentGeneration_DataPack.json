@@ -1,0 +1,27 @@
+{
+    "Description": "Used to generate document for quote summary in work order estimation",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "Multi-Language",
+    "Name": "IFSDocumentGeneration",
+    "OmniProcessElement": [
+        "ifs_DocumentGeneration_Element_GetDocumentTemplates.json",
+        "ifs_DocumentGeneration_Element_SetValues.json",
+        "ifs_DocumentGeneration_Element_Set-Generation-Options.json",
+        "ifs_DocumentGeneration_Element_GenerateDocument.json",
+        "ifs_DocumentGeneration_Element_GenerateDocumentWord.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "OverrideKey": "runtime_industries_fieldservice__ifs_DocumentGeneration_multiLanguage_1",
+    "PropertySetConfig": "ifs_DocumentGeneration_PropertySetConfig.json",
+    "SubType": "DocumentGeneration",
+    "Type": "ifs",
+    "UniqueName": "ifs_DocumentGeneration_multiLanguage_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ifs/DocumentGeneration/Multi-Language"
+}

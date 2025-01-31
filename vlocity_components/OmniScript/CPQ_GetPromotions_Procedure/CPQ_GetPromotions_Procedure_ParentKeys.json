@@ -1,0 +1,5 @@
+[
+    "DataRaptor/ProductQualifiedFilterTransformer",
+    "IntegrationProcedure/CPQ_GetPromotions",
+    "IntegrationProcedure/CPQ_GetPromotionsRemoteCall"
+]
