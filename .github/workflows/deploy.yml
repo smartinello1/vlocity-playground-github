@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'force-app/**'
+      - 'vlocity_components/**'
 env:
   PLCH_ACCOUNT_FILTER: ${{ vars.PLCH_ACCOUNT_FILTER }}
   

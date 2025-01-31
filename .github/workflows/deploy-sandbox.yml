@@ -5,6 +5,7 @@ on:
     branches: [ sandbox ]
     paths:
       - 'force-app/**'
+      - 'vlocity_components/**'
   
 jobs: 
   Deploy-Diff-Sandbox:
