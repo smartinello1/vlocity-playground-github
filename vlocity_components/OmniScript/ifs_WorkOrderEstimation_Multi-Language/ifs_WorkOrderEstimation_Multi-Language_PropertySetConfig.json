@@ -21,7 +21,7 @@
         "custom": [
         ]
     },
-    "hideStepChart": true,
+    "hideStepChart": false,
     "knowledgeArticleTypeQueryFieldsMap": {
     },
     "lkObjName": null,
@@ -87,16 +87,26 @@
     },
     "scrollBehavior": "auto",
     "seedDataJSON": {
-        "allowedWorkOrderStatusListInput": "[New,Draft,In Progress]",
-        "docGenOmniscriptLanguage": "Multi-Language",
-        "docGenOmniscriptSubtype": "DocumentGenerationV2",
-        "docGenOmniscriptType": "ifs",
-        "enableCoverageSelection": "ON",
-        "manualDiscountsInput": "[0,10,20,30]",
         "pricingProcedureName": "Work_Order_Est_Default_Pricing_Procedure",
-        "slotWindowSizeInput": "7",
-        "useDefaultPricing": "NONE",
+        "useDefaultPricing": "ON",
         "useDefaultQuoting": "ON"
+    },
+    "showInputWidth": false,
+    "ssm": false,
+    "stepChartPlacement": "left",
+    "stylesheet": {
+        "lightning": "",
+        "lightningRtl": "",
+        "newport": "",
+        "newportRtl": ""
+    },
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "visualforcePagesAvailableInPreview": {
+    },
+    "wpm": false
+}"
     },
     "showInputWidth": false,
     "ssm": false,

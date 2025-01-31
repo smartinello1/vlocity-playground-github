@@ -25,7 +25,7 @@
     "PropertySetConfig": "CPQ_GetGroupLevelConsolidatedData_Procedure_PropertySetConfig.json",
     "SubType": "GetGroupLevelConsolidatedData",
     "Type": "CPQ",
-    "UniqueName": "CPQ_GetGroupLevelConsolidatedData_Procedure_1",
+    "UniqueName": "CPQ_GetGroupLevelConsolidatedData_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/GetGroupLevelConsolidatedData/Procedure"

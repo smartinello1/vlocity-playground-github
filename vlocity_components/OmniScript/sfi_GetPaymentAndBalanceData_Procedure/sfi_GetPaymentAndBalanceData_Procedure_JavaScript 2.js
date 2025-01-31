@@ -1,3 +1,0 @@
-{
-    "numberOfBills": "2"
-}

@@ -14,7 +14,7 @@
     "PropertySetConfig": "CPQ_ExecuteReplaceOffer_Procedure_PropertySetConfig.json",
     "SubType": "ExecuteReplaceOffer",
     "Type": "CPQ",
-    "UniqueName": "CPQ_ExecuteReplaceOffer_Procedure_1",
+    "UniqueName": "CPQ_ExecuteReplaceOffer_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/ExecuteReplaceOffer/Procedure"

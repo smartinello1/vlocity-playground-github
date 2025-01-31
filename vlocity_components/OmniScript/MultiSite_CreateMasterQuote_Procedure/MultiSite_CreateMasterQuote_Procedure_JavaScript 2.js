@@ -1,1 +1,0 @@
-{"AccountId":"0015g00000CHYyvAAH","Name":"M1","OpportunityId":"0065g000005lzNAAAY","PriceListName":"B2C","Pricebook2Id":"01s5g00000CkUlwAAF","recordType":"MasterQuote"}

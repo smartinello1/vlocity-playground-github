@@ -36,7 +36,7 @@
     "PropertySetConfig": "LWCCPQ_CancelOrder_English_PropertySetConfig.json",
     "SubType": "CancelOrder",
     "Type": "LWCCPQ",
-    "UniqueName": "LWCCPQ_CancelOrder_English_2",
+    "UniqueName": "LWCCPQ_CancelOrder_English_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/LWCCPQ/CancelOrder/English"

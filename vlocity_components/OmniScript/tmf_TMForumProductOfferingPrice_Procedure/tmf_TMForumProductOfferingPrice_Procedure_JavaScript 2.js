@@ -1,1 +1,0 @@
-{"fields":"name,description","lifecycleStatus":"true"}

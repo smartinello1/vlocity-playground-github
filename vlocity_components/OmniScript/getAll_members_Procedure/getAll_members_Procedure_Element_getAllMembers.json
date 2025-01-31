@@ -28,7 +28,7 @@
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataMapperExtractAction1",
+        "label": "DataRaptorExtractAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

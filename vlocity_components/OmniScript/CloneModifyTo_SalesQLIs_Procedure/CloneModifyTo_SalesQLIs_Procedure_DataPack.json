@@ -24,7 +24,7 @@
     "PropertySetConfig": "CloneModifyTo_SalesQLIs_Procedure_PropertySetConfig.json",
     "SubType": "SalesQLIs",
     "Type": "CloneModifyTo",
-    "UniqueName": "CloneModifyTo_SalesQLIs_Procedure_2",
+    "UniqueName": "CloneModifyTo_SalesQLIs_Procedure_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CloneModifyTo/SalesQLIs/Procedure"

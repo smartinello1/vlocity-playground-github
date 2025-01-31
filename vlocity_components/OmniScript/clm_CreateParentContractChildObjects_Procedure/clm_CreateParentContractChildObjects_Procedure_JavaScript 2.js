@@ -1,1 +1,0 @@
-{"QuotLineItems":[{"parentContractId":"8006g000000tpInAAI"}],"isFrameAgreementParent":"false"}

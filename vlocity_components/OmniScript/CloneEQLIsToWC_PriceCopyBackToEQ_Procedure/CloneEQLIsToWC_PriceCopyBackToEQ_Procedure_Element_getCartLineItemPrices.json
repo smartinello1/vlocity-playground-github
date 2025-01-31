@@ -14,7 +14,6 @@
         },
         "additionalInput": {
             "cartId": "%CloneEQLIsToWC:WorkingCartId%",
-            "convertJSONResultToJSON": true,
             "methodName": "getCartLineItemPrices",
             "price": true,
             "validate": true
@@ -47,4 +46,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CloneEQLIsToWC/PriceCopyBackToEQ/Procedure/getCartLineItemPrices"
+}pyBackToEQ/Procedure/getCartLineItemPrices"
 }

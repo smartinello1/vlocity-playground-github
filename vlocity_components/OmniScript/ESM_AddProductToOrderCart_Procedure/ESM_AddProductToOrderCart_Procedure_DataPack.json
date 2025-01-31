@@ -20,7 +20,7 @@
     "PropertySetConfig": "ESM_AddProductToOrderCart_Procedure_PropertySetConfig.json",
     "SubType": "AddProductToOrderCart",
     "Type": "ESM",
-    "UniqueName": "ESM_AddProductToOrderCart_Procedure_1",
+    "UniqueName": "ESM_AddProductToOrderCart_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/AddProductToOrderCart/Procedure"

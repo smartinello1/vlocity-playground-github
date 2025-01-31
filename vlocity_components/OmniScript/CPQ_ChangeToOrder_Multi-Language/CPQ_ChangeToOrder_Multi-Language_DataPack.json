@@ -27,7 +27,7 @@
     "PropertySetConfig": "CPQ_ChangeToOrder_Multi-Language_PropertySetConfig.json",
     "SubType": "ChangeToOrder",
     "Type": "CPQ",
-    "UniqueName": "CPQ_ChangeToOrder_multiLanguage_3",
+    "UniqueName": "CPQ_ChangeToOrder_multiLanguage_5",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/ChangeToOrder/Multi-Language"

@@ -23,7 +23,7 @@
     "PropertySetConfig": "CPQ_CreateQuote_Multi-Language_PropertySetConfig.json",
     "SubType": "CreateQuote",
     "Type": "CPQ",
-    "UniqueName": "CPQ_CreateQuote_multiLanguage_1",
+    "UniqueName": "CPQ_CreateQuote_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/CreateQuote/Multi-Language"

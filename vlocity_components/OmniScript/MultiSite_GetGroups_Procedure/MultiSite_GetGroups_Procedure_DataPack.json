@@ -21,7 +21,7 @@
     "PropertySetConfig": "MultiSite_GetGroups_Procedure_PropertySetConfig.json",
     "SubType": "GetGroups",
     "Type": "MultiSite",
-    "UniqueName": "MultiSite_GetGroups_Procedure_2",
+    "UniqueName": "MultiSite_GetGroups_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/MultiSite/GetGroups/Procedure"

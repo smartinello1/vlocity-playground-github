@@ -17,7 +17,7 @@
     "PropertySetConfig": "ESM_SaveValidatedAddress_Procedure_PropertySetConfig.json",
     "SubType": "SaveValidatedAddress",
     "Type": "ESM",
-    "UniqueName": "ESM_SaveValidatedAddress_Procedure_2",
+    "UniqueName": "ESM_SaveValidatedAddress_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/SaveValidatedAddress/Procedure"

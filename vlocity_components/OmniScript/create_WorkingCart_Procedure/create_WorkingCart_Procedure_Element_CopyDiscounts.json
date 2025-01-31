@@ -14,7 +14,7 @@
         },
         "additionalInput": {
             "SalesQuoteId": "%SalesQuoteId%",
-            "WorkingCartId": "%CreateWorkingCart:records|1:Id%"
+            "WorkingCartId": "%CreateGroupCart:records|1:Id%"
         },
         "additionalOutput": {
         },
@@ -26,7 +26,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction2",
-        "remoteClass": "B2BCmexAppHandler",
+        "remoteClass": "%vlocity_namespace%.B2BCmexAppHandler",
         "remoteMethod": "cloneSalesQDisToWCartDis",
         "remoteOptions": {
         },
@@ -44,5 +44,4 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/create/WorkingCart/Procedure/CopyDiscounts"
-}e/CopyDiscounts"
 }

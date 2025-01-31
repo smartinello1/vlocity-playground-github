@@ -18,7 +18,7 @@
     "PropertySetConfig": "ESM_ExecuteUpdateAttributeForLineItem_Procedure_PropertySetConfig.json",
     "SubType": "ExecuteUpdateAttributeForLineItem",
     "Type": "ESM",
-    "UniqueName": "ESM_ExecuteUpdateAttributeForLineItem_Procedure_1",
+    "UniqueName": "ESM_ExecuteUpdateAttributeForLineItem_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/ExecuteUpdateAttributeForLineItem/Procedure"

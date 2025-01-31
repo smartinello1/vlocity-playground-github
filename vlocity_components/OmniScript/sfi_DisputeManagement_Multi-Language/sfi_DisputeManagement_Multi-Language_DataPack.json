@@ -77,7 +77,7 @@
     "PropertySetConfig": "sfi_DisputeManagement_Multi-Language_PropertySetConfig.json",
     "SubType": "DisputeManagement",
     "Type": "sfi",
-    "UniqueName": "sfi_DisputeManagement_multiLanguage_2",
+    "UniqueName": "sfi_DisputeManagement_multiLanguage_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sfi/DisputeManagement/Multi-Language"

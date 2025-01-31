@@ -28,7 +28,7 @@
     "PropertySetConfig": "create_NewGroupAssignMembers_Procedure_PropertySetConfig.json",
     "SubType": "NewGroupAssignMembers",
     "Type": "create",
-    "UniqueName": "create_NewGroupAssignMembers_Procedure_2",
+    "UniqueName": "create_NewGroupAssignMembers_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/create/NewGroupAssignMembers/Procedure"

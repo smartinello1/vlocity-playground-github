@@ -40,7 +40,7 @@
         "hide": false,
         "horizontalMode": true,
         "imageCountInRow": 3,
-        "label": "IsBulkLabel",
+        "label": "isBulkLabel",
         "optionHeight": 100,
         "optionSource": {
             "source": "",

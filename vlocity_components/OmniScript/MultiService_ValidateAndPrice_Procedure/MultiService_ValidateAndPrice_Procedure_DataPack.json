@@ -18,7 +18,7 @@
     "PropertySetConfig": "MultiService_ValidateAndPrice_Procedure_PropertySetConfig.json",
     "SubType": "ValidateAndPrice",
     "Type": "MultiService",
-    "UniqueName": "MultiService_ValidateAndPrice_Procedure_1",
+    "UniqueName": "MultiService_ValidateAndPrice_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/MultiService/ValidateAndPrice/Procedure"

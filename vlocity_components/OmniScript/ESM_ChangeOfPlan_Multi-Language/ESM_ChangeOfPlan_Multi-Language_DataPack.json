@@ -29,7 +29,7 @@
     "PropertySetConfig": "ESM_ChangeOfPlan_Multi-Language_PropertySetConfig.json",
     "SubType": "ChangeOfPlan",
     "Type": "ESM",
-    "UniqueName": "ESM_ChangeOfPlan_multiLanguage_2",
+    "UniqueName": "ESM_ChangeOfPlan_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/ChangeOfPlan/Multi-Language"

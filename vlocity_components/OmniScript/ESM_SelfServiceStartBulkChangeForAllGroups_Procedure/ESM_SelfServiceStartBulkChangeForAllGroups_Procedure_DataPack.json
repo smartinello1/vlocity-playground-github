@@ -17,7 +17,7 @@
     "PropertySetConfig": "ESM_SelfServiceStartBulkChangeForAllGroups_Procedure_PropertySetConfig.json",
     "SubType": "SelfServiceStartBulkChangeForAllGroups",
     "Type": "ESM",
-    "UniqueName": "ESM_SelfServiceStartBulkChangeForAllGroups_Procedure_2",
+    "UniqueName": "ESM_SelfServiceStartBulkChangeForAllGroups_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceStartBulkChangeForAllGroups/Procedure"

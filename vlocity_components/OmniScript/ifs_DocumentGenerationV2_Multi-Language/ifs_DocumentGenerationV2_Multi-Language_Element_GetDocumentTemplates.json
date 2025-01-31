@@ -10,7 +10,7 @@
     },
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "bundle": "WorkOrderEstimation",
+        "bundle": "WorkOrderEstimationDocGenGetTemplateName",
         "businessCategory": "",
         "businessEvent": "",
         "controlWidth": 12,
@@ -56,5 +56,4 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ifs/DocumentGenerationV2/Multi-Language/GetDocumentTemplates"
-}tDocumentTemplates"
 }

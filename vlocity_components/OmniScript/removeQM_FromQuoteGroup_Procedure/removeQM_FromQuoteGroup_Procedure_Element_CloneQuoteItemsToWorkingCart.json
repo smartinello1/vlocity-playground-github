@@ -41,7 +41,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction1",
-        "remoteClass": "%vlocity_namespace%.B2BCmexAppHandler",
+        "remoteClass": "B2BCmexAppHandler",
         "remoteMethod": "cloneSalesQToGCart",
         "remoteOptions": {
         },
@@ -59,4 +59,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/removeQM/FromQuoteGroup/Procedure/CloneQuoteItemsToWorkingCart"
+}temsToWorkingCart"
 }

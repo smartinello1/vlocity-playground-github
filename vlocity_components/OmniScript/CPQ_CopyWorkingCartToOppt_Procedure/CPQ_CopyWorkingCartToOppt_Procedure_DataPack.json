@@ -34,7 +34,7 @@
     "PropertySetConfig": "CPQ_CopyWorkingCartToOppt_Procedure_PropertySetConfig.json",
     "SubType": "CopyWorkingCartToOppt",
     "Type": "CPQ",
-    "UniqueName": "CPQ_CopyWorkingCartToOppt_Procedure_5",
+    "UniqueName": "CPQ_CopyWorkingCartToOppt_Procedure_6",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/CopyWorkingCartToOppt/Procedure"

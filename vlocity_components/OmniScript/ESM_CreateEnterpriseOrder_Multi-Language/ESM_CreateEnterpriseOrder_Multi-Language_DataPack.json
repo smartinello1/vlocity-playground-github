@@ -27,7 +27,7 @@
     "PropertySetConfig": "ESM_CreateEnterpriseOrder_Multi-Language_PropertySetConfig.json",
     "SubType": "CreateEnterpriseOrder",
     "Type": "ESM",
-    "UniqueName": "ESM_CreateEnterpriseOrder_multiLanguage_3",
+    "UniqueName": "ESM_CreateEnterpriseOrder_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/CreateEnterpriseOrder/Multi-Language"

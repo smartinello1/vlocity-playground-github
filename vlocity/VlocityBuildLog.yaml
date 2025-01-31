@@ -6,12 +6,12 @@ Namespace: vlocity_cmt
 Job: VDX
 Action: Export
 ProjectPath: ../vlocity_components
-TotalTime: 5m 54s
+TotalTime: 5m 10s
 Count:
   Success:
     DataRaptor: 324
-    OmniScript: 496
-    IntegrationProcedure: 478
+    OmniScript: 497
+    IntegrationProcedure: 479
 Errors: []
 Status:
   Success:
@@ -801,6 +801,7 @@ Status:
       - sfi_DisputeManagement_Multi-Language
       - sfi_DisputeManagement_Procedure
       - sfi_FetchDisputeIDByChargeID_Procedure
+      - sfi_GetAccountInfo_Procedure
       - sfi_GetCustomerDetails_Procedure
       - sfi_GetInvoices_Procedure
       - sfi_GetPaymentAndBalanceData_Procedure
@@ -1280,6 +1281,7 @@ Status:
       - sfi_DataAndCallUsageAnalysis
       - sfi_DisputeManagement
       - sfi_FetchDisputeIDByChargeID
+      - sfi_GetAccountInfo
       - sfi_GetCustomerDetails
       - sfi_GetInvoices
       - sfi_GetPaymentAndBalanceData
@@ -1318,6 +1320,6 @@ Status:
       - update_QGroupName
 StatusCount:
   Remaining: 0
-  Success: 2334
+  Success: 2336
   Error: 0
 id: !<tag:yaml.org,2002:js/undefined> ''

@@ -19,7 +19,7 @@
     "PropertySetConfig": "ESM_GetAccountDetailsFromCart_Procedure_PropertySetConfig.json",
     "SubType": "GetAccountDetailsFromCart",
     "Type": "ESM",
-    "UniqueName": "ESM_GetAccountDetailsFromCart_Procedure_2",
+    "UniqueName": "ESM_GetAccountDetailsFromCart_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/GetAccountDetailsFromCart/Procedure"

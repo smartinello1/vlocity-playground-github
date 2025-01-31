@@ -33,7 +33,7 @@
                 ]
             }
         },
-        "source": "/lightning/r/Order/%CreateFollowOnOrder:result:records|1:followOnOrderId%/view",
+        "source": "/lightning/r/Order/%CreateFollowOnOrder:records|1:followOnOrderId%/view",
         "ssm": false,
         "type": "URL",
         "validationRequired": null,
@@ -43,4 +43,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LWCCPQ/AmendOrder/Multi-Language/CreateFollowOnOrderDone"
+}Done"
 }

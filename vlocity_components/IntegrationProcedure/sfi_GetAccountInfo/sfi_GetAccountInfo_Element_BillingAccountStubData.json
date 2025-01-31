@@ -1,0 +1,62 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "BillingAccountStubData",
+    "OmniProcessId": {
+        "Name": "SFIBillingGetAccountInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sfi/GetAccountInfo/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "accountInfo": {
+                "accountBalance": [
+                    {
+                        "amount": 53.29,
+                        "balanceType": "DepositBalance",
+                        "validFor": {
+                            "endDateTime": "2019-01-10T00:00",
+                            "startDateTime": "2018-06-13T00:00"
+                        }
+                    },
+                    {
+                        "amount": 58.97,
+                        "balanceType": "ReceivableBalance",
+                        "validFor": {
+                            "endDateTime": "2019-01-10T00:00",
+                            "startDateTime": "2018-06-14T00:00"
+                        }
+                    }
+                ],
+                "accountType": "Business",
+                "billStructure": {
+                    "cycleSpecification": {
+                        "frequency": "monthly",
+                        "name": "Monthly billing"
+                    }
+                },
+                "defaultPaymentMethod": {
+                    "name": "Family Payment"
+                },
+                "id": "4458",
+                "state": "Active",
+                "unit": "USD"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sfi/GetAccountInfo/Procedure/BillingAccountStubData"
+}

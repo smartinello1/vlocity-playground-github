@@ -1,3 +1,0 @@
-{
-    "inquiryType": "CallUsageInquiry"
-}

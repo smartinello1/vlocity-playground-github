@@ -27,7 +27,7 @@
     "PropertySetConfig": "ifs_DocumentGenerationV2_PropertySetConfig.json",
     "SubType": "DocumentGenerationV2",
     "Type": "ifs",
-    "UniqueName": "ifs_DocumentGenerationV2_multiLanguage_4",
+    "UniqueName": "ifs_DocumentGenerationV2_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ifs/DocumentGenerationV2/Multi-Language"

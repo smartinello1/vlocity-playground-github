@@ -1,1 +1,0 @@
-{"Failed":true,"additionalData":{"Failed":true,"cartId":"a5g5g000000TQfsAAG","status":"true","statusMessage":"Failed","userID":"0055g0000048hxfAAA"},"cartId":"a5g5g000000TQfsAAG","itemsProcessed":{"successfully":["0055g0000048hxfAAA"]},"userID":"0055g0000048hxfAAA"}

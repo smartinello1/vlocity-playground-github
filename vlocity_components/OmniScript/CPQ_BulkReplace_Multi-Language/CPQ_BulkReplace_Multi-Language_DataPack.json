@@ -35,7 +35,7 @@
     "PropertySetConfig": "CPQ_BulkReplace_Multi-Language_PropertySetConfig.json",
     "SubType": "BulkReplace",
     "Type": "CPQ",
-    "UniqueName": "CPQ_BulkReplace_multiLanguage_1",
+    "UniqueName": "CPQ_BulkReplace_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/BulkReplace/Multi-Language"

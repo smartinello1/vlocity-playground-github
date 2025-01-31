@@ -39,7 +39,7 @@
             ]
         },
         "ignoreCache": false,
-        "label": "DataMapperTransformAction1",
+        "label": "DataRaptorTransformAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

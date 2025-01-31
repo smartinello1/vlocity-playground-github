@@ -20,7 +20,7 @@
     "PropertySetConfig": "CPQ_StartMassDiscount_Procedure_PropertySetConfig.json",
     "SubType": "StartMassDiscount",
     "Type": "CPQ",
-    "UniqueName": "CPQ_StartMassDiscount_Procedure_2",
+    "UniqueName": "CPQ_StartMassDiscount_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/StartMassDiscount/Procedure"

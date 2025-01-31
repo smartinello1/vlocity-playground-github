@@ -1,4 +1,0 @@
-{
-    "BillingUsageConsumptionData": "[]",
-    "inquiryType": "DataConsumptionInquiry"
-}

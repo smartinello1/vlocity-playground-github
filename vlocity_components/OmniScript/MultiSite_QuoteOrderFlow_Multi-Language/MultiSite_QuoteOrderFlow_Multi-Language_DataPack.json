@@ -54,7 +54,7 @@
     "PropertySetConfig": "MultiSite_QuoteOrderFlow_Multi-Language_PropertySetConfig.json",
     "SubType": "QuoteOrderFlow",
     "Type": "MultiSite",
-    "UniqueName": "MultiSite_QuoteOrderFlow_multiLanguage_1",
+    "UniqueName": "MultiSite_QuoteOrderFlow_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/MultiSite/QuoteOrderFlow/Multi-Language"

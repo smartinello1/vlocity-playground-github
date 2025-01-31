@@ -34,6 +34,10 @@
             {
                 "name": "member-type",
                 "source": "%CreateQuoteStep:Block2:Block1:quoteJourneyType%"
+            },
+            {
+                "name": "config-data",
+                "source": "%configResponse:GuidedConfigurationResult%"
             }
         ],
         "disOnTplt": false,

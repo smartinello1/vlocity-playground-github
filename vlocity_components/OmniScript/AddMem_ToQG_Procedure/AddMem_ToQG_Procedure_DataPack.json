@@ -27,7 +27,7 @@
     "PropertySetConfig": "AddMem_ToQG_Procedure_PropertySetConfig.json",
     "SubType": "ToQG",
     "Type": "AddMem",
-    "UniqueName": "AddMem_ToQG_Procedure_2",
+    "UniqueName": "AddMem_ToQG_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/AddMem/ToQG/Procedure"

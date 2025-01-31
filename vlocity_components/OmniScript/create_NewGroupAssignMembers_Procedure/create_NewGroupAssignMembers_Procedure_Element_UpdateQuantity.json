@@ -39,7 +39,7 @@
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction3",
+        "label": "DataMapperPostAction3",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

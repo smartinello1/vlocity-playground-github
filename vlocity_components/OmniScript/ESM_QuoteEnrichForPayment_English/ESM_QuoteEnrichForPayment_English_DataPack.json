@@ -23,7 +23,7 @@
     "PropertySetConfig": "ESM_QuoteEnrichForPayment_English_PropertySetConfig.json",
     "SubType": "QuoteEnrichForPayment",
     "Type": "ESM",
-    "UniqueName": "ESM_QuoteEnrichForPayment_English_1",
+    "UniqueName": "ESM_QuoteEnrichForPayment_English_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/QuoteEnrichForPayment/English"

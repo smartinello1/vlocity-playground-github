@@ -21,7 +21,7 @@
     "PropertySetConfig": "CPQ_AddToGroupAsync_Procedure_PropertySetConfig.json",
     "SubType": "AddToGroupAsync",
     "Type": "CPQ",
-    "UniqueName": "CPQ_AddToGroupAsync_Procedure_3",
+    "UniqueName": "CPQ_AddToGroupAsync_Procedure_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/AddToGroupAsync/Procedure"

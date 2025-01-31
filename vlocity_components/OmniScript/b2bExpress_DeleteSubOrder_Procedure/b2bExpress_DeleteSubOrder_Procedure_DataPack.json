@@ -18,7 +18,7 @@
     "PropertySetConfig": "b2bExpress_DeleteSubOrder_Procedure_PropertySetConfig.json",
     "SubType": "DeleteSubOrder",
     "Type": "b2bExpress",
-    "UniqueName": "b2bExpress_DeleteSubOrder_Procedure_1",
+    "UniqueName": "b2bExpress_DeleteSubOrder_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/b2bExpress/DeleteSubOrder/Procedure"

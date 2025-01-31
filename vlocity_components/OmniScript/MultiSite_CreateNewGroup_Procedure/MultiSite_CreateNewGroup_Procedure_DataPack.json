@@ -20,7 +20,7 @@
     "PropertySetConfig": "MultiSite_CreateNewGroup_Procedure_PropertySetConfig.json",
     "SubType": "CreateNewGroup",
     "Type": "MultiSite",
-    "UniqueName": "MultiSite_CreateNewGroup_Procedure_2",
+    "UniqueName": "MultiSite_CreateNewGroup_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/MultiSite/CreateNewGroup/Procedure"

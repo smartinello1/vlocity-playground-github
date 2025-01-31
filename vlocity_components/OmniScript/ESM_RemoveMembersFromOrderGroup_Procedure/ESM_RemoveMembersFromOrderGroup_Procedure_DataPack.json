@@ -27,7 +27,7 @@
     "PropertySetConfig": "ESM_RemoveMembersFromOrderGroup_Procedure_PropertySetConfig.json",
     "SubType": "RemoveMembersFromOrderGroup",
     "Type": "ESM",
-    "UniqueName": "ESM_RemoveMembersFromOrderGroup_Procedure_1",
+    "UniqueName": "ESM_RemoveMembersFromOrderGroup_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/RemoveMembersFromOrderGroup/Procedure"

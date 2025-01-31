@@ -20,7 +20,7 @@
     "PropertySetConfig": "CloneEQLIsToWC_PriceCopyBackToEQ_Procedure_PropertySetConfig.json",
     "SubType": "PriceCopyBackToEQ",
     "Type": "CloneEQLIsToWC",
-    "UniqueName": "CloneEQLIsToWC_PriceCopyBackToEQ_Procedure_3",
+    "UniqueName": "CloneEQLIsToWC_PriceCopyBackToEQ_Procedure_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CloneEQLIsToWC/PriceCopyBackToEQ/Procedure"

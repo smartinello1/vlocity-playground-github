@@ -32,7 +32,7 @@
     "PropertySetConfig": "ESM_GetCartsProducts_Procedure_PropertySetConfig.json",
     "SubType": "GetCartsProducts",
     "Type": "ESM",
-    "UniqueName": "ESM_GetCartsProducts_Procedure_1",
+    "UniqueName": "ESM_GetCartsProducts_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/GetCartsProducts/Procedure"

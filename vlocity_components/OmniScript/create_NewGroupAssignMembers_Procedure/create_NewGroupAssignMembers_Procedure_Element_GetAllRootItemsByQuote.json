@@ -43,7 +43,7 @@
         "failureResponse": {
         },
         "ignoreCache": false,
-        "label": "DataRaptorExtractAction2",
+        "label": "DataMapperExtractAction2",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

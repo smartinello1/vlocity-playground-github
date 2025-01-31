@@ -27,7 +27,7 @@
     "PropertySetConfig": "removeQM_FromQuoteGroup_Procedure_PropertySetConfig.json",
     "SubType": "FromQuoteGroup",
     "Type": "removeQM",
-    "UniqueName": "removeQM_FromQuoteGroup_Procedure_4",
+    "UniqueName": "removeQM_FromQuoteGroup_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/removeQM/FromQuoteGroup/Procedure"

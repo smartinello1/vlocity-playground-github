@@ -1,5 +1,5 @@
 {
-    "Description": "It will be used as a container for Industries’ field service features. All UI components of the field service will be integrated with this Omniscript. Users will able to launch/open field service by opening this OS.",
+    "Description": "This OmniScript acts as container to launch Work Order Estimation guided flow. This OmniScript can be launched from Account page, Quote page, Asset page and WorkOrder page by passing the respective record id in recordId parameter of the OmniScript url",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -10,27 +10,16 @@
     "LastPreviewPage": "Lightning Universal Page",
     "Name": "IFSWorkOrderEstimation",
     "OmniProcessElement": [
-        "ifs_WorkOrderEstimation_Element_CANCEL.json",
-        "ifs_WorkOrderEstimation_Element_Step1.json",
+        "ifs_WorkOrderEstimation_Element_WorkOrderEstimationGuidedFlow.json",
         "ifs_WorkOrderEstimation_Element_Headline1.json",
-        "ifs_WorkOrderEstimation_Element_CustomLWC1.json",
-        "ifs_WorkOrderEstimation_Element_Step3.json",
-        "ifs_WorkOrderEstimation_Element_Headline2.json",
-        "ifs_WorkOrderEstimation_Element_CustomLWC3.json",
-        "ifs_WorkOrderEstimation_Element_Step4.json",
-        "ifs_WorkOrderEstimation_Element_CustomLWC2.json",
-        "ifs_WorkOrderEstimation_Element_Step5.json",
-        "ifs_WorkOrderEstimation_Element_CustomLWC4.json",
-        "ifs_WorkOrderEstimation_Element_Step6.json",
-        "ifs_WorkOrderEstimation_Element_CustomLWC5.json",
-        "ifs_WorkOrderEstimation_Element_NavigateAction.json"
+        "ifs_WorkOrderEstimation_Element_WorkOrderEstimation.json"
     ],
     "OmniProcessType": "OmniScript",
     "OverrideKey": "runtime_industries_fieldservice__ifs_WorkOrderEstimation_multiLanguage_1",
     "PropertySetConfig": "ifs_WorkOrderEstimation_PropertySetConfig.json",
     "SubType": "WorkOrderEstimation",
     "Type": "ifs",
-    "UniqueName": "ifs_WorkOrderEstimation_multiLanguage_3",
+    "UniqueName": "ifs_WorkOrderEstimation_multiLanguage_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ifs/WorkOrderEstimation/Multi-Language"

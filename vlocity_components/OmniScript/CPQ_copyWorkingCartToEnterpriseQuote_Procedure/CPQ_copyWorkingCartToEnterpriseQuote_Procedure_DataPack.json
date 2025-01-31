@@ -35,7 +35,7 @@
     "PropertySetConfig": "CPQ_copyWorkingCartToEnterpriseQuote_Procedure_PropertySetConfig.json",
     "SubType": "copyWorkingCartToEnterpriseQuote",
     "Type": "CPQ",
-    "UniqueName": "CPQ_copyWorkingCartToEnterpriseQuote_Procedure_2",
+    "UniqueName": "CPQ_copyWorkingCartToEnterpriseQuote_Procedure_4",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/copyWorkingCartToEnterpriseQuote/Procedure"

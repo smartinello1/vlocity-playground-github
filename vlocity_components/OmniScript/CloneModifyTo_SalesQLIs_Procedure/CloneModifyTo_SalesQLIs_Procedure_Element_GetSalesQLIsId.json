@@ -29,7 +29,7 @@
         "failureResponse": {
         },
         "ignoreCache": false,
-        "label": "DataMapperExtractAction1",
+        "label": "DataRaptorExtractAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

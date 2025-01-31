@@ -21,7 +21,7 @@
     "PropertySetConfig": "ESM_SelfServiceAddMembersToGroups_Procedure_PropertySetConfig.json",
     "SubType": "SelfServiceAddMembersToGroups",
     "Type": "ESM",
-    "UniqueName": "ESM_SelfServiceAddMembersToGroups_Procedure_1",
+    "UniqueName": "ESM_SelfServiceAddMembersToGroups_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceAddMembersToGroups/Procedure"
