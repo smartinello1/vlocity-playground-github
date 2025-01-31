@@ -87,6 +87,6 @@ jobs:
         if: ${{ success() }}
         run: |
           cd vlocity
-          vlocity packDeploy -sfdx.username ${{ vars.USERNAME }} -job export.yaml
+          vlocity packDeploy -sfdx.username ${{ vars.USERNAME }} -job export.yaml -gitCheck=true
 
 
