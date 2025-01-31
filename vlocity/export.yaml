@@ -5,6 +5,7 @@ defaultMaxParallel: 10
 exportPacksMaxSize: 5000
 removeInvalidMatchingKeyFields: true
 maxDepth: 0
+gitCheck: true
 OverrideSettings:
   SObjects:
     vlocity_namespace__PricingElement__c:

@@ -2,7 +2,7 @@ name: Deploy Diff Sandbox
 
 on: 
   push:
-    branches: [ dev ]
+    branches: [ sandbox ]
     paths:
       - 'force-app/**'
   
@@ -30,6 +30,10 @@ jobs:
           echo y | sf plugins install sfdx-git-delta
           sf plugins
 
+      - name: Install vlocity build tool
+        run: |
+          npm install --global vlocity
+          
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
