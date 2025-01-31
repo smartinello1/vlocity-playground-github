@@ -17,7 +17,7 @@
     "PropertySetConfig": "ESM_saveTypeaheadDetails_PropertySetConfig.json",
     "SubType": "saveTypeaheadDetails",
     "Type": "ESM",
-    "UniqueName": "ESM_saveTypeaheadDetails_Procedure_1",
+    "UniqueName": "ESM_saveTypeaheadDetails_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/saveTypeaheadDetails/Procedure"

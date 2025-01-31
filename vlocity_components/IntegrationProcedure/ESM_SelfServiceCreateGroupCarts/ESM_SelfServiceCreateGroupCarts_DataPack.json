@@ -26,7 +26,7 @@
     "PropertySetConfig": "ESM_SelfServiceCreateGroupCarts_PropertySetConfig.json",
     "SubType": "SelfServiceCreateGroupCarts",
     "Type": "ESM",
-    "UniqueName": "ESM_SelfServiceCreateGroupCarts_Procedure_2",
+    "UniqueName": "ESM_SelfServiceCreateGroupCarts_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/SelfServiceCreateGroupCarts/Procedure"

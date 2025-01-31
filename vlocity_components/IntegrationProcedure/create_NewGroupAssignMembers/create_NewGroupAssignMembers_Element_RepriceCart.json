@@ -28,7 +28,6 @@
         },
         "additionalInput": {
             "cartId": "%CloneQuoteItemsToWorkingCart:GroupCartId%",
-            "convertJSONResultToJSON": true,
             "price": true,
             "validate": true
         },
@@ -42,7 +41,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction4",
-        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteClass": "CpqAppHandler",
         "remoteMethod": "runCartValidation",
         "remoteOptions": {
         },
@@ -60,4 +59,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/create/NewGroupAssignMembers/Procedure/RepriceCart"
+}OmniProcess/create/NewGroupAssignMembers/Procedure/RepriceCart"
 }

@@ -10,7 +10,7 @@
     "Name": "Asset Viewer Order Flow",
     "OmniProcessElement": [
         "CPQ_AssetViewerOrderFlow_Element_SetValues1.json",
-        "CPQ_AssetViewerOrderFlow_Element_DataRaptorExtractAction1.json",
+        "CPQ_AssetViewerOrderFlow_Element_DataMapperExtractAction1.json",
         "CPQ_AssetViewerOrderFlow_Element_CreateSelectOrder.json",
         "CPQ_AssetViewerOrderFlow_Element_selectType.json",
         "CPQ_AssetViewerOrderFlow_Element_orderName.json",
@@ -41,7 +41,7 @@
     "PropertySetConfig": "CPQ_AssetViewerOrderFlow_PropertySetConfig.json",
     "SubType": "AssetViewerOrderFlow",
     "Type": "CPQ",
-    "UniqueName": "CPQ_AssetViewerOrderFlow_multiLanguage_1",
+    "UniqueName": "CPQ_AssetViewerOrderFlow_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/AssetViewerOrderFlow/Multi-Language"

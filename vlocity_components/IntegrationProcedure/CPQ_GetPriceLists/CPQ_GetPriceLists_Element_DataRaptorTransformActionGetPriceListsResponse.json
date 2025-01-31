@@ -24,7 +24,7 @@
         "failureResponse": {
         },
         "ignoreCache": false,
-        "label": "DataRaptorTransformAction1",
+        "label": "DataMapperTransformAction1",
         "responseJSONNode": "response",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,

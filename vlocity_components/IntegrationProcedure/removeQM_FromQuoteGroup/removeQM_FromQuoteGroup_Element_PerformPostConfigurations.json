@@ -41,7 +41,7 @@
         "failureResponse": {
         },
         "label": "RemoteAction4",
-        "remoteClass": "B2BCmexAppHandler",
+        "remoteClass": "%vlocity_namespace%.B2BCmexAppHandler",
         "remoteMethod": "postAddToMembers",
         "remoteOptions": {
         },

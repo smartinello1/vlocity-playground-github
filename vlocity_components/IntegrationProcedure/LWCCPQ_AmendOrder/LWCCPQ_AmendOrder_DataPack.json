@@ -28,7 +28,7 @@
     "PropertySetConfig": "LWCCPQ_AmendOrder_PropertySetConfig.json",
     "SubType": "AmendOrder",
     "Type": "LWCCPQ",
-    "UniqueName": "LWCCPQ_AmendOrder_multiLanguage_1",
+    "UniqueName": "LWCCPQ_AmendOrder_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/LWCCPQ/AmendOrder/Multi-Language"

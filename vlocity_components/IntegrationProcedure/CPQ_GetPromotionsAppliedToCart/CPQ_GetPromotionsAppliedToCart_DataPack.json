@@ -22,7 +22,7 @@
     "PropertySetConfig": "CPQ_GetPromotionsAppliedToCart_PropertySetConfig.json",
     "SubType": "GetPromotionsAppliedToCart",
     "Type": "CPQ",
-    "UniqueName": "CPQ_GetPromotionsAppliedToCart_Procedure_1",
+    "UniqueName": "CPQ_GetPromotionsAppliedToCart_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/GetPromotionsAppliedToCart/Procedure"

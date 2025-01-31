@@ -43,7 +43,7 @@
     "PropertySetConfig": "CPQ_cartConfigurator_PropertySetConfig.json",
     "SubType": "cartConfigurator",
     "Type": "CPQ",
-    "UniqueName": "CPQ_cartConfigurator_multiLanguage_4",
+    "UniqueName": "CPQ_cartConfigurator_multiLanguage_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/cartConfigurator/Multi-Language"

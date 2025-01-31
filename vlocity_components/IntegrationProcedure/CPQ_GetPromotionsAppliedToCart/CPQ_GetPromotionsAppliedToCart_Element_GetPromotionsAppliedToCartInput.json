@@ -13,8 +13,12 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
+            "cancellationDate": "%cancellationDate%",
+            "cancellationReason": "%cancellationReason%",
             "cartId": "%cartId%",
             "fields": "%fields%",
+            "id": "%id%",
+            "includePenalties": "%includePenalties%",
             "offsetSize": "%offsetSize%",
             "pagesize": "%pagesize%",
             "query": "%query%"
@@ -29,9 +33,6 @@
     },
     "Type": "Set Values",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CPQ/GetPromotionsAppliedToCart/Procedure/GetPromotionsAppliedToCartInput"
-}
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CPQ/GetPromotionsAppliedToCart/Procedure/GetPromotionsAppliedToCartInput"
 }

@@ -22,7 +22,7 @@
     "PropertySetConfig": "ESM_StartBulkConfiguration_PropertySetConfig.json",
     "SubType": "StartBulkConfiguration",
     "Type": "ESM",
-    "UniqueName": "ESM_StartBulkConfiguration_Procedure_1",
+    "UniqueName": "ESM_StartBulkConfiguration_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/StartBulkConfiguration/Procedure"

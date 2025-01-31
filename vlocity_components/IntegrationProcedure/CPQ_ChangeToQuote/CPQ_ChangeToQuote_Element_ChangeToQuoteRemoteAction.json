@@ -35,7 +35,7 @@
         "failureGoBackLabel": "GoBack",
         "failureNextLabel": "Continue",
         "inProgressMessage": "InProgress",
-        "label": "ChangeToQuote",
+        "label": "changeToQuote",
         "message": {
         },
         "postMessage": "Done",

@@ -45,7 +45,11 @@
         "remoteClass": "%vlocity_namespace%.CpqAppHandler",
         "remoteMethod": "getPromotionsAppliedToCart",
         "remoteOptions": {
-            "cartId": "%GetPromotionsAppliedToCartInput:cartId%"
+            "cancellationDate": "%GetPromotionsAppliedToCartInput:cancellationDate%",
+            "cancellationReason": "%GetPromotionsAppliedToCartInput:cancellationReason%",
+            "cartId": "%GetPromotionsAppliedToCartInput:cartId%",
+            "id": "%GetPromotionsAppliedToCartInput:id%",
+            "includePenalties": "%GetPromotionsAppliedToCartInput:includePenalties%"
         },
         "responseJSONNode": "",
         "responseJSONPath": "",
@@ -55,13 +59,6 @@
         "sendJSONPath": "",
         "sendOnlyAdditionalInput": false,
         "show": null,
-        "useFormulas": true
-    },
-    "Type": "Remote Action",
-    "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CPQ/GetPromotionsAppliedToCart/Procedure/GetPromotionsAppliedToCartRemoteAction"
-}      "show": null,
         "useFormulas": true
     },
     "Type": "Remote Action",

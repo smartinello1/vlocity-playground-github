@@ -12,6 +12,7 @@
     "OmniProcessElement": [
         "sfi_GetAccountInfo_Element_GetBillingAccountNumber.json",
         "sfi_GetAccountInfo_Element_BillingAccountStubData.json",
+        "sfi_GetAccountInfo_Element_SetValues2.json",
         "sfi_GetAccountInfo_Element_ResponseAction.json"
     ],
     "OmniProcessKey": "sfi_GetAccountInfo",
@@ -20,7 +21,7 @@
     "PropertySetConfig": "sfi_GetAccountInfo_PropertySetConfig.json",
     "SubType": "GetAccountInfo",
     "Type": "sfi",
-    "UniqueName": "sfi_GetAccountInfo_Procedure_2",
+    "UniqueName": "sfi_GetAccountInfo_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/sfi/GetAccountInfo/Procedure"

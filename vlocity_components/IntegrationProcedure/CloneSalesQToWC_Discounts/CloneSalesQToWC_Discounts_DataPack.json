@@ -27,7 +27,7 @@
     "PropertySetConfig": "CloneSalesQToWC_Discounts_PropertySetConfig.json",
     "SubType": "Discounts",
     "Type": "CloneSalesQToWC",
-    "UniqueName": "CloneSalesQToWC_Discounts_Procedure_4",
+    "UniqueName": "CloneSalesQToWC_Discounts_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CloneSalesQToWC/Discounts/Procedure"

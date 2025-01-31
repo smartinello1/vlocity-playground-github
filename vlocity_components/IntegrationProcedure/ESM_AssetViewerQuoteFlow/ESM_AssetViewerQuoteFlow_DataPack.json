@@ -35,7 +35,7 @@
     "PropertySetConfig": "ESM_AssetViewerQuoteFlow_PropertySetConfig.json",
     "SubType": "AssetViewerQuoteFlow",
     "Type": "ESM",
-    "UniqueName": "ESM_AssetViewerQuoteFlow_multiLanguage_2",
+    "UniqueName": "ESM_AssetViewerQuoteFlow_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/AssetViewerQuoteFlow/Multi-Language"

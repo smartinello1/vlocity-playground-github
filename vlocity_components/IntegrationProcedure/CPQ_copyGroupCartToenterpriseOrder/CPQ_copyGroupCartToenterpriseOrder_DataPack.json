@@ -35,7 +35,7 @@
     "PropertySetConfig": "CPQ_copyGroupCartToenterpriseOrder_PropertySetConfig.json",
     "SubType": "copyGroupCartToenterpriseOrder",
     "Type": "CPQ",
-    "UniqueName": "CPQ_copyGroupCartToenterpriseOrder_Procedure_6",
+    "UniqueName": "CPQ_copyGroupCartToenterpriseOrder_Procedure_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/copyGroupCartToenterpriseOrder/Procedure"

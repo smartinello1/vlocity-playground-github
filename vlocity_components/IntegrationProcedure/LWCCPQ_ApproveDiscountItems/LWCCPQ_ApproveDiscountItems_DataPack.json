@@ -17,7 +17,7 @@
     "PropertySetConfig": "LWCCPQ_ApproveDiscountItems_PropertySetConfig.json",
     "SubType": "ApproveDiscountItems",
     "Type": "LWCCPQ",
-    "UniqueName": "LWCCPQ_ApproveDiscountItems_multiLanguage_1",
+    "UniqueName": "LWCCPQ_ApproveDiscountItems_multiLanguage_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/LWCCPQ/ApproveDiscountItems/Multi-Language"

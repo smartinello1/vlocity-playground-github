@@ -9,7 +9,7 @@
     "Name": "CPQ Submit Order",
     "OmniProcessElement": [
         "CPQ_SubmitOrder_Element_CreateAccountDiscounts.json",
-        "CPQ_SubmitOrder_Element_DataRaptorExtractAction1.json",
+        "CPQ_SubmitOrder_Element_DataMapperExtractAction1.json",
         "CPQ_SubmitOrder_Element_CanSubmitOrder.json",
         "CPQ_SubmitOrder_Element_SubmitOrder.json",
         "CPQ_SubmitOrder_Element_LockGroupsAndMembers.json",
@@ -28,7 +28,7 @@
     "PropertySetConfig": "CPQ_SubmitOrder_PropertySetConfig.json",
     "SubType": "SubmitOrder",
     "Type": "CPQ",
-    "UniqueName": "CPQ_SubmitOrder_multiLanguage_1",
+    "UniqueName": "CPQ_SubmitOrder_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/SubmitOrder/Multi-Language"

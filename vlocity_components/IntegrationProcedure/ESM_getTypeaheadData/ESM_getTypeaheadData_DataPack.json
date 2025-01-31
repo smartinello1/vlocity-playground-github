@@ -29,7 +29,7 @@
     "PropertySetConfig": "ESM_getTypeaheadData_PropertySetConfig.json",
     "SubType": "getTypeaheadData",
     "Type": "ESM",
-    "UniqueName": "ESM_getTypeaheadData_Procedure_2",
+    "UniqueName": "ESM_getTypeaheadData_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/getTypeaheadData/Procedure"

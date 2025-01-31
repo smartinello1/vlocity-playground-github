@@ -18,7 +18,7 @@
     "PropertySetConfig": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_PropertySetConfig.json",
     "SubType": "BulkUpdateAttributesForLineItemsFinishProcess",
     "Type": "ESM",
-    "UniqueName": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_2",
+    "UniqueName": "ESM_BulkUpdateAttributesForLineItemsFinishProcess_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/BulkUpdateAttributesForLineItemsFinishProcess/Procedure"

@@ -37,7 +37,7 @@
     "PropertySetConfig": "b2bExpress_CreateQuote_PropertySetConfig.json",
     "SubType": "CreateQuote",
     "Type": "b2bExpress",
-    "UniqueName": "b2bExpress_CreateQuote_multiLanguage_1",
+    "UniqueName": "b2bExpress_CreateQuote_multiLanguage_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/b2bExpress/CreateQuote/Multi-Language"

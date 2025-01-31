@@ -28,7 +28,7 @@
     "PropertySetConfig": "ESM_CreateOrderGroupAssignMembers_PropertySetConfig.json",
     "SubType": "CreateOrderGroupAssignMembers",
     "Type": "ESM",
-    "UniqueName": "ESM_CreateOrderGroupAssignMembers_Procedure_1",
+    "UniqueName": "ESM_CreateOrderGroupAssignMembers_Procedure_2",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/ESM/CreateOrderGroupAssignMembers/Procedure"

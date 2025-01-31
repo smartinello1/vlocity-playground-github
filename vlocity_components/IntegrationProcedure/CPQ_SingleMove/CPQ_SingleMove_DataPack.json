@@ -34,7 +34,7 @@
     "PropertySetConfig": "CPQ_SingleMove_PropertySetConfig.json",
     "SubType": "SingleMove",
     "Type": "CPQ",
-    "UniqueName": "CPQ_SingleMove_multiLanguage_2",
+    "UniqueName": "CPQ_SingleMove_multiLanguage_3",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/SingleMove/Multi-Language"

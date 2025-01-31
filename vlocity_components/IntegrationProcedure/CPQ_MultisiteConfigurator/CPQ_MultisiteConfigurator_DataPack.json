@@ -38,7 +38,7 @@
     "PropertySetConfig": "CPQ_MultisiteConfigurator_PropertySetConfig.json",
     "SubType": "MultisiteConfigurator",
     "Type": "CPQ",
-    "UniqueName": "CPQ_MultisiteConfigurator_multiLanguage_2",
+    "UniqueName": "CPQ_MultisiteConfigurator_multiLanguage_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CPQ/MultisiteConfigurator/Multi-Language"
