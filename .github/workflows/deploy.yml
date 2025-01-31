@@ -12,7 +12,7 @@ env:
 jobs: 
   deploy-diff-prod:
     runs-on: ubuntu-latest
-    environment: ${{ github.ref_name == 'master' && 'PROD' || 'DEV' }}
+    environment: ${{ github.ref_name == 'main' && 'PROD' || 'DEV' }}
     steps:
       # Setup Node
       - uses: actions/setup-node@v1
@@ -35,7 +35,7 @@ jobs:
 
       - name: Install vlocity build tool
         run: |
-          npm install --global vlocity
+          npm install vlocity
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
