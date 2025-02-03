@@ -10,7 +10,8 @@
     },
     "PropertySetConfig": {
         "additionalOutput": {
-            "BillingAccountInfo": "%BillingAccountStubData:accountInfo%"
+            "BillingAccountInfo": "%BillingAccountStubData:accountInfo%",
+            "test": "test"
         },
         "disOnTplt": false,
         "executionConditionalFormula": "",
