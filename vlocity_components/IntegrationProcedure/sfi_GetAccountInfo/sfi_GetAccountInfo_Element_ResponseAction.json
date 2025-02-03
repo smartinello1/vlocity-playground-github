@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ResponseAction",
+    "Name": "ResponseAction1",
     "OmniProcessId": {
         "Name": "SFIBillingGetAccountInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
