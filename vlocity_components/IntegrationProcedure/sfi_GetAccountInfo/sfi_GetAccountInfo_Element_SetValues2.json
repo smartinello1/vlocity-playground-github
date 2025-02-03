@@ -14,7 +14,8 @@
         "disOnTplt": false,
         "elementValueMap": {
             "acc": "acc"
-            "acc2": "acc2e1231casca"
+            "acc2": "acc2e1231casca",
+            "acc3": "sacassa"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
