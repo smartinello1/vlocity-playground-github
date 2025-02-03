@@ -1,7 +1,7 @@
 {
     "IsActive": false,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SetValues2",
+    "Name": "SetValues25555",
     "OmniProcessId": {
         "Name": "SFIBillingGetAccountInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -13,8 +13,9 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "acc": "acc"
-            "acc2": "acc2e1231casca"
+            "acc": "acc",
+            "acc2": "acc2e1231casca",
+            "acc3": "sacassa"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
